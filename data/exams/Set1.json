@@ -1,0 +1,897 @@
+{
+  "setId": 1,
+  "title": "Computer Engineering MCQ Practice - Set 1",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following series combinations dissipates the most power when connected across a 120 V source?",
+          "choices": [
+            { "option": "A", "text": "two 220 Ω resistors" },
+            { "option": "B", "text": "one 220 Ω resistor" },
+            { "option": "C", "text": "three 220 Ω resistors" },
+            { "option": "D", "text": "four 220 Ω resistors" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 2,
+          "text": "When one of three series resistors is removed from a circuit and the circuit is reconnected, the current",
+          "choices": [
+            { "option": "A", "text": "increases" },
+            { "option": "B", "text": "increases by one-third" },
+            { "option": "C", "text": "decreases by one-third" },
+            { "option": "D", "text": "decreases by the amount of current through the removed resistor" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "text": "When a sine wave has a frequency of 100 Hz in 12 s it goes through",
+          "choices": [
+            { "option": "A", "text": "1/100 cycle" },
+            { "option": "B", "text": "12 cycles" },
+            { "option": "C", "text": "120 cycles" },
+            { "option": "D", "text": "1,200 cycles" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 4,
+          "text": "Voltage-divider bias in BJT normally operates in the .......",
+          "choices": [
+            { "option": "A", "text": "Active region" },
+            { "option": "B", "text": "Cut-off region" },
+            { "option": "C", "text": "Saturation region" },
+            { "option": "D", "text": "Breakdown region" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "Oscillators operate on the principle of .......",
+          "choices": [
+            { "option": "A", "text": "Negative feedback" },
+            { "option": "B", "text": "Positive feedback" },
+            { "option": "C", "text": "Signal feedthrough" },
+            { "option": "D", "text": "Attenuation" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "What is the conduction angle for class B push-pull amplifier?",
+          "choices": [
+            { "option": "A", "text": "0" },
+            { "option": "B", "text": "90" },
+            { "option": "C", "text": "180" },
+            { "option": "D", "text": "270" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "text": "The given hexadecimal number (1E.53)₁₆ is equivalent to",
+          "choices": [
+            { "option": "A", "text": "(35.684)₈" },
+            { "option": "B", "text": "(36.246)₈" },
+            { "option": "C", "text": "(34.340)₈" },
+            { "option": "D", "text": "(35.599)₈" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "text": "Which one of the following is known as a data distributer?",
+          "choices": [
+            { "option": "A", "text": "Demultiplexer" },
+            { "option": "B", "text": "Multiplexer" },
+            { "option": "C", "text": "Decoder" },
+            { "option": "D", "text": "all of above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 9,
+          "text": "A shift register is a digital circuit that ...........",
+          "choices": [
+            { "option": "A", "text": "stores data" },
+            { "option": "B", "text": "shifts the data from the left to right" },
+            { "option": "C", "text": "shifts the data from right to left" },
+            { "option": "D", "text": "all of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 10,
+          "text": "Which of the following is special purpose register of Microprocessor?",
+          "choices": [
+            { "option": "A", "text": "Instruction register" },
+            { "option": "B", "text": "program counter" },
+            { "option": "C", "text": "accumulator" },
+            { "option": "D", "text": "temporary register" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 11,
+          "text": "Which port of the 8255 PPI is capable of performing the bi-directional handshaking function with the interfaced devices?",
+          "choices": [
+            { "option": "A", "text": "Port A" },
+            { "option": "B", "text": "Port B" },
+            { "option": "C", "text": "Port C" },
+            { "option": "D", "text": "all of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 12,
+          "text": "Which one of the following interrupts comes under software interrupt?",
+          "choices": [
+            { "option": "A", "text": "RST 0" },
+            { "option": "B", "text": "RST 6.5" },
+            { "option": "C", "text": "RST 7.5" },
+            { "option": "D", "text": "none of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 13,
+          "text": "The correct format of declaring a function is:",
+          "choices": [
+            { "option": "A", "text": "type_of_return name_of_function (argument type);" },
+            { "option": "B", "text": "type_of_return name_of_function (argument type) {}" },
+            { "option": "C", "text": "type_of_return (argument type) name_of_function;" },
+            { "option": "D", "text": "all of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "What is the syntax for writing a file in C using binary mode if file pointer is fp?",
+          "choices": [
+            { "option": "A", "text": "fp=fopen(\"abc.txt\",\"wr\");" },
+            { "option": "B", "text": "fp=fopen(\"abc.txt\",\"wb\");" },
+            { "option": "C", "text": "fp=fopen(\"abc.txt\",\"wbin\");" },
+            { "option": "D", "text": "fp=fopen(\"abc.txt\",\"b\");" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "Which of the following permits function overloading in C++?",
+          "choices": [
+            { "option": "A", "text": "Type" },
+            { "option": "B", "text": "number of arguments" },
+            { "option": "C", "text": "type & number of arguments" },
+            { "option": "D", "text": "number of objects" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 16,
+          "text": "What is Inheritance in OOP?",
+          "choices": [
+            { "option": "A", "text": "Wrapping of data into a single class" },
+            { "option": "B", "text": "Deriving new classes from existing classes" },
+            { "option": "C", "text": "Overloading of classes" },
+            { "option": "D", "text": "Classes with same names" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "Virtual functions are accessed through?",
+          "choices": [
+            { "option": "A", "text": "Variable" },
+            { "option": "B", "text": "Array" },
+            { "option": "C", "text": "Object" },
+            { "option": "D", "text": "Object pointers" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 18,
+          "text": "How is Exception handling implemented in the C++ program?",
+          "choices": [
+            { "option": "A", "text": "Using Exception keyword" },
+            { "option": "B", "text": "Using try-catch block" },
+            { "option": "C", "text": "Using Exception block" },
+            { "option": "D", "text": "Using Error handling schedules" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "In the following indexed addressing mode instruction, MOV 5(R1), LOC, the effective address is",
+          "choices": [
+            { "option": "A", "text": "EA = 5 + R1" },
+            { "option": "B", "text": "EA = R1" },
+            { "option": "C", "text": "EA = [R1]" },
+            { "option": "D", "text": "EA = 5 + [R1]" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 20,
+          "text": "The fastest data access is provided using",
+          "choices": [
+            { "option": "A", "text": "Caches" },
+            { "option": "B", "text": "SRAM's" },
+            { "option": "C", "text": "DRAM's" },
+            { "option": "D", "text": "Registers" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 21,
+          "text": "Which of the following is the most pin efficient method of communicating between other devices?",
+          "choices": [
+            { "option": "A", "text": "serial port" },
+            { "option": "B", "text": "parallel port" },
+            { "option": "C", "text": "peripheral port" },
+            { "option": "D", "text": "memory port" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 22,
+          "text": "Which of the following is true about firmware in an embedded system?",
+          "choices": [
+            { "option": "A", "text": "It is software that is stored in read-only memory (ROM)." },
+            { "option": "B", "text": "It is software that is stored in random access memory (RAM)." },
+            { "option": "C", "text": "It is software that is stored on a hard disk." },
+            { "option": "D", "text": "It is software that is executed by the microcontroller." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 23,
+          "text": "Round robin scheduling falls under the category of",
+          "choices": [
+            { "option": "A", "text": "Non-preemptive scheduling" },
+            { "option": "B", "text": "Preemptive scheduling" },
+            { "option": "C", "text": "All of the mentioned" },
+            { "option": "D", "text": "None of the mentioned" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "The process of converting a high-level hardware description language (HDL) design, such as VHDL, into a lower-level representation, often a gate-level netlist, is known as",
+          "choices": [
+            { "option": "A", "text": "Implementation" },
+            { "option": "B", "text": "Simulation" },
+            { "option": "C", "text": "Verification" },
+            { "option": "D", "text": "Synthesis" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 25,
+          "text": "The OSI model defines layers 1, 2 and 3 as the ….. layers.",
+          "choices": [
+            { "option": "A", "text": "Physical Support" },
+            { "option": "B", "text": "Network Support" },
+            { "option": "C", "text": "User Support" },
+            { "option": "D", "text": "Transport" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "ARP (Address Resolution Protocol) is ..............",
+          "choices": [
+            { "option": "A", "text": "A TCP/IP protocol used to dynamically bind a high-level IP address to a low-level physical hardware address" },
+            { "option": "B", "text": "A TCP/IP high-level protocol for transferring files from one machine to another" },
+            { "option": "C", "text": "A protocol used to monitor computers" },
+            { "option": "D", "text": "A protocol that handles error and control messages" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "text": "In distance vector routing, if a router is connected to three networks, its original table contains ……… entries.",
+          "choices": [
+            { "option": "A", "text": "one" },
+            { "option": "B", "text": "two" },
+            { "option": "C", "text": "three" },
+            { "option": "D", "text": "none of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 28,
+          "text": "Transport layer protocols deal with",
+          "choices": [
+            { "option": "A", "text": "Application to application communication" },
+            { "option": "B", "text": "process to process communication" },
+            { "option": "C", "text": "node to node communication" },
+            { "option": "D", "text": "man-to-man communication" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "Which of the following is not an e-mail protocol?",
+          "choices": [
+            { "option": "A", "text": "POP" },
+            { "option": "B", "text": "IMAP" },
+            { "option": "C", "text": "FTP" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 30,
+          "text": "Which of the following is not a physical layer vulnerability?",
+          "choices": [
+            { "option": "A", "text": "Physical damage or destruction of data and hardware" },
+            { "option": "B", "text": "Keystroke and other input logging" },
+            { "option": "C", "text": "Physical theft of data and hardware" },
+            { "option": "D", "text": "Unauthorized network access" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "Regular expressions are",
+          "choices": [
+            { "option": "A", "text": "Type 0 language" },
+            { "option": "B", "text": "Type 1 language" },
+            { "option": "C", "text": "Type 2 language" },
+            { "option": "D", "text": "Type 3 language" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 32,
+          "text": "Pumping lemma for context-free language breaks the strings into",
+          "choices": [
+            { "option": "A", "text": "Two parts" },
+            { "option": "B", "text": "Three parts" },
+            { "option": "C", "text": "Five parts" },
+            { "option": "D", "text": "Six parts" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 33,
+          "text": "The complexity of Binary search algorithm is",
+          "choices": [
+            { "option": "A", "text": "O(n)" },
+            { "option": "B", "text": "O(log n)" },
+            { "option": "C", "text": "O(n²)" },
+            { "option": "D", "text": "O(n log n)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 34,
+          "text": "The components of Interactive computer graphics are -",
+          "choices": [
+            { "option": "A", "text": "A monitor" },
+            { "option": "B", "text": "Display controller" },
+            { "option": "C", "text": "Frame buffer" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 35,
+          "text": "Which transformation distorts the shape of an object such that the transformed shape appears as if the object were composed of internal layers that had been caused to slide over each other?",
+          "choices": [
+            { "option": "A", "text": "Rotation" },
+            { "option": "B", "text": "Scaling up" },
+            { "option": "C", "text": "Scaling down" },
+            { "option": "D", "text": "Shearing" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 36,
+          "text": "Which of the following are the true Properties of 3-D Transformation?",
+          "choices": [
+            { "option": "A", "text": "Lines are preserved" },
+            { "option": "B", "text": "Parallelism is preserved" },
+            { "option": "C", "text": "Proportional distances are preserved" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 37,
+          "text": "Which data structure allows deleting data elements from and inserting at rear?",
+          "choices": [
+            { "option": "A", "text": "Stacks" },
+            { "option": "B", "text": "Queues" },
+            { "option": "C", "text": "Dequeues" },
+            { "option": "D", "text": "Binary search tree" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 38,
+          "text": "Dijkstra's algorithm is based on which paradigm?",
+          "choices": [
+            { "option": "A", "text": "Greedy paradigm" },
+            { "option": "B", "text": "Backtracking paradigm" },
+            { "option": "C", "text": "Dynamic Programming paradigm" },
+            { "option": "D", "text": "Divide and Conquer paradigm" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "The attribute AGE is?",
+          "choices": [
+            { "option": "A", "text": "Single valued Attribute" },
+            { "option": "B", "text": "Derived Attribute" },
+            { "option": "C", "text": "Composite Attribute" },
+            { "option": "D", "text": "Multi-valued Attribute" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "Which of the following is not a property of transactions?",
+          "choices": [
+            { "option": "A", "text": "Atomicity" },
+            { "option": "B", "text": "Durability" },
+            { "option": "C", "text": "Isolation" },
+            { "option": "D", "text": "Concurrency" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 41,
+          "text": "In Unix, which system call creates the new process?",
+          "choices": [
+            { "option": "A", "text": "fork" },
+            { "option": "B", "text": "create" },
+            { "option": "C", "text": "new" },
+            { "option": "D", "text": "none of the mentioned" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 42,
+          "text": "In FIFO page replacement algorithm, when a page must be replaced what is chosen?",
+          "choices": [
+            { "option": "A", "text": "oldest page is chosen" },
+            { "option": "B", "text": "newest page is chosen" },
+            { "option": "C", "text": "median page is chosen" },
+            { "option": "D", "text": "none of the mentioned" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 43,
+          "text": "What does RAD stand for?",
+          "choices": [
+            { "option": "A", "text": "Rapid Application Document" },
+            { "option": "B", "text": "Rapid Application Development" },
+            { "option": "C", "text": "Relative Application Development" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "Remote Method Invocation (RMI) uses stub and skeleton for communication with the .......... object.",
+          "choices": [
+            { "option": "A", "text": "client" },
+            { "option": "B", "text": "remote" },
+            { "option": "C", "text": "server" },
+            { "option": "D", "text": "any" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "Which of the following is not a correct software testing technique?",
+          "choices": [
+            { "option": "A", "text": "Integration testing" },
+            { "option": "B", "text": "Collaboration testing" },
+            { "option": "C", "text": "System testing" },
+            { "option": "D", "text": "Unit testing" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "A UML diagram that facilitates requirements gathering and interacts between system and external users, is called as",
+          "choices": [
+            { "option": "A", "text": "Flowchart diagram" },
+            { "option": "B", "text": "Sequence diagram" },
+            { "option": "C", "text": "Use case diagram" },
+            { "option": "D", "text": "Data flow diagram" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 47,
+          "text": "What is the purpose of object-oriented analysis?",
+          "choices": [
+            { "option": "A", "text": "To identify the objects and their attributes" },
+            { "option": "B", "text": "To define the system requirements" },
+            { "option": "C", "text": "To model the system using object-oriented concepts" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 48,
+          "text": "A general purpose mechanism for organizing elements into groups:",
+          "choices": [
+            { "option": "A", "text": "Component" },
+            { "option": "B", "text": "Node" },
+            { "option": "C", "text": "Package" },
+            { "option": "D", "text": "Class" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 49,
+          "text": "…… is not an application of AI.",
+          "choices": [
+            { "option": "A", "text": "Database Management System" },
+            { "option": "B", "text": "Digital Assistants" },
+            { "option": "C", "text": "Natural language processing" },
+            { "option": "D", "text": "Computer Vision" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "Constraint satisfaction problems on finite domains are typically solved using a form of",
+          "choices": [
+            { "option": "A", "text": "Search Algorithms" },
+            { "option": "B", "text": "Heuristic Search Algorithms" },
+            { "option": "C", "text": "Greedy Search Algorithms" },
+            { "option": "D", "text": "All of the mentioned" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 51,
+          "text": "What is true about semantic net?",
+          "choices": [
+            { "option": "A", "text": "A way of representing knowledge" },
+            { "option": "B", "text": "Semantic networks are Data Structure" },
+            { "option": "C", "text": "Semantic networks are Data Type" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 52,
+          "text": "Which of the following strategies is used by Inference Engine?",
+          "choices": [
+            { "option": "A", "text": "Forward Chaining" },
+            { "option": "B", "text": "Block Chaining" },
+            { "option": "C", "text": "Stable Chaining" },
+            { "option": "D", "text": "Both A and B" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 53,
+          "text": "Hidden Markov Model is used in -",
+          "choices": [
+            { "option": "A", "text": "Supervised learning" },
+            { "option": "B", "text": "Unsupervised learning" },
+            { "option": "C", "text": "Reinforcement learning" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 54,
+          "text": "Backpropagation is a learning technique that adjusts weights in the neural network by propagating weight changes",
+          "choices": [
+            { "option": "A", "text": "Backward from sink to source" },
+            { "option": "B", "text": "Forward from source to sink" },
+            { "option": "C", "text": "Backward from sink to hidden nodes" },
+            { "option": "D", "text": "Forward from source to hidden nodes" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "The length of the drawing is 50 mm, the scale is given as 1:5. Find the actual length.",
+          "choices": [
+            { "option": "A", "text": "50 cm" },
+            { "option": "B", "text": "10 cm" },
+            { "option": "C", "text": "25 cm" },
+            { "option": "D", "text": "10 mm" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 56,
+          "text": "The numerical value of MARR is ..........",
+          "choices": [
+            { "option": "A", "text": "Equal to IRR" },
+            { "option": "B", "text": "Less than IRR" },
+            { "option": "C", "text": "Greater than IRR" },
+            { "option": "D", "text": "All of above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 57,
+          "text": "Which of the following is an activity that distributes estimated effort across the planned project duration by allocating the effort to specific software engineering tasks?",
+          "choices": [
+            { "option": "A", "text": "Software macroscopic schedule" },
+            { "option": "B", "text": "Software project schedule" },
+            { "option": "C", "text": "Software detailed schedule" },
+            { "option": "D", "text": "None of the mentioned" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "Which of the following techniques will ensure that impact of risk will be less?",
+          "choices": [
+            { "option": "A", "text": "Risk avoidance technique" },
+            { "option": "B", "text": "Risk Mitigation technique" },
+            { "option": "C", "text": "Risk contingency technique" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 59,
+          "text": "If an engineer is a member of NEA, what are the benefits to engineers in Nepal?",
+          "choices": [
+            { "option": "A", "text": "Continuing Professional Development" },
+            { "option": "B", "text": "Advocacy and Representation" },
+            { "option": "C", "text": "Professional Recognition" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 60,
+          "text": "How many times shall the meeting for council generally be held per year?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "5" }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "One sine wave has a positive-going zero crossing at 15° and another sine wave has a positive-going zero crossing at 55°. The phase angle between the two waveforms is",
+          "choices": [
+            { "option": "A", "text": "0°" },
+            { "option": "B", "text": "45°" },
+            { "option": "C", "text": "40°" },
+            { "option": "D", "text": "none of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "A RC phase shift oscillator consists of capacitors of 4 pF at frequency of 600 kHz. What is the value of R?",
+          "choices": [
+            { "option": "A", "text": "25.07 kΩ" },
+            { "option": "B", "text": "26.07 kΩ" },
+            { "option": "C", "text": "27.07 kΩ" },
+            { "option": "D", "text": "27.07 Ω" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "The group of bits 11001 is serially shifted (right-most-bit first) into a 5-bit parallel output shift register with an initial state 01110. After 3 clock pulses, the register contains ..........",
+          "choices": [
+            { "option": "A", "text": "01110" },
+            { "option": "B", "text": "00100" },
+            { "option": "C", "text": "00101" },
+            { "option": "D", "text": "01001" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 64,
+          "text": "A memory connected to a microprocessor has 20 address lines and 16 data lines. What will be the memory capacity?",
+          "choices": [
+            { "option": "A", "text": "8 KB" },
+            { "option": "B", "text": "2 MB" },
+            { "option": "C", "text": "16 MB" },
+            { "option": "D", "text": "64 KB" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "What is the output of the given C++ program?\n#include <iostream>\n#include <string>\nusing namespace std;\nclass A{\n    int a;\npublic:\n    A(int i){\n        a=i;\n    }\n    void assign(int i){\n        a = i;\n    }\n    int return_value(){\n        return a;\n    }\n};\nint main(int argc, char const *argv[])\n{\n    A obj;\n    obj.assign(5);\n    cout<<obj.return_value();\n}",
+          "choices": [
+            { "option": "A", "text": "5" },
+            { "option": "B", "text": "55" },
+            { "option": "C", "text": "Error" },
+            { "option": "D", "text": "Segmentation Fault" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 66,
+          "text": "What is the output of the given C program?\n#include <stdio.h>\nint main()\n{\n    int x = 4, y, z;\n    y = --x;\n    z = x--;\n    printf(\"%d, %d, %d\\n\", x, y, z);\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "4, 3, 3" },
+            { "option": "B", "text": "3, 3, 3" },
+            { "option": "C", "text": "2, 3, 3" },
+            { "option": "D", "text": "4, 4, 3" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 67,
+          "text": "The bitwise complement of 0 is",
+          "choices": [
+            { "option": "A", "text": "00000001" },
+            { "option": "B", "text": "10000000" },
+            { "option": "C", "text": "11111111" },
+            { "option": "D", "text": "11111110" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "The variable Val: real := 1.0 is an example declaration of ........... data type provided within VHDL?",
+          "choices": [
+            { "option": "A", "text": "Integer" },
+            { "option": "B", "text": "Real" },
+            { "option": "C", "text": "Boolean" },
+            { "option": "D", "text": "Character" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 69,
+          "text": "What is the correct wildcard mask for the netmask 255.255.255.224?",
+          "choices": [
+            { "option": "A", "text": "0.0.0.31" },
+            { "option": "B", "text": "0.0.0.63" },
+            { "option": "C", "text": "0.0.0.127" },
+            { "option": "D", "text": "0.0.0.255" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 70,
+          "text": "We are provided the plain text \"SUN\". You need to convert the given plain text into ciphertext under the Caesar cipher encryption technique. Which of the following options is the correct ciphertext for the given text if the key is 2?",
+          "choices": [
+            { "option": "A", "text": "UWP" },
+            { "option": "B", "text": "NUS" },
+            { "option": "C", "text": "WUP" },
+            { "option": "D", "text": "QSL" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 71,
+          "text": "What is the correct Regular Expression for a set of all strings over Σ = {0, 1} ending in 00?",
+          "choices": [
+            { "option": "A", "text": "(0+1)*00" },
+            { "option": "B", "text": "(00)*(11)*1" },
+            { "option": "C", "text": "0(0+1)*1" },
+            { "option": "D", "text": "(0+1)*1(0+1)*" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 72,
+          "text": "Which are correct coordinates after applying shear in y-direction relative to line x = -1 with shear parameter 0.5 on the unit square?",
+          "choices": [
+            { "option": "A", "text": "[(0, 1), (1, 1), (1, 0), (0, 0)]" },
+            { "option": "B", "text": "[(1.5, 1), (0.5, 1), (1, 1), (2, 2)]" },
+            { "option": "C", "text": "[(1.5, 1.5), (0.5, 1.5), (0, 1), (1, 2)]" },
+            { "option": "D", "text": "[(0, 0.5), (1, 1), (1, 2), (0, 1.5)]" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 73,
+          "text": "What does the following piece of code do?\npublic void func(Tree root)\n{\n    func(root.left());\n    func(root.right());\n    System.out.println(root.data());\n}",
+          "choices": [
+            { "option": "A", "text": "Preorder traversal" },
+            { "option": "B", "text": "Inorder traversal" },
+            { "option": "C", "text": "Postorder traversal" },
+            { "option": "D", "text": "Level order traversal" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 74,
+          "text": "Which of the following is true about the HAVING clause in SQL?",
+          "choices": [
+            { "option": "A", "text": "Similar to the WHERE clause but is used for columns rather than groups." },
+            { "option": "B", "text": "Similar to WHERE clause but is used for rows rather than columns." },
+            { "option": "C", "text": "Similar to WHERE clause but is used for groups rather than rows." },
+            { "option": "D", "text": "Acts exactly like a WHERE clause." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 75,
+          "text": "Consider the following processes with burst time. What is average waiting time?\n| Process id | Arrival Time | Burst time |\n|------------|--------------|------------|\n| P1         | 0            | 2          |\n| P2         | 1            | 3          |\n| P3         | 2            | 5          |\n| P4         | 3            | 4          |\n| P5         | 4            | 6          |",
+          "choices": [
+            { "option": "A", "text": "5.2" },
+            { "option": "B", "text": "6.0" },
+            { "option": "C", "text": "7.4" },
+            { "option": "D", "text": "8.6" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "\"Consider a system where, a heat sensor detects an intrusion and alerts the security company.\" What kind of requirement is the system providing?",
+          "choices": [
+            { "option": "A", "text": "Functional" },
+            { "option": "B", "text": "Non-Functional" },
+            { "option": "C", "text": "Known Requirement" },
+            { "option": "D", "text": "None of the mentioned" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 77,
+          "text": "What is the space complexity of Depth First Search method for a branching factor of b and maximum depth m?",
+          "choices": [
+            { "option": "A", "text": "bm" },
+            { "option": "B", "text": "b^m" },
+            { "option": "C", "text": "bm+1" },
+            { "option": "D", "text": "bm/2" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 78,
+          "text": "The process of checking the actual dictionary meaning of any word in a sentence is referred to as:",
+          "choices": [
+            { "option": "A", "text": "Syntactic Analysis" },
+            { "option": "B", "text": "Semantic Analysis" },
+            { "option": "C", "text": "Pragmatic Analysis" },
+            { "option": "D", "text": "Disclosure Analysis" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "What is the present value of an amount Rs. 600 if annual interest rate is 10% and number of years is 5?",
+          "choices": [
+            { "option": "A", "text": "Rs. 272.55" },
+            { "option": "B", "text": "Rs. 322.55" },
+            { "option": "C", "text": "Rs. 372.55" },
+            { "option": "D", "text": "Rs. 422.55" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 80,
+          "text": "A PERT network has 9 activities in its critical path. The standard deviation of each activity on the critical path is 3. The standard deviation of the critical path is ...",
+          "choices": [
+            { "option": "A", "text": "3" },
+            { "option": "B", "text": "9" },
+            { "option": "C", "text": "27" },
+            { "option": "D", "text": "81" }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

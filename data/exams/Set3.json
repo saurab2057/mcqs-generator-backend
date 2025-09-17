@@ -1,0 +1,896 @@
+{
+  "setId": 3,
+  "title": "Computer Engineering MCQ Practice - Set 3",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is the symbol for electric current?",
+          "choices": [
+            { "option": "A", "text": "V" },
+            { "option": "B", "text": "R" },
+            { "option": "C", "text": "I" },
+            { "option": "D", "text": "Q" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "What is the process of controlling the conductivity of a semiconducting material called?",
+          "choices": [
+            { "option": "A", "text": "Doping" },
+            { "option": "B", "text": "Insulating" },
+            { "option": "C", "text": "Conducting" },
+            { "option": "D", "text": "Refracting" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "text": "In a series-parallel circuit, some components are connected in:",
+          "choices": [
+            { "option": "A", "text": "Series only" },
+            { "option": "B", "text": "Parallel only" },
+            { "option": "C", "text": "Both series and parallel" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "What is the superposition theorem based on?",
+          "choices": [
+            { "option": "A", "text": "Ohm's law" },
+            { "option": "B", "text": "Faraday's law" },
+            { "option": "C", "text": "Kirchhoff's laws" },
+            { "option": "D", "text": "The principle of superposition" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 5,
+          "text": "Can Thevenin's theorem be used for non-linear circuits?",
+          "choices": [
+            { "option": "A", "text": "No, it can only be used for linear circuits" },
+            { "option": "B", "text": "Yes, it can be used for both linear and non-linear circuits" },
+            { "option": "C", "text": "Yes, but only for circuits with a single non-linear element" },
+            { "option": "D", "text": "It depends on the complexity of the circuit" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 6,
+          "text": "How many steps are involved in applying Norton's theorem?",
+          "choices": [
+            { "option": "A", "text": "Two" },
+            { "option": "B", "text": "Three" },
+            { "option": "C", "text": "Four" },
+            { "option": "D", "text": "Five" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 7,
+          "text": "What is the phase angle in the equation for a sine wave?",
+          "choices": [
+            { "option": "A", "text": "The amplitude of the wave" },
+            { "option": "B", "text": "The frequency of the wave" },
+            { "option": "C", "text": "The time at which the wave starts" },
+            { "option": "D", "text": "The relationship between the wave and a reference wave" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 8,
+          "text": "What is the function of a Schottky diode?",
+          "choices": [
+            { "option": "A", "text": "To amplify signals" },
+            { "option": "B", "text": "To act as a voltage regulator" },
+            { "option": "C", "text": "To convert AC to DC" },
+            { "option": "D", "text": "To reduce switching time and power loss in high-speed applications" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 9,
+          "text": "Which type of oscillator is commonly used in digital circuits?",
+          "choices": [
+            { "option": "A", "text": "RC oscillator" },
+            { "option": "B", "text": "LC oscillator" },
+            { "option": "C", "text": "Crystal oscillator" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 10,
+          "text": "What is the typical efficiency of a Class A output stage?",
+          "choices": [
+            { "option": "A", "text": "100%" },
+            { "option": "B", "text": "50%" },
+            { "option": "C", "text": "25%" },
+            { "option": "D", "text": "Less than 10%" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 11,
+          "text": "Which of the following is a common logic level used in CMOS (Complementary Metal-Oxide-Semiconductor) circuits?",
+          "choices": [
+            { "option": "A", "text": "0.5V" },
+            { "option": "B", "text": "1.0V" },
+            { "option": "C", "text": "2.5V" },
+            { "option": "D", "text": "5.0V" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 12,
+          "text": "Which logic gate produces a high output when any input is high?",
+          "choices": [
+            { "option": "A", "text": "OR gate" },
+            { "option": "B", "text": "AND gate" },
+            { "option": "C", "text": "NOT gate" },
+            { "option": "D", "text": "XOR gate" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 13,
+          "text": "What is the Boolean expression for the exclusive-OR (XOR) gate?",
+          "choices": [
+            { "option": "A", "text": "A + B" },
+            { "option": "B", "text": "A'B + AB'" },
+            { "option": "C", "text": "A/B" },
+            { "option": "D", "text": "A ⊕ B" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 14,
+          "text": "What is the function of the selection inputs in a MUX?",
+          "choices": [
+            { "option": "A", "text": "To perform logical operations on the data inputs" },
+            { "option": "B", "text": "To select which data input should be output" },
+            { "option": "C", "text": "To store the data inputs in memory" },
+            { "option": "D", "text": "To generate clock signals for the circuit" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "What is the difference between Synchronous and Asynchronous RS flip-flops?",
+          "choices": [
+            { "option": "A", "text": "Synchronous flip-flops require a clock signal, while asynchronous flip-flops do not" },
+            { "option": "B", "text": "Asynchronous flip-flops require a clock signal, while synchronous flip-flops do not" },
+            { "option": "C", "text": "Synchronous flip-flops are faster than asynchronous flip-flops" },
+            { "option": "D", "text": "Asynchronous flip-flops are faster than synchronous flip-flops" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "In a synchronous counter, what is the function of the clock input?",
+          "choices": [
+            { "option": "A", "text": "To start the counting process" },
+            { "option": "B", "text": "To stop the counting process" },
+            { "option": "C", "text": "To reset the counter" },
+            { "option": "D", "text": "To synchronize the flip-flops" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 17,
+          "text": "What is the purpose of the Interrupt Controller in a microprocessor?",
+          "choices": [
+            { "option": "A", "text": "To generate interrupts" },
+            { "option": "B", "text": "To handle interrupts" },
+            { "option": "C", "text": "To store interrupt vectors" },
+            { "option": "D", "text": "To communicate with external devices" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "Which of the following is NOT a level of cache in a microprocessor system?",
+          "choices": [
+            { "option": "A", "text": "L1" },
+            { "option": "B", "text": "L2" },
+            { "option": "C", "text": "L3" },
+            { "option": "D", "text": "L4" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 19,
+          "text": "Which of the following statements is true about nested interrupts?",
+          "choices": [
+            { "option": "A", "text": "They cannot occur in a microprocessor" },
+            { "option": "B", "text": "They occur when an interrupt is triggered while another interrupt is being serviced" },
+            { "option": "C", "text": "They occur when two interrupts are triggered simultaneously" },
+            { "option": "D", "text": "They occur when an interrupt service routine takes longer than expected to execute" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "text": "Which of the following statements is true about interrupt handling in a multitasking environment?",
+          "choices": [
+            { "option": "A", "text": "Interrupts should be disabled while a task is executing" },
+            { "option": "B", "text": "Interrupts should be enabled while a task is executing" },
+            { "option": "C", "text": "Interrupts should be prioritized based on the task being executed" },
+            { "option": "D", "text": "Interrupts should be ignored in a multitasking environment" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 21,
+          "text": "What is the difference between the bitwise AND operator (&) and the bitwise OR operator (|) in C programming?",
+          "choices": [
+            { "option": "A", "text": "The bitwise AND operator performs a bitwise AND operation, while the bitwise OR operator performs a bitwise OR operation" },
+            { "option": "B", "text": "The bitwise OR operator performs a bitwise AND operation, while the bitwise AND operator performs a bitwise OR operation" },
+            { "option": "C", "text": "Bitwise AND operators are written in uppercase, while bitwise OR operators are not" },
+            { "option": "D", "text": "Bitwise OR operators are written in uppercase, while bitwise AND operators are not" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 22,
+          "text": "What is the purpose of the fclose() function in C?",
+          "choices": [
+            { "option": "A", "text": "To close a file that was opened for reading" },
+            { "option": "B", "text": "To close a file that was opened for writing" },
+            { "option": "C", "text": "To close a file that was opened for reading and writing" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 23,
+          "text": "What is the syntax of the 'for' loop in C?",
+          "choices": [
+            { "option": "A", "text": "for (initialization; condition; increment) { statements }" },
+            { "option": "B", "text": "for (condition; increment; initialization) { statements }" },
+            { "option": "C", "text": "for (initialization; increment; condition) { statements }" },
+            { "option": "D", "text": "for initialization; condition; increment { statements }" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "text": "What is the result of the following code?\nint arr[] = {1, 2, 3, 4};\nint *p = arr + 2;\nprintf(\"%d\", *(--p));",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "2" },
+            { "option": "C", "text": "3" },
+            { "option": "D", "text": "4" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 25,
+          "text": "Which of the following is a valid way to alias a namespace in C++?",
+          "choices": [
+            { "option": "A", "text": "namespace A::B" },
+            { "option": "B", "text": "using A::B" },
+            { "option": "C", "text": "namespace B = A" },
+            { "option": "D", "text": "using namespace A::B" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 26,
+          "text": "Which of the following operators must be overloaded as a member function in C++?",
+          "choices": [
+            { "option": "A", "text": "=" },
+            { "option": "B", "text": "()" },
+            { "option": "C", "text": "[]" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 27,
+          "text": "What is the purpose of the 'override' keyword when overriding a virtual function in C++?",
+          "choices": [
+            { "option": "A", "text": "To indicate that the function is a virtual function" },
+            { "option": "B", "text": "To indicate that the function is an override of a virtual function" },
+            { "option": "C", "text": "To indicate that the function is a pure virtual function" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "How does the compiler determine which function template to use in function template overloading?",
+          "choices": [
+            { "option": "A", "text": "It uses the first function template with matching parameters in the order they are defined." },
+            { "option": "B", "text": "It uses the most specialized function template with matching parameters." },
+            { "option": "C", "text": "It uses the function template with the fewest parameters." },
+            { "option": "D", "text": "None of the above." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "What is the syntax for creating an object of a class template in C++?",
+          "choices": [
+            { "option": "A", "text": "ClassName<T> objectName;" },
+            { "option": "B", "text": "ClassName<N> objectName;" },
+            { "option": "C", "text": "ClassName<T...> objectName;" },
+            { "option": "D", "text": "None of the above." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 30,
+          "text": "What is the syntax for calling a function template in C++?",
+          "choices": [
+            { "option": "A", "text": "FunctionName<T>(parameter);" },
+            { "option": "B", "text": "FunctionName<N>(parameter);" },
+            { "option": "C", "text": "FunctionName<T...>(parameter);" },
+            { "option": "D", "text": "None of the above." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 31,
+          "text": "Which of the following is not a function of the control unit?",
+          "choices": [
+            { "option": "A", "text": "Fetching instructions from memory" },
+            { "option": "B", "text": "Decoding instructions" },
+            { "option": "C", "text": "Executing instructions" },
+            { "option": "D", "text": "Storing instructions in cache memory" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 32,
+          "text": "Which type of connector is used to connect external devices to a computer system?",
+          "choices": [
+            { "option": "A", "text": "USB" },
+            { "option": "B", "text": "VGA" },
+            { "option": "C", "text": "HDMI" },
+            { "option": "D", "text": "SATA" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "In an indirect microinstruction, the address of the next microinstruction is stored in:",
+          "choices": [
+            { "option": "A", "text": "A register" },
+            { "option": "B", "text": "A memory location" },
+            { "option": "C", "text": "The opcode field" },
+            { "option": "D", "text": "The data field" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 34,
+          "text": "The fetch-decode-execute cycle is the basic operation of a CPU. Which of the following is the correct order of these three steps?",
+          "choices": [
+            { "option": "A", "text": "Fetch, decode, execute" },
+            { "option": "B", "text": "Decode, fetch, execute" },
+            { "option": "C", "text": "Execute, fetch, decode" },
+            { "option": "D", "text": "Execute, decode, fetch" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "Which level of the memory hierarchy has the shortest latency and the highest bandwidth?",
+          "choices": [
+            { "option": "A", "text": "Cache memory" },
+            { "option": "B", "text": "Main memory" },
+            { "option": "C", "text": "Secondary memory" },
+            { "option": "D", "text": "Tertiary memory" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 36,
+          "text": "Which type of device is commonly used to control the movement of the cursor on a computer screen?",
+          "choices": [
+            { "option": "A", "text": "Keyboard" },
+            { "option": "B", "text": "Mouse" },
+            { "option": "C", "text": "Joystick" },
+            { "option": "D", "text": "Scanner" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 37,
+          "text": "What is the purpose of a real-time operating system (RTOS) in an embedded system?",
+          "choices": [
+            { "option": "A", "text": "To provide a graphical user interface (GUI)" },
+            { "option": "B", "text": "To manage system resources and scheduling" },
+            { "option": "C", "text": "To provide internet connectivity" },
+            { "option": "D", "text": "To provide audio and video output" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "What is preemption in a real-time system?",
+          "choices": [
+            { "option": "A", "text": "The ability to interrupt a task and switch to another task" },
+            { "option": "B", "text": "The ability to run multiple tasks at the same time" },
+            { "option": "C", "text": "The ability to prioritize tasks based on their importance" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "What is the purpose of VHDL libraries?",
+          "choices": [
+            { "option": "A", "text": "To organize and store VHDL code" },
+            { "option": "B", "text": "To simulate circuit behavior" },
+            { "option": "C", "text": "To provide access to commonly used VHDL components" },
+            { "option": "D", "text": "To convert VHDL code into machine code" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 40,
+          "text": "Which type of pipeline has multiple stages executing the same task simultaneously?",
+          "choices": [
+            { "option": "A", "text": "Instruction pipeline" },
+            { "option": "B", "text": "Arithmetic pipeline" },
+            { "option": "C", "text": "Data pipeline" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "Which of the following is a standard for wireless networking?",
+          "choices": [
+            { "option": "A", "text": "Ethernet" },
+            { "option": "B", "text": "Wi-Fi" },
+            { "option": "C", "text": "Token Ring" },
+            { "option": "D", "text": "FDDI" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "Which layer of the TCP/IP model is responsible for end-to-end communication?",
+          "choices": [
+            { "option": "A", "text": "Application layer" },
+            { "option": "B", "text": "Transport layer" },
+            { "option": "C", "text": "Internet layer" },
+            { "option": "D", "text": "Network Access layer" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "Which of the following techniques is used to prevent congestion at the Data Link Layer?",
+          "choices": [
+            { "option": "A", "text": "Flow Control" },
+            { "option": "B", "text": "Error Correction" },
+            { "option": "C", "text": "Congestion Control" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 44,
+          "text": "What is the purpose of CIDR notation?",
+          "choices": [
+            { "option": "A", "text": "To identify the class of an IP address" },
+            { "option": "B", "text": "To indicate the network portion of an IP address" },
+            { "option": "C", "text": "To indicate the host portion of an IP address" },
+            { "option": "D", "text": "To specify the number of bits in the network portion of an IP address" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 45,
+          "text": "Which transport layer protocol supports multicast data transfer?",
+          "choices": [
+            { "option": "A", "text": "TCP" },
+            { "option": "B", "text": "UDP" },
+            { "option": "C", "text": "ICMP" },
+            { "option": "D", "text": "ARP" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "Which of the following is true about cookies in HTTP?",
+          "choices": [
+            { "option": "A", "text": "Cookies can only be set by the server and read by the client." },
+            { "option": "B", "text": "Cookies can only be set by the client and read by the server." },
+            { "option": "C", "text": "Cookies can be set by both the client and the server." },
+            { "option": "D", "text": "Cookies are not used in HTTP." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 47,
+          "text": "What is the purpose of a firewall?",
+          "choices": [
+            { "option": "A", "text": "To prevent unauthorized access to a network" },
+            { "option": "B", "text": "To encrypt data" },
+            { "option": "C", "text": "To provide authentication" },
+            { "option": "D", "text": "To detect and respond to security threats" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 48,
+          "text": "What is the purpose of the WEP integrity check value (ICV)?",
+          "choices": [
+            { "option": "A", "text": "To provide confidentiality" },
+            { "option": "B", "text": "To provide integrity protection" },
+            { "option": "C", "text": "To prevent replay attacks" },
+            { "option": "D", "text": "To authenticate the wireless clients" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 49,
+          "text": "What is a proxy firewall?",
+          "choices": [
+            { "option": "A", "text": "A firewall that filters traffic based on the source IP address and port number, destination IP address and port number, and the protocol." },
+            { "option": "B", "text": "A firewall that hides the IP addresses of internal hosts from external networks by replacing them with the firewall's IP address." },
+            { "option": "C", "text": "A firewall that filters traffic at the application layer." },
+            { "option": "D", "text": "A firewall that acts as an intermediary between internal hosts and external networks, filtering and forwarding traffic as necessary." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 50,
+          "text": "What is a virtual private network (VPN) concentrator?",
+          "choices": [
+            { "option": "A", "text": "A device that terminates VPN connections" },
+            { "option": "B", "text": "A device that establishes VPN connections" },
+            { "option": "C", "text": "A device that routes traffic between VPNs" },
+            { "option": "D", "text": "A device that compresses VPN traffic" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 51,
+          "text": "In a Mealy machine, the output depends on",
+          "choices": [
+            { "option": "A", "text": "Current input symbol only" },
+            { "option": "B", "text": "Current input symbol and current state" },
+            { "option": "C", "text": "Current input symbol and next state" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 52,
+          "text": "Which of the following is true regarding the power of NDFA?",
+          "choices": [
+            { "option": "A", "text": "NDFA is more powerful than DFA" },
+            { "option": "B", "text": "DFA is more powerful than NDFA" },
+            { "option": "C", "text": "NDFA and DFA have equal power" },
+            { "option": "D", "text": "The power of NDFA and DFA depends on the specific language being recognized" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 53,
+          "text": "What is the minimum number of states required to represent a language that accepts all strings over the alphabet {0, 1} that have an even number of 0s and an even number of 1s?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "5" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 54,
+          "text": "Which of the following is a valid CFG for the language {$0^n 1^n$ | n ≥ 0}?",
+          "choices": [
+            { "option": "A", "text": "S → 0S1 | ε" },
+            { "option": "B", "text": "S → 0A1, A → 0A1 | ε" },
+            { "option": "C", "text": "S → 0S1S | ε" },
+            { "option": "D", "text": "S → 0S | S1 | ε" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "What is the input alphabet for a Turing machine?",
+          "choices": [
+            { "option": "A", "text": "The set of symbols that the Turing machine can read" },
+            { "option": "B", "text": "The set of symbols that the Turing machine can write" },
+            { "option": "C", "text": "The set of symbols that the Turing machine can erase" },
+            { "option": "D", "text": "The set of symbols that the Turing machine can move" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 56,
+          "text": "What happens if we can reduce an intractable problem X to another problem Y, and we know that problem Y is intractable?",
+          "choices": [
+            { "option": "A", "text": "Problem X is solvable in polynomial time." },
+            { "option": "B", "text": "Problem X is intractable." },
+            { "option": "C", "text": "Problem X is solvable in exponential time." },
+            { "option": "D", "text": "Problem X is solvable in constant time." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 57,
+          "text": "Which of the following is not an output device used in computer graphics?",
+          "choices": [
+            { "option": "A", "text": "Monitor" },
+            { "option": "B", "text": "Printer" },
+            { "option": "C", "text": "Projector" },
+            { "option": "D", "text": "Scanner" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 58,
+          "text": "What is the result of translating an object by a zero vector?",
+          "choices": [
+            { "option": "A", "text": "The object stays in the same position" },
+            { "option": "B", "text": "The object disappears" },
+            { "option": "C", "text": "The object rotates around its axis" },
+            { "option": "D", "text": "The object changes color" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 59,
+          "text": "What does the geometry processing stage involve?",
+          "choices": [
+            { "option": "A", "text": "Clipping objects outside the view frustum" },
+            { "option": "B", "text": "Manipulating the 3D models to create desired shapes" },
+            { "option": "C", "text": "Applying textures to the 3D models" },
+            { "option": "D", "text": "Determining the color and brightness of each pixel" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "What is foreshortening in projection?",
+          "choices": [
+            { "option": "A", "text": "A technique used in perspective projection where objects that are farther away from the viewer appear smaller and more compressed than objects that are closer to the viewer" },
+            { "option": "B", "text": "A technique used in orthographic projection to create a sense of depth in the final image" },
+            { "option": "C", "text": "The process of converting a 3D object into a 2D image" },
+            { "option": "D", "text": "A technique used in parallel projection to create the illusion of perspective in the final image" }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "Which of the following is NOT a benefit of using AVL trees?",
+          "choices": [
+            { "option": "A", "text": "Fast lookup, insertion, and deletion of elements" },
+            { "option": "B", "text": "Guaranteed height-balance" },
+            { "option": "C", "text": "Good for applications that require efficient range queries" },
+            { "option": "D", "text": "Requires less overhead than a regular binary search tree" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 62,
+          "text": "Which sorting algorithm sorts elements based on their digit values?",
+          "choices": [
+            { "option": "A", "text": "Radix Sort" },
+            { "option": "B", "text": "Exchange Sort" },
+            { "option": "C", "text": "Merge Sort" },
+            { "option": "D", "text": "Heap Sort" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 63,
+          "text": "In binary search, the search continues in the:",
+          "choices": [
+            { "option": "A", "text": "Upper half of the collection" },
+            { "option": "B", "text": "Lower half of the collection" },
+            { "option": "C", "text": "Both halves of the collection" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 64,
+          "text": "In a general search tree, what is the maximum number of children a node can have?",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "2" },
+            { "option": "C", "text": "n" },
+            { "option": "D", "text": "There is no limit" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 65,
+          "text": "Which component of an E-R diagram is used to uniquely identify an entity?",
+          "choices": [
+            { "option": "A", "text": "Entity" },
+            { "option": "B", "text": "Attribute" },
+            { "option": "C", "text": "Relationship" },
+            { "option": "D", "text": "Key" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 66,
+          "text": "Which of the following is a DDL command?",
+          "choices": [
+            { "option": "A", "text": "SELECT" },
+            { "option": "B", "text": "UPDATE" },
+            { "option": "C", "text": "ALTER" },
+            { "option": "D", "text": "DELETE" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 67,
+          "text": "Which ACID property ensures that transactions do not interfere with each other?",
+          "choices": [
+            { "option": "A", "text": "Atomicity" },
+            { "option": "B", "text": "Consistency" },
+            { "option": "C", "text": "Isolation" },
+            { "option": "D", "text": "Durability" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "Which operating system introduced the concept of user account privileges?",
+          "choices": [
+            { "option": "A", "text": "Unix" },
+            { "option": "B", "text": "Windows NT" },
+            { "option": "C", "text": "Mac OS X" },
+            { "option": "D", "text": "MS-DOS" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "What is the role of the page replacement algorithm in memory management?",
+          "choices": [
+            { "option": "A", "text": "To allocate memory to processes as they are created" },
+            { "option": "B", "text": "To select a page in main memory to be replaced with a page from disk when there is no free memory" },
+            { "option": "C", "text": "To prevent external fragmentation" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "Which of the following is a command used to view the current runlevel?",
+          "choices": [
+            { "option": "A", "text": "init" },
+            { "option": "B", "text": "runlevel" },
+            { "option": "C", "text": "who" },
+            { "option": "D", "text": "ps" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "Who is responsible for creating the software requirements document?",
+          "choices": [
+            { "option": "A", "text": "The project manager" },
+            { "option": "B", "text": "The development team" },
+            { "option": "C", "text": "The software or system architects" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 72,
+          "text": "Who is responsible for requirements elicitation and analysis?",
+          "choices": [
+            { "option": "A", "text": "The project manager" },
+            { "option": "B", "text": "The development team" },
+            { "option": "C", "text": "The stakeholders" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 73,
+          "text": "What is the purpose of creating a design style guide?",
+          "choices": [
+            { "option": "A", "text": "To define the problem" },
+            { "option": "B", "text": "To create a wireframe" },
+            { "option": "C", "text": "To ensure consistency in the design" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 74,
+          "text": "What is the principle of proportion in design?",
+          "choices": [
+            { "option": "A", "text": "It refers to the use of contrasting colors in a design" },
+            { "option": "B", "text": "It refers to the use of repetition in a design" },
+            { "option": "C", "text": "It refers to the relationship between the size of different elements in a design" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 75,
+          "text": "Which of the following is an advantage of continuous integration testing?",
+          "choices": [
+            { "option": "A", "text": "Early detection of defects" },
+            { "option": "B", "text": "Comprehensive test coverage" },
+            { "option": "C", "text": "Only necessary tests are run" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 76,
+          "text": "Which modeling technique is used to create use case diagrams?",
+          "choices": [
+            { "option": "A", "text": "Use case modeling" },
+            { "option": "B", "text": "Entity relationship modeling" },
+            { "option": "C", "text": "Object-oriented modeling" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 77,
+          "text": "In which diagram are objects and their relationships with each other represented in OOAD?",
+          "choices": [
+            { "option": "A", "text": "Class diagram" },
+            { "option": "B", "text": "Sequence diagram" },
+            { "option": "C", "text": "Use case diagram" },
+            { "option": "D", "text": "State diagram" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 78,
+          "text": "What is the purpose of the SOLID principles in object-oriented design?",
+          "choices": [
+            { "option": "A", "text": "To improve the maintainability and extensibility of software systems" },
+            { "option": "B", "text": "To improve the performance and efficiency of software systems" },
+            { "option": "C", "text": "To improve the usability and accessibility of software systems" },
+            { "option": "D", "text": "To improve the security and reliability of software systems" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 79,
+          "text": "What is an unchecked exception in Java?",
+          "choices": [
+            { "option": "A", "text": "An exception that occurs during runtime and must be handled in the program" },
+            { "option": "B", "text": "An exception that occurs during runtime and can be ignored" },
+            { "option": "C", "text": "An exception that occurs due to a syntax error in the program" },
+            { "option": "D", "text": "An exception that occurs due to a logical error in the program" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 80,
+          "text": "What is an aggregation in a class diagram?",
+          "choices": [
+            { "option": "A", "text": "A relationship between two classes that represents a connection or interaction between them" },
+            { "option": "B", "text": "A relationship between two classes where one class depends on the other for its implementation or behavior" },
+            { "option": "C", "text": "A relationship between two classes where one class is made up of other classes" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

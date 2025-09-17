@@ -1,0 +1,897 @@
+{
+  "setId": 8,
+  "title": "Computer Engineering MCQ Practice - Set 8",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following is an active electronic component?",
+          "choices": [
+            { "option": "A", "text": "Resistor" },
+            { "option": "B", "text": "Capacitor" },
+            { "option": "C", "text": "Inductor" },
+            { "option": "D", "text": "Transistor" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 2,
+          "text": "The Maximum Power Transfer theorem states that maximum power is delivered from a source to a load when the load resistance is:",
+          "choices": [
+            { "option": "A", "text": "Equal to the source resistance" },
+            { "option": "B", "text": "Greater than the source resistance" },
+            { "option": "C", "text": "Less than the source resistance" },
+            { "option": "D", "text": "Zero" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "text": "The power factor of an AC circuit is defined as the ratio of:",
+          "choices": [
+            { "option": "A", "text": "Active power to reactive power" },
+            { "option": "B", "text": "Reactive power to apparent power" },
+            { "option": "C", "text": "Active power to apparent power" },
+            { "option": "D", "text": "Apparent power to active power" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "The process of adding impurities to a pure semiconductor to alter its conductivity is called:",
+          "choices": [
+            { "option": "A", "text": "Doping" },
+            { "option": "B", "text": "Biasing" },
+            { "option": "C", "text": "Annealing" },
+            { "option": "D", "text": "Diffusion" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "The Barkhausen criterion for sustained oscillation in an amplifier with feedback states that the loop gain must be:",
+          "choices": [
+            { "option": "A", "text": "Less than unity" },
+            { "option": "B", "text": "Equal to unity" },
+            { "option": "C", "text": "Greater than unity" },
+            { "option": "D", "text": "Zero" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "Crossover distortion in a Class B amplifier is caused by:",
+          "choices": [
+            { "option": "A", "text": "The transistors not turning on at 0.7V for silicon" },
+            { "option": "B", "text": "The output being too large" },
+            { "option": "C", "text": "The input signal frequency being too high" },
+            { "option": "D", "text": "The use of a transformer" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 7,
+          "text": "The Binary Coded Decimal (BCD) representation of the decimal number 49 is:",
+          "choices": [
+            { "option": "A", "text": "01001001" },
+            { "option": "B", "text": "110001" },
+            { "option": "C", "text": "00110001" },
+            { "option": "D", "text": "100100" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "text": "An XOR gate produces a HIGH output only when:",
+          "choices": [
+            { "option": "A", "text": "All inputs are HIGH" },
+            { "option": "B", "text": "All inputs are LOW" },
+            { "option": "C", "text": "The number of HIGH inputs is odd" },
+            { "option": "D", "text": "The number of HIGH inputs is even" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "A digital circuit that counts from 0 to a predetermined number is called a:",
+          "choices": [
+            { "option": "A", "text": "Multiplexer" },
+            { "option": "B", "text": "Decoder" },
+            { "option": "C", "text": "Register" },
+            { "option": "D", "text": "Counter" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 10,
+          "text": "The accumulator is a register in a microprocessor that:",
+          "choices": [
+            { "option": "A", "text": "Stores the address of the next instruction" },
+            { "option": "B", "text": "Holds the result of arithmetic and logic operations" },
+            { "option": "C", "text": "Keeps track of the stack pointer" },
+            { "option": "D", "text": "Stores the instruction being executed" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 11,
+          "text": "In serial data transmission, synchronous transmission:",
+          "choices": [
+            { "option": "A", "text": "Sends one bit at a time with start and stop bits" },
+            { "option": "B", "text": "Uses a common clock signal for both sender and receiver" },
+            { "option": "C", "text": "Does not require a clock signal" },
+            { "option": "D", "text": "Is slower than asynchronous transmission" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "An Interrupt Service Routine (ISR) is a:",
+          "choices": [
+            { "option": "A", "text": "Hardware component that generates interrupts" },
+            { "option": "B", "text": "A special function or routine that is executed when a specific interrupt occurs" },
+            { "option": "C", "text": "The main program loop" },
+            { "option": "D", "text": "A register that stores the interrupt type" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C, what is the purpose of the goto statement?",
+          "choices": [
+            { "option": "A", "text": "To call a function" },
+            { "option": "B", "text": "To exit a loop" },
+            { "option": "C", "text": "To provide an unconditional jump to a labeled statement within the same function" },
+            { "option": "D", "text": "To declare a global variable" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 14,
+          "text": "Which C standard library function is used to move the file pointer to a specific location in a file?",
+          "choices": [
+            { "option": "A", "text": "ftell()" },
+            { "option": "B", "text": "rewind()" },
+            { "option": "C", "text": "fseek()" },
+            { "option": "D", "text": "fopen()" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 15,
+          "text": "The this pointer in C++ is a special pointer that:",
+          "choices": [
+            { "option": "A", "text": "Points to the next object in an array" },
+            { "option": "B", "text": "Points to the current object instance for which a member function is called" },
+            { "option": "C", "text": "Points to the base class of an object" },
+            { "option": "D", "text": "Points to a global variable" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "A class that cannot be instantiated and is meant to be inherited from is called an:",
+          "choices": [
+            { "option": "A", "text": "Abstract class" },
+            { "option": "B", "text": "Friend class" },
+            { "option": "C", "text": "Static class" },
+            { "option": "D", "text": "Derived class" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 17,
+          "text": "A microinstruction is:",
+          "choices": [
+            { "option": "A", "text": "A low-level instruction that controls the functional units of a processor in a microprogrammed control unit" },
+            { "option": "B", "text": "A very small instruction in a RISC architecture" },
+            { "option": "C", "text": "An instruction that performs a memory operation" },
+            { "option": "D", "text": "A synonym for an assembly language mnemonic" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "text": "The principle of locality of reference states that:",
+          "choices": [
+            { "option": "A", "text": "A program accesses all parts of its memory randomly" },
+            { "option": "B", "text": "A program tends to reuse data and instructions that it has used recently" },
+            { "option": "C", "text": "Memory access is always faster than disk access" },
+            { "option": "D", "text": "The CPU can only access local memory" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "Programmed I/O involves:",
+          "choices": [
+            { "option": "A", "text": "The CPU continuously checking the status of an I/O device" },
+            { "option": "B", "text": "The I/O device directly accessing main memory" },
+            { "option": "C", "text": "The I/O device signaling the CPU with an interrupt" },
+            { "option": "D", "text": "The use of a dedicated I/O processor" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 20,
+          "text": "VHDL is a type of:",
+          "choices": [
+            { "option": "A", "text": "High-level programming language" },
+            { "option": "B", "text": "Hardware Description Language (HDL)" },
+            { "option": "C", "text": "Database query language" },
+            { "option": "D", "text": "Scripting language" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "text": "The Presentation Layer (Layer 6) of the OSI model is responsible for:",
+          "choices": [
+            { "option": "A", "text": "Routing and path determination" },
+            { "option": "B", "text": "Reliable end-to-end communication" },
+            { "option": "C", "text": "Data translation, encryption, and compression" },
+            { "option": "D", "text": "Managing the physical connection" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 22,
+          "text": "The main purpose of subnetting is to:",
+          "choices": [
+            { "option": "A", "text": "Increase the number of available IP addresses" },
+            { "option": "B", "text": "Divide a large network into smaller, more manageable subnetworks" },
+            { "option": "C", "text": "Speed up the internet connection" },
+            { "option": "D", "text": "Connect different types of networks" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "Which of the following is a characteristic of UDP?",
+          "choices": [
+            { "option": "A", "text": "It is connection-oriented" },
+            { "option": "B", "text": "It guarantees delivery of packets" },
+            { "option": "C", "text": "It provides low overhead and fast transmission" },
+            { "option": "D", "text": "It performs error recovery" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 24,
+          "text": "A Virtual Private Network (VPN) is used to:",
+          "choices": [
+            { "option": "A", "text": "Create a secure, encrypted connection over a less secure network like the internet" },
+            { "option": "B", "text": "Assign IP addresses automatically" },
+            { "option": "C", "text": "Increase the bandwidth of a network connection" },
+            { "option": "D", "text": "Block unwanted websites" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 25,
+          "text": "A Mealy machine is a type of finite automaton where the output depends on:",
+          "choices": [
+            { "option": "A", "text": "Only the current state" },
+            { "option": "B", "text": "Only the current input" },
+            { "option": "C", "text": "The current state and the current input" },
+            { "option": "D", "text": "The next state" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 26,
+          "text": "A parse tree is a graphical representation of:",
+          "choices": [
+            { "option": "A", "text": "The flow of control in a program" },
+            { "option": "B", "text": "The derivation of a string in a grammar" },
+            { "option": "C", "text": "The states and transitions of a finite automaton" },
+            { "option": "D", "text": "The structure of a database" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 27,
+          "text": "Perspective projection in computer graphics creates realism by:",
+          "choices": [
+            { "option": "A", "text": "Making all lines parallel" },
+            { "option": "B", "text": "Making objects that are farther away appear smaller" },
+            { "option": "C", "text": "Using a uniform lighting model" },
+            { "option": "D", "text": "Displaying objects in wireframe mode" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "Vector graphics are composed of:",
+          "choices": [
+            { "option": "A", "text": "A grid of pixels" },
+            { "option": "B", "text": "Geometric primitives such as points, lines, and curves" },
+            { "option": "C", "text": "3D models" },
+            { "option": "D", "text": "Compressed image data" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "The Last-In, First-Out (LIFO) principle is used in which data structure?",
+          "choices": [
+            { "option": "A", "text": "Queue" },
+            { "option": "B", "text": "Tree" },
+            { "option": "C", "text": "Stack" },
+            { "option": "D", "text": "Linked List" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 30,
+          "text": "An algorithm that always makes the choice that seems best at the moment is known as a:",
+          "choices": [
+            { "option": "A", "text": "Divide and Conquer algorithm" },
+            { "option": "B", "text": "Dynamic Programming algorithm" },
+            { "option": "C", "text": "Greedy algorithm" },
+            { "option": "D", "text": "Brute-force algorithm" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 31,
+          "text": "Which of the following is a Data Manipulation Language (DML) command in SQL?",
+          "choices": [
+            { "option": "A", "text": "CREATE" },
+            { "option": "B", "text": "ALTER" },
+            { "option": "C", "text": "INSERT" },
+            { "option": "D", "text": "DROP" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 32,
+          "text": "The fork() system call in Unix-like operating systems is used to:",
+          "choices": [
+            { "option": "A", "text": "Create a new process" },
+            { "option": "B", "text": "Terminate the current process" },
+            { "option": "C", "text": "Execute a new program" },
+            { "option": "D", "text": "Allocate memory" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "The primary advantage of the Prototyping model in software development is that it:",
+          "choices": [
+            { "option": "A", "text": "Guarantees a bug-free final product" },
+            { "option": "B", "text": "Reduces development time and costs" },
+            { "option": "C", "text": "Allows for early user feedback and clarification of requirements" },
+            { "option": "D", "text": "Requires minimal documentation" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "Alpha testing is a type of acceptance testing performed by:",
+          "choices": [
+            { "option": "A", "text": "The end-users at their own site" },
+            { "option": "B", "text": "The development team's internal testing staff at the developer's site" },
+            { "option": "C", "text": "A specialized third-party testing company" },
+            { "option": "D", "text": "The public" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 35,
+          "text": "In a UML class diagram, an 'association' represents:",
+          "choices": [
+            { "option": "A", "text": "An 'is-a' relationship (inheritance)" },
+            { "option": "B", "text": "A 'has-a' relationship (composition)" },
+            { "option": "C", "text": "A general relationship between two classes" },
+            { "option": "D", "text": "The flow of messages between objects" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 36,
+          "text": "The PEAS description of an AI agent's environment stands for:",
+          "choices": [
+            { "option": "A", "text": "Performance, Environment, Actuators, Sensors" },
+            { "option": "B", "text": "Plan, Execute, Analyze, Succeed" },
+            { "option": "C", "text": "Problem, Environment, Actions, Solution" },
+            { "option": "D", "text": "Program, Execution, Agent, System" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 37,
+          "text": "Propositional logic deals with:",
+          "choices": [
+            { "option": "A", "text": "Statements that can be either true or false" },
+            { "option": "B", "text": "The relationships between objects" },
+            { "option": "C", "text": "Probabilities and uncertainties" },
+            { "option": "D", "text": "The flow of control in a program" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 38,
+          "text": "The 'crossover' operation in a genetic algorithm is a process of:",
+          "choices": [
+            { "option": "A", "text": "Randomly changing a part of a solution" },
+            { "option": "B", "text": "Combining parts of two parent solutions to create new offspring" },
+            { "option": "C", "text": "Selecting the best solutions for the next generation" },
+            { "option": "D", "text": "Evaluating the fitness of a solution" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 39,
+          "text": "PERT (Program Evaluation and Review Technique) is different from CPM (Critical Path Method) in that PERT:",
+          "choices": [
+            { "option": "A", "text": "Is deterministic and uses a single time estimate for each activity" },
+            { "option": "B", "text": "Is probabilistic and uses three time estimates (optimistic, pessimistic, most likely) for each activity" },
+            { "option": "C", "text": "Is used only for construction projects" },
+            { "option": "D", "text": "Does not identify a critical path" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "‘Whistleblowing’ in professional ethics is the act of:",
+          "choices": [
+            { "option": "A", "text": "Praising an employer for their good practices" },
+            { "option": "B", "text": "Reporting unethical or illegal activities within an organization to the public or a higher authority" },
+            { "option": "C", "text": "Keeping company secrets" },
+            { "option": "D", "text": "Negotiating a higher salary" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "The Nepal Engineering Council's Code of Conduct primarily aims to:",
+          "choices": [
+            { "option": "A", "text": "Ensure the professional and ethical practice of engineering in Nepal" },
+            { "option": "B", "text": "Set the curriculum for engineering colleges" },
+            { "option": "C", "text": "Provide financial aid to engineers" },
+            { "option": "D", "text": "Organize technical conferences" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 42,
+          "text": "In C++, what does the const keyword do when applied to a member function?",
+          "choices": [
+            { "option": "A", "text": "It prevents the function from being called." },
+            { "option": "B", "text": "It indicates that the function will not modify the state of the object." },
+            { "option": "C", "text": "It makes the function's return value a constant." },
+            { "option": "D", "text": "It makes the function a static member." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "RAID (Redundant Array of Independent Disks) Level 1 provides:",
+          "choices": [
+            { "option": "A", "text": "Striping without parity" },
+            { "option": "B", "text": "Mirroring and duplexing" },
+            { "option": "C", "text": "Striping with distributed parity" },
+            { "option": "D", "text": "Block-level striping with a dedicated parity disk" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "Which HTTP method is idempotent, meaning multiple identical requests have the same effect as a single request?",
+          "choices": [
+            { "option": "A", "text": "POST" },
+            { "option": "B", "text": "PUT" },
+            { "option": "C", "text": "CONNECT" },
+            { "option": "D", "text": "PATCH" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "A binary heap is a binary tree that satisfies the heap property, which means:",
+          "choices": [
+            { "option": "A", "text": "The left child is always smaller than the right child." },
+            { "option": "B", "text": "The key of each node is greater than or equal to (in a max-heap) the keys of its children." },
+            { "option": "C", "text": "The tree is always perfectly balanced." },
+            { "option": "D", "text": "All leaf nodes are at the same depth." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "The 'Durability' property in ACID transactions ensures that:",
+          "choices": [
+            { "option": "A", "text": "All operations of a transaction are completed successfully or none are." },
+            { "option": "B", "text": "The database remains in a consistent state before and after the transaction." },
+            { "option": "C", "text": "Transactions are isolated from each other." },
+            { "option": "D", "text": "Once a transaction has been committed, it will remain so, even in the event of a power loss." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 47,
+          "text": "The Capability Maturity Model Integration (CMMI) is a framework for:",
+          "choices": [
+            { "option": "A", "text": "Improving software development processes" },
+            { "option": "B", "text": "Designing user interfaces" },
+            { "option": "C", "text": "Testing hardware components" },
+            { "option": "D", "text": "Managing project budgets" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 48,
+          "text": "A 'Naive Bayes' classifier is a machine learning model based on:",
+          "choices": [
+            { "option": "A", "text": "Neural networks" },
+            { "option": "B", "text": "Decision trees" },
+            { "option": "C", "text": "Bayes' theorem with a strong assumption of feature independence" },
+            { "option": "D", "text": "Genetic algorithms" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 49,
+          "text": "In engineering economics, a 'sunk cost' is a cost that:",
+          "choices": [
+            { "option": "A", "text": "Has already been incurred and cannot be recovered" },
+            { "option": "B", "text": "Will be incurred in the future" },
+            { "option": "C", "text": "Varies with the level of production" },
+            { "option": "D", "text": "Is associated with the end-of-life of a project" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "The primary difference between a RISC and a CISC architecture is:",
+          "choices": [
+            { "option": "A", "text": "The number of CPU cores" },
+            { "option": "B", "text": "The complexity and number of instructions" },
+            { "option": "C", "text": "The size of the cache memory" },
+            { "option": "D", "text": "The use of pipelining" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "A state in a DFA is a 'trap state' or 'sink state' if:",
+          "choices": [
+            { "option": "A", "text": "It is the start state." },
+            { "option": "B", "text": "It is a final state." },
+            { "option": "C", "text": "Once entered, it is impossible to leave." },
+            { "option": "D", "text": "It has no incoming transitions." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 52,
+          "text": "What is the main purpose of the B-Tree data structure in database systems?",
+          "choices": [
+            { "option": "A", "text": "To efficiently store and retrieve data from secondary storage (disks)." },
+            { "option": "B", "text": "To implement in-memory hash tables." },
+            { "option": "C", "text": "To represent graph data." },
+            { "option": "D", "text": "To sort data quickly." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 53,
+          "text": "Regression testing is the process of:",
+          "choices": [
+            { "option": "A", "text": "Testing a particular module in isolation." },
+            { "option": "B", "text": "Testing the system as a whole." },
+            { "option": "C", "text": "Retesting a previously tested program following modification to ensure that new problems have not been introduced." },
+            { "option": "D", "text": "Testing conducted by the end-user." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 54,
+          "text": "In natural language processing (NLP), 'tokenization' is the process of:",
+          "choices": [
+            { "option": "A", "text": "Determining the grammatical structure of a sentence." },
+            { "option": "B", "text": "Breaking a stream of text into words, phrases, or other meaningful elements called tokens." },
+            { "option": "C", "text": "Identifying the emotional tone of a text." },
+            { "option": "D", "text": "Translating text from one language to another." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 55,
+          "text": "The role of a project stakeholder is to:",
+          "choices": [
+            { "option": "A", "text": "Manage the project team on a daily basis." },
+            { "option": "B", "text": "Have an interest or stake in the project and its outcome." },
+            { "option": "C", "text": "Provide the technical expertise for the project." },
+            { "option": "D", "text": "Write the project's code." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "A Moore machine is a finite automaton where the output is determined by:",
+          "choices": [
+            { "option": "A", "text": "The current state only" },
+            { "option": "B", "text": "The previous state" },
+            { "option": "C", "text": "The current input only" },
+            { "option": "D", "text": "The current state and current input" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 57,
+          "text": "A deadlock in an operating system can be prevented by violating one of the four necessary conditions. Which of the following is NOT one of those conditions?",
+          "choices": [
+            { "option": "A", "text": "Mutual Exclusion" },
+            { "option": "B", "text": "Hold and Wait" },
+            { "option": "C", "text": "Preemption" },
+            { "option": "D", "text": "Circular Wait" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 58,
+          "text": "In object-oriented design, 'composition' represents a:",
+          "choices": [
+            { "option": "A", "text": "'is-a' relationship" },
+            { "option": "B", "text": "'kind-of' relationship" },
+            { "option": "C", "text": "'has-a' or 'part-of' relationship where the contained object's lifecycle is managed by the container" },
+            { "option": "D", "text": "general association between two independent objects" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 59,
+          "text": "Which of the following is a key advantage of IPv6 over IPv4?",
+          "choices": [
+            { "option": "A", "text": "Smaller header size" },
+            { "option": "B", "text": "Larger address space" },
+            { "option": "C", "text": "Slower routing" },
+            { "option": "D", "text": "It is less secure" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "A 'cookie' in the context of web browsing is:",
+          "choices": [
+            { "option": "A", "text": "A small piece of data sent from a website and stored on the user's computer by the web browser" },
+            { "option": "B", "text": "A type of computer virus" },
+            { "option": "C", "text": "A script that runs on a web page" },
+            { "option": "D", "text": "An encrypted password" }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "An RLC series circuit has a resistance of 30 Ω, an inductive reactance of 60 Ω, and a capacitive reactance of 20 Ω. What is the total impedance of the circuit?",
+          "choices": [
+            { "option": "A", "text": "40 Ω" },
+            { "option": "B", "text": "50 Ω" },
+            { "option": "C", "text": "70 Ω" },
+            { "option": "D", "text": "110 Ω" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 62,
+          "text": "Implement a Full Adder using two Half Adders and an OR gate. The inputs are A, B, and Cin. The outputs are Sum and Cout. The expression for Cout is:",
+          "choices": [
+            { "option": "A", "text": "A ⊕ B ⊕ Cin" },
+            { "option": "B", "text": "(A ⊕ B) AND Cin" },
+            { "option": "C", "text": "(A AND B) OR (Cin AND (A ⊕ B))" },
+            { "option": "D", "text": "(A AND B) OR Cin" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What will be the output of the following C program that demonstrates recursion?\n#include <stdio.h>\nint factorial(int n) {\n    if (n == 0)\n        return 1;\n    else\n        return n * factorial(n - 1);\n}\nint main() {\n    printf(\"%d\\n\", factorial(5));\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "15" },
+            { "option": "B", "text": "25" },
+            { "option": "C", "text": "120" },
+            { "option": "D", "text": "Infinite loop" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 64,
+          "text": "A processor has a 2-stage pipeline (Fetch, Execute). Each stage takes one clock cycle. What is the number of clock cycles needed to execute 10 instructions?",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "11" },
+            { "option": "C", "text": "20" },
+            { "option": "D", "text": "22" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "A message of 1000 bytes is to be sent over a network. The protocol adds a 20-byte header to the message. If the network bandwidth is 5100 bytes per second, how long does it take to transmit the entire packet?",
+          "choices": [
+            { "option": "A", "text": "0.1 seconds" },
+            { "option": "B", "text": "0.2 seconds" },
+            { "option": "C", "text": "0.5 seconds" },
+            { "option": "D", "text": "1.0 second" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A point P(5, 8) is first translated by a vector T(–2, –3) and then reflected about the x-axis. What are the final coordinates of the point?",
+          "choices": [
+            { "option": "A", "text": "(3, -5)" },
+            { "option": "B", "text": "(-3, 5)" },
+            { "option": "C", "text": "(3, 5)" },
+            { "option": "D", "text": "(7, 11)" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 67,
+          "text": "What is the result of inserting the following keys into an initially empty Binary Search Tree (BST) in this order: 50, 30, 70, 20, 40, 60, 80?",
+          "choices": [
+            { "option": "A", "text": "The tree is skewed to the right." },
+            { "option": "B", "text": "The tree is skewed to the left." },
+            { "option": "C", "text": "The tree is a complete binary tree." },
+            { "option": "D", "text": "The tree is balanced with 50 as the root." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 68,
+          "text": "For the processes below, what is the average waiting time using the Round Robin scheduling algorithm with a time quantum of 4 ms? All processes arrive at time 0.\nProcess | Burst Time\nP1 | 10\nP2 | 5\nP3 | 8",
+          "choices": [
+            { "option": "A", "text": "7.0 ms" },
+            { "option": "B", "text": "8.33 ms" },
+            { "option": "C", "text": "9.67 ms" },
+            { "option": "D", "text": "10.0 ms" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 69,
+          "text": "A project has a 60% chance of a Rs. 200,000 profit and a 40% chance of a Rs. 100,000 loss. What is the Expected Monetary Value (EMV) of the project?",
+          "choices": [
+            { "option": "A", "text": "Rs. 120,000" },
+            { "option": "B", "text": "Rs. 80,000" },
+            { "option": "C", "text": "Rs. 160,000" },
+            { "option": "D", "text": "Rs. 40,000" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "What would the following SQL query return from a table named Students with columns Name and Marks?\nSELECT Name FROM Students WHERE Marks = (SELECT MAX(Marks) FROM Students);",
+          "choices": [
+            { "option": "A", "text": "The name of the student with the highest marks." },
+            { "option": "B", "text": "All student names, sorted by marks." },
+            { "option": "C", "text": "The highest mark in the table." },
+            { "option": "D", "text": "The average mark." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 71,
+          "text": "What is the cyclomatic complexity of a program with a single loop and an if-then-else statement inside the loop?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "5" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "How many hosts can be on a network with the CIDR prefix /26?",
+          "choices": [
+            { "option": "A", "text": "30" },
+            { "option": "B", "text": "32" },
+            { "option": "C", "text": "62" },
+            { "option": "D", "text": "64" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 73,
+          "text": "In the RSA algorithm, if p=3, q=11, and the public key e=7, what is the private key d?",
+          "choices": [
+            { "option": "A", "text": "3" },
+            { "option": "B", "text": "7" },
+            { "option": "C", "text": "11" },
+            { "option": "D", "text": "23" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 74,
+          "text": "What is the postfix (Reverse Polish Notation) expression for the infix expression A * (B + C) / D?",
+          "choices": [
+            { "option": "A", "text": "ABC+*D/" },
+            { "option": "B", "text": "A*BC+/D" },
+            { "option": "C", "text": "AB+C*D/" },
+            { "option": "D", "text": "*A+BC/D" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 75,
+          "text": "Consider a state-space graph where the heuristic value h(n) for a node n is the estimated cost to the goal. In an A* search, the evaluation function f(n) is defined as f(n) = g(n) + h(n), where g(n) is the:",
+          "choices": [
+            { "option": "A", "text": "Cost from the start node to node n." },
+            { "option": "B", "text": "Cost from node n to the goal node." },
+            { "option": "C", "text": "Number of steps from the start node to n." },
+            { "option": "D", "text": "Heuristic value of the parent of n." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 76,
+          "text": "A system has 4 page frames. For the reference string 1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, how many page faults occur with the FIFO page replacement algorithm?",
+          "choices": [
+            { "option": "A", "text": "8" },
+            { "option": "B", "text": "9" },
+            { "option": "C", "text": "10" },
+            { "option": "D", "text": "11" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern is used to provide a unified interface to a set of interfaces in a subsystem, making it easier to use?",
+          "choices": [
+            { "option": "A", "text": "Adapter Pattern" },
+            { "option": "B", "text": "Facade Pattern" },
+            { "option": "C", "text": "Singleton Pattern" },
+            { "option": "D", "text": "Observer Pattern" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code which uses templates?\n#include <iostream>\ntemplate <typename T>\nT add(T a, T b) {\n    return a + b;\n}\nint main() {\n    std::cout << add(5, 10) << \" \";\n    std::cout << add(3.5, 2.2) << std::endl;\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "15 5.7" },
+            { "option": "B", "text": "15 5" },
+            { "option": "C", "text": "Compilation Error" },
+            { "option": "D", "text": "15.0 5.7" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 79,
+          "text": "A 4:1 Multiplexer has:",
+          "choices": [
+            { "option": "A", "text": "4 data inputs, 1 selection line, 1 output" },
+            { "option": "B", "text": "4 data inputs, 2 selection lines, 1 output" },
+            { "option": "C", "text": "1 data input, 4 selection lines, 4 outputs" },
+            { "option": "D", "text": "2 data inputs, 4 selection lines, 1 output" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 80,
+          "text": "Which of the following is an example of a non-functional requirement?",
+          "choices": [
+            { "option": "A", "text": "The system shall allow users to register an account." },
+            { "option": "B", "text": "The system shall process transactions in under 2 seconds." },
+            { "option": "C", "text": "The system shall generate a monthly sales report." },
+            { "option": "D", "text": "The system shall allow administrators to delete user accounts." }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

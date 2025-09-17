@@ -1,0 +1,897 @@
+{
+  "setId": 17,
+  "title": "Computer Engineering MCQ Practice - Set 17",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A practical current source is represented by an ideal current source in parallel with a:",
+          "choices": [
+            { "option": "A", "text": "Very low resistance" },
+            { "option": "B", "text": "Very high resistance" },
+            { "option": "C", "text": "Capacitor" },
+            { "option": "D", "text": "Dependent voltage source" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 2,
+          "text": "The Quality Factor (Q) of a series RLC circuit is a measure of the circuit's:",
+          "choices": [
+            { "option": "A", "text": "Power consumption" },
+            { "option": "B", "text": "Bandwidth relative to its resonant frequency" },
+            { "option": "C", "text": "Total impedance" },
+            { "option": "D", "text": "Ability to store energy" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "In a BJT, the collector current is primarily controlled by the:",
+          "choices": [
+            { "option": "A", "text": "Collector-emitter voltage" },
+            { "option": "B", "text": "Base-emitter voltage" },
+            { "option": "C", "text": "Base current" },
+            { "option": "D", "text": "Supply voltage" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "A JFET (Junction Field-Effect Transistor) is considered a \"normally ON\" device because:",
+          "choices": [
+            { "option": "A", "text": "It requires a positive gate voltage to conduct." },
+            { "option": "B", "text": "It conducts when the gate-to-source voltage is zero." },
+            { "option": "C", "text": "It is always in the saturation region." },
+            { "option": "D", "text": "It is made from silicon." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 5,
+          "text": "An op-amp is configured as a differentiator. What is its primary disadvantage in practical applications?",
+          "choices": [
+            { "option": "A", "text": "It has a very low gain." },
+            { "option": "B", "text": "It is unstable and tends to amplify high-frequency noise." },
+            { "option": "C", "text": "It can only process DC signals." },
+            { "option": "D", "text": "It has a very low input impedance." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "The \"Miller effect\" in a transistor amplifier describes the apparent increase in the:",
+          "choices": [
+            { "option": "A", "text": "Output capacitance" },
+            { "option": "B", "text": "Input capacitance due to feedback from the output" },
+            { "option": "C", "text": "Voltage gain" },
+            { "option": "D", "text": "Emitter resistance" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 7,
+          "text": "What is a \"static hazard\" in a combinational circuit?",
+          "choices": [
+            { "option": "A", "text": "A permanent fault in the circuit." },
+            { "option": "B", "text": "A condition where the output changes multiple times for a single input change." },
+            { "option": "C", "text": "The power consumed by the circuit when inputs are not changing." },
+            { "option": "D", "text": "An unwanted momentary change in the output which should have remained constant." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 8,
+          "text": "The primary difference between a PAL (Programmable Array Logic) and a PLA (Programmable Logic Array) is that:",
+          "choices": [
+            { "option": "A", "text": "PAL has a programmable AND array and a fixed OR array; PLA has both programmable." },
+            { "option": "B", "text": "PLA has a programmable AND array and a fixed OR array; PAL has both programmable." },
+            { "option": "C", "text": "PAL is used for sequential logic, PLA for combinational." },
+            { "option": "D", "text": "PLA is an older technology than PAL." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 9,
+          "text": "The \"setup time\" is the minimum time the data input of a flip-flop must be stable:",
+          "choices": [
+            { "option": "A", "text": "After the active clock edge." },
+            { "option": "B", "text": "Before the active clock edge." },
+            { "option": "C", "text": "During the entire clock cycle." },
+            { "option": "D", "text": "During the low phase of the clock." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 10,
+          "text": "A \"control hazard\" in a CPU pipeline is caused by:",
+          "choices": [
+            { "option": "A", "text": "An instruction depending on the result of a previous instruction." },
+            { "option": "B", "text": "Two instructions needing the same hardware resource at the same time." },
+            { "option": "C", "text": "A branch instruction that changes the normal flow of execution." },
+            { "option": "D", "text": "A memory access delay." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "I/O-mapped I/O (or port-mapped I/O) uses a separate address space for I/O devices, requiring special instructions like:",
+          "choices": [
+            { "option": "A", "text": "LOAD and STORE" },
+            { "option": "B", "text": "PUSH and POP" },
+            { "option": "C", "text": "IN and OUT" },
+            { "option": "D", "text": "MOVE and ADD" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 12,
+          "text": "In C, what is the behavior of the expression i++ + ++i?",
+          "choices": [
+            { "option": "A", "text": "It is a reliable way to increment i twice." },
+            { "option": "B", "text": "It is defined to execute the pre-increment first." },
+            { "option": "C", "text": "It results in undefined behavior." },
+            { "option": "D", "text": "It is equivalent to 2*i + 2." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 13,
+          "text": "In C++, what is the \"Rule of Three/Five\"?",
+          "choices": [
+            { "option": "A", "text": "A rule of thumb that if a class defines any of a copy constructor, copy assignment operator, or destructor, it should probably define all three (or five, including move semantics)." },
+            { "option": "B", "text": "A class cannot have more than three private members." },
+            { "option": "C", "text": "A class can inherit from at most five other classes." },
+            { "option": "D", "text": "A template can have at most three parameters." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "text": "What is a \"lambda expression\" in modern C++?",
+          "choices": [
+            { "option": "A", "text": "A type of class template." },
+            { "option": "B", "text": "A way to define an anonymous function object." },
+            { "option": "C", "text": "A mechanism for exception handling." },
+            { "option": "D", "text": "A keyword for dynamic memory allocation." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "A \"Translation Lookaside Buffer\" (TLB) is a cache used by the MMU to:",
+          "choices": [
+            { "option": "A", "text": "Speed up the translation of virtual addresses to physical addresses." },
+            { "option": "B", "text": "Store frequently used instructions." },
+            { "option": "C", "text": "Predict branch outcomes." },
+            { "option": "D", "text": "Cache data from the main memory." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "In the context of RTOS, \"jitter\" refers to the:",
+          "choices": [
+            { "option": "A", "text": "Time it takes for a task to execute." },
+            { "option": "B", "text": "Variation in the latency of an event or task execution." },
+            { "option": "C", "text": "Number of tasks in the ready queue." },
+            { "option": "D", "text": "Time spent in a context switch." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "TCP's \"Fast Retransmit\" mechanism is triggered when:",
+          "choices": [
+            { "option": "A", "text": "A timeout occurs." },
+            { "option": "B", "text": "The sender receives three duplicate acknowledgments for the same segment." },
+            { "option": "C", "text": "The receiver's window size becomes zero." },
+            { "option": "D", "text": "The network is not congested." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "Border Gateway Protocol (BGP) is the routing protocol used for routing:",
+          "choices": [
+            { "option": "A", "text": "Within a single Autonomous System (interior gateway protocol)." },
+            { "option": "B", "text": "Between different Autonomous Systems (exterior gateway protocol)." },
+            { "option": "C", "text": "In small local area networks." },
+            { "option": "D", "text": "In ad-hoc wireless networks." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "What is a \"rainbow table\" attack used for?",
+          "choices": [
+            { "option": "A", "text": "Cracking password hashes by using a precomputed table of hashes." },
+            { "option": "B", "text": "A denial-of-service attack." },
+            { "option": "C", "text": "Intercepting network traffic." },
+            { "option": "D", "text": "A phishing attack." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 20,
+          "text": "The Pumping Lemma for context-free languages is used to prove that a language is:",
+          "choices": [
+            { "option": "A", "text": "Regular" },
+            { "option": "B", "text": "Context-free" },
+            { "option": "C", "text": "Not context-free" },
+            { "option": "D", "text": "Decidable" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 21,
+          "text": "In 3D graphics, a \"normal vector\" at a point on a surface is a vector that is:",
+          "choices": [
+            { "option": "A", "text": "Tangent to the surface at that point." },
+            { "option": "B", "text": "Perpendicular to the surface at that point." },
+            { "option": "C", "text": "Pointing towards the light source." },
+            { "option": "D", "text": "Pointing towards the viewer." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 22,
+          "text": "Kruskal's algorithm for finding the MST sorts all the edges by weight and adds them to the tree if they:",
+          "choices": [
+            { "option": "A", "text": "Connect to the starting vertex." },
+            { "option": "B", "text": "Do not form a cycle with the existing edges in the tree." },
+            { "option": "C", "text": "Have the highest weight." },
+            { "option": "D", "text": "Connect two previously unconnected components." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "The ROLLBACK command in a database transaction is used to:",
+          "choices": [
+            { "option": "A", "text": "Make the transaction's changes permanent." },
+            { "option": "B", "text": "Undo all the changes made by the transaction." },
+            { "option": "C", "text": "Start a new transaction." },
+            { "option": "D", "text": "Set a savepoint." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "Which page replacement algorithm suffers from Belady's Anomaly?",
+          "choices": [
+            { "option": "A", "text": "Least Recently Used (LRU)" },
+            { "option": "B", "text": "Optimal Page Replacement" },
+            { "option": "C", "text": "First-In, First-Out (FIFO)" },
+            { "option": "D", "text": "Second Chance Algorithm" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 25,
+          "text": "\"Cohesion\" in software design refers to the measure of how strongly related and focused the responsibilities of a single module are. Which form of cohesion is considered the best?",
+          "choices": [
+            { "option": "A", "text": "Coincidental cohesion" },
+            { "option": "B", "text": "Logical cohesion" },
+            { "option": "C", "text": "Temporal cohesion" },
+            { "option": "D", "text": "Functional cohesion" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 26,
+          "text": "The \"State\" design pattern is a behavioral pattern that:",
+          "choices": [
+            { "option": "A", "text": "Ensures a class has only one instance." },
+            { "option": "B", "text": "Allows an object to alter its behavior when its internal state changes." },
+            { "option": "C", "text": "Defines a family of algorithms and makes them interchangeable." },
+            { "option": "D", "text": "Provides a placeholder for another object." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 27,
+          "text": "First-Order Logic (FOL) can represent the statement \"All engineers are smart\" as:",
+          "choices": [
+            { "option": "A", "text": "Engineer ⇒ Smart" },
+            { "option": "B", "text": "∀x (Engineer(x) ⇒ Smart(x))" },
+            { "option": "C", "text": "∃x (Engineer(x) ∧ Smart(x))" },
+            { "option": "D", "text": "Engineer(x) ∧ Smart(x)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "In machine learning, what is \"regularization\"?",
+          "choices": [
+            { "option": "A", "text": "The process of normalizing the input data." },
+            { "option": "B", "text": "A technique used to prevent overfitting by adding a penalty term to the loss function." },
+            { "option": "C", "text": "The process of selecting the best model." },
+            { "option": "D", "text": "The process of training a model." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 29,
+          "text": "Earned Value (EV) in project management is:",
+          "choices": [
+            { "option": "A", "text": "The total budget for the project." },
+            { "option": "B", "text": "The actual cost incurred to date." },
+            { "option": "C", "text": "The budgeted cost of the work that has actually been completed." },
+            { "option": "D", "text": "The planned cost of the work scheduled." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "Which of the following represents a potential conflict of interest for an engineer?",
+          "choices": [
+            { "option": "A", "text": "Using a standard, well-known component in a design." },
+            { "option": "B", "text": "Specifying the use of a product manufactured by a company in which the engineer has a significant financial interest." },
+            { "option": "C", "text": "Working overtime to meet a project deadline." },
+            { "option": "D", "text": "Peer-reviewing a colleague's work." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In a parallel resonant circuit, the impedance at resonance is:",
+          "choices": [
+            { "option": "A", "text": "Minimum" },
+            { "option": "B", "text": "Maximum" },
+            { "option": "C", "text": "Zero" },
+            { "option": "D", "text": "Equal to the resistance" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 32,
+          "text": "A \"Johnson Counter\" is a variation of a:",
+          "choices": [
+            { "option": "A", "text": "Ring counter" },
+            { "option": "B", "text": "Ripple counter" },
+            { "option": "C", "text": "Synchronous counter" },
+            { "option": "D", "text": "Decade counter" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "In C++, what is SFINAE (Substitution Failure Is Not An Error)?",
+          "choices": [
+            { "option": "A", "text": "A runtime exception." },
+            { "option": "B", "text": "A principle in template metaprogramming that allows for compile-time decisions based on whether a certain type substitution is valid." },
+            { "option": "C", "text": "A syntax error." },
+            { "option": "D", "text": "A linker error." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 34,
+          "text": "What is a \"data hazard\" in a pipeline?",
+          "choices": [
+            { "option": "A", "text": "When an instruction cannot execute because the required hardware is busy." },
+            { "option": "B", "text": "When an instruction's execution depends on the result of a previous, unfinished instruction." },
+            { "option": "C", "text": "When a branch instruction is encountered." },
+            { "option": "D", "text": "When a memory access takes too long." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 35,
+          "text": "The primary purpose of the \"spanning tree protocol\" (STP) in an Ethernet network is to:",
+          "choices": [
+            { "option": "A", "text": "Find the shortest path between two nodes." },
+            { "option": "B", "text": "Prevent broadcast storms by disabling loops in a redundant switched network." },
+            { "option": "C", "text": "Assign IP addresses." },
+            { "option": "D", "text": "Increase network bandwidth." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 36,
+          "text": "A problem is \"NP-complete\" if it is in the class NP and:",
+          "choices": [
+            { "option": "A", "text": "It can be solved in polynomial time." },
+            { "option": "B", "text": "Every problem in NP can be reduced to it in polynomial time." },
+            { "option": "C", "text": "It is an undecidable problem." },
+            { "option": "D", "text": "It can be verified in exponential time." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 37,
+          "text": "A B-Tree is a self-balancing tree data structure that is optimized for:",
+          "choices": [
+            { "option": "A", "text": "In-memory operations" },
+            { "option": "B", "text": "Systems that read and write large blocks of data (disks)" },
+            { "option": "C", "text": "Storing binary data" },
+            { "option": "D", "text": "Graph traversal" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "The \"Dining Philosophers\" problem is a classic OS problem used to illustrate:",
+          "choices": [
+            { "option": "A", "text": "The challenges of deadlock and starvation in concurrent systems." },
+            { "option": "B", "text": "Page replacement algorithms." },
+            { "option": "C", "text": "CPU scheduling." },
+            { "option": "D", "text": "File system management." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "In software engineering, \"technical debt\" is a concept that reflects:",
+          "choices": [
+            { "option": "A", "text": "The total financial cost of a software project." },
+            { "option": "B", "text": "The implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer." },
+            { "option": "C", "text": "The number of bugs in the software." },
+            { "option": "D", "text": "The amount of time spent on documentation." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "\"Backward chaining\" is an inference method used in expert systems that works backward from:",
+          "choices": [
+            { "option": "A", "text": "The initial facts to a conclusion." },
+            { "option": "B", "text": "A potential conclusion (goal) to see if there is evidence to support it." },
+            { "option": "C", "text": "A set of rules." },
+            { "option": "D", "text": "A user query." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "What is a key difference between a MOSFET and a BJT?",
+          "choices": [
+            { "option": "A", "text": "A MOSFET is a current-controlled device, while a BJT is a voltage-controlled device." },
+            { "option": "B", "text": "A BJT is a current-controlled device, while a MOSFET is a voltage-controlled device." },
+            { "option": "C", "text": "MOSFETs are only used for digital circuits." },
+            { "option": "D", "text": "BJTs have a much higher input impedance." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "A \"race-around\" condition can occur in which type of flip-flop?",
+          "choices": [
+            { "option": "A", "text": "D flip-flop" },
+            { "option": "B", "text": "T flip-flop" },
+            { "option": "C", "text": "Edge-triggered JK flip-flop" },
+            { "option": "D", "text": "Level-triggered JK flip-flop" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 43,
+          "text": "What is \"RAII\" (Resource Acquisition Is Initialization) in C++?",
+          "choices": [
+            { "option": "A", "text": "A memory allocation function." },
+            { "option": "B", "text": "A design idiom that binds the life cycle of a resource to the lifetime of an object." },
+            { "option": "C", "text": "A type of inheritance." },
+            { "option": "D", "text": "A way to handle runtime errors." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "What is the \"fast-forward\" merge in a version control system like Git?",
+          "choices": [
+            { "option": "A", "text": "A merge where the tip of the target branch is an ancestor of the source branch." },
+            { "option": "B", "text": "A merge that results in a merge conflict." },
+            { "option": "C", "text": "A merge that creates a new merge commit." },
+            { "option": "D", "text": "A merge that discards the history of one of the branches." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 45,
+          "text": "Which of the following is a \"link-state\" routing protocol?",
+          "choices": [
+            { "option": "A", "text": "RIP" },
+            { "option": "B", "text": "OSPF" },
+            { "option": "C", "text": "BGP" },
+            { "option": "D", "text": "EIGRP" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "The Cohen-Sutherland algorithm is used for:",
+          "choices": [
+            { "option": "A", "text": "2D line clipping" },
+            { "option": "B", "text": "3D rendering" },
+            { "option": "C", "text": "Shading" },
+            { "option": "D", "text": "Texture mapping" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 47,
+          "text": "The \"ACID\" properties of a transaction stand for:",
+          "choices": [
+            { "option": "A", "text": "Atomicity, Concurrency, Isolation, Durability" },
+            { "option": "B", "text": "Atomicity, Consistency, Isolation, Durability" },
+            { "option": "C", "text": "Availability, Consistency, Integrity, Durability" },
+            { "option": "D", "text": "Atomicity, Consistency, Integrity, Data" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 48,
+          "text": "In object-oriented design, the \"Strategy\" pattern allows:",
+          "choices": [
+            { "option": "A", "text": "An object to change its behavior when its state changes." },
+            { "option": "B", "text": "Defining a family of algorithms, encapsulating each one, and making them interchangeable." },
+            { "option": "C", "text": "Ensuring a class has only one instance." },
+            { "option": "D", "text": "Attaching additional responsibilities to an object." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 49,
+          "text": "What is the \"bias-variance tradeoff\" in machine learning?",
+          "choices": [
+            { "option": "A", "text": "A model with high bias pays little attention to the training data and oversimplifies, while a model with high variance pays too much attention and overfits." },
+            { "option": "B", "text": "The tradeoff between the speed and accuracy of a model." },
+            { "option": "C", "text": "The tradeoff between the number of features and the number of training examples." },
+            { "option": "D", "text": "The tradeoff between precision and recall." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "According to the NEC's code of conduct, an engineer must:",
+          "choices": [
+            { "option": "A", "text": "Prioritize their employer's profit above all else." },
+            { "option": "B", "text": "Inform their client or employer of any business connections or interests which might influence their judgment." },
+            { "option": "C", "text": "Attempt to injure the professional reputation of another engineer." },
+            { "option": "D", "text": "Accept compensation from more than one party for the same service without the consent of all parties." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "The \"duty cycle\" of a periodic waveform is the ratio of:",
+          "choices": [
+            { "option": "A", "text": "The time the signal is active to the total period." },
+            { "option": "B", "text": "The total period to the time the signal is active." },
+            { "option": "C", "text": "The peak amplitude to the average amplitude." },
+            { "option": "D", "text": "The frequency to the period." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 52,
+          "text": "A \"Finite State Machine\" (FSM) is an abstract machine that can be in exactly one of a finite number of:",
+          "choices": [
+            { "option": "A", "text": "States at any given time." },
+            { "option": "B", "text": "Inputs." },
+            { "option": "C", "text": "Outputs." },
+            { "option": "D", "text": "Transitions." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 53,
+          "text": "In C, void * is a generic pointer that:",
+          "choices": [
+            { "option": "A", "text": "Cannot be used." },
+            { "option": "B", "text": "Can point to any data type." },
+            { "option": "C", "text": "Can only point to functions." },
+            { "option": "D", "text": "Is a pointer that points to nothing." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 54,
+          "text": "In TCP congestion control, the \"slow start\" phase:",
+          "choices": [
+            { "option": "A", "text": "Increases the congestion window linearly." },
+            { "option": "B", "text": "Increases the congestion window exponentially." },
+            { "option": "C", "text": "Decreases the congestion window." },
+            { "option": "D", "text": "Keeps the congestion window constant." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 55,
+          "text": "The problem of \"determining if a string belongs to a context-free language\" is:",
+          "choices": [
+            { "option": "A", "text": "Undecidable" },
+            { "option": "B", "text": "Decidable" },
+            { "option": "C", "text": "NP-complete" },
+            { "option": "D", "text": "Trivial" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 56,
+          "text": "\"Cyclomatic complexity\" is a software metric used to measure the:",
+          "choices": [
+            { "option": "A", "text": "Number of lines of code." },
+            { "option": "B", "text": "Complexity of a program's control flow." },
+            { "option": "C", "text": "Cohesion of a module." },
+            { "option": "D", "text": "Coupling between modules." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "The \"perceptron\" learning algorithm is guaranteed to converge if:",
+          "choices": [
+            { "option": "A", "text": "The data is linearly separable." },
+            { "option": "B", "text": "The learning rate is small." },
+            { "option": "C", "text": "The number of features is large." },
+            { "option": "D", "text": "The data contains no noise." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 58,
+          "text": "\"Earned Value Management\" (EVM) integrates:",
+          "choices": [
+            { "option": "A", "text": "Scope, schedule, and cost baselines." },
+            { "option": "B", "text": "Only the project schedule." },
+            { "option": "C", "text": "Only the project budget." },
+            { "option": "D", "text": "The project team's performance reviews." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "An engineer discovering a design error that could pose a public safety risk after a project is complete has an ethical obligation to:",
+          "choices": [
+            { "option": "A", "text": "Ignore it to avoid liability." },
+            { "option": "B", "text": "Inform their employer or client and any appropriate authorities." },
+            { "option": "C", "text": "Try to fix it secretly." },
+            { "option": "D", "text": "Blame a junior engineer." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "A \"page fault\" is a type of:",
+          "choices": [
+            { "option": "A", "text": "Hardware failure" },
+            { "option": "B", "text": "User error" },
+            { "option": "C", "text": "Exception or trap generated by the hardware when a process accesses a page not in physical memory" },
+            { "option": "D", "text": "Software bug in the application" }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "An amplifier has a voltage gain of 40 dB. If the input voltage is 10 mV, what is the output voltage? ($A_{v_dB} = 20 \\times \\log_{10}(V_{out}/V_{in})$)",
+          "choices": [
+            { "option": "A", "text": "100 mV" },
+            { "option": "B", "text": "400 mV" },
+            { "option": "C", "text": "1 V" },
+            { "option": "D", "text": "4 V" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "A 5-bit synchronous counter is built using JK flip-flops. If the propagation delay of each flip-flop is 12 ns and the AND gate used for logic has a delay of 8 ns, what is the maximum clock frequency the counter can operate at?",
+          "choices": [
+            { "option": "A", "text": "20 MHz" },
+            { "option": "B", "text": "41.67 MHz" },
+            { "option": "C", "text": "50 MHz" },
+            { "option": "D", "text": "83.33 MHz" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of the following C++ code involving a virtual destructor?\n#include <iostream>\nclass Base {\npublic:\n    Base() { std::cout << \"Base Constructor\\n\"; }\n    virtual ~Base() { std::cout << \"Base Destructor\\n\"; }\n};\nclass Derived : public Base {\npublic:\n    Derived() { std::cout << \"Derived Constructor\\n\"; }\n    ~Derived() { std::cout << \"Derived Destructor\\n\"; }\n};\nint main() {\n    Base *b = new Derived();\n    delete b;\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "Base Constructor, Derived Constructor, Base Destructor" },
+            { "option": "B", "text": "Base Constructor, Derived Constructor, Derived Destructor, Base Destructor" },
+            { "option": "C", "text": "Base Constructor, Derived Constructor, Base Destructor, Derived Destructor" },
+            { "option": "D", "text": "The code has a memory leak." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 64,
+          "text": "A system has a 24-bit virtual address, a 16-bit physical address, and a 2 KB page size. How many virtual pages and how many physical frames are there in this system?",
+          "choices": [
+            { "option": "A", "text": "$2^{13}$ virtual pages, $2^5$ physical frames" },
+            { "option": "B", "text": "$2^{24}$ virtual pages, $2^{16}$ physical frames" },
+            { "option": "C", "text": "$2^{11}$ virtual pages, $2^{11}$ physical frames" },
+            { "option": "D", "text": "$2^{13}$ virtual pages, $2^{16}$ physical frames" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "Consider a network using the Go-Back-N protocol with a window size of 4 and a sequence number space of 8 (0-7). If the sender has sent packets 0, 1, 2, 3 and receives an ACK for packet 1, what new packets can the sender transmit?",
+          "choices": [
+            { "option": "A", "text": "Only packet 4" },
+            { "option": "B", "text": "Packets 4 and 5" },
+            { "option": "C", "text": "Packets 4, 5, 6, 7" },
+            { "option": "D", "text": "No new packets until packet 0 is ACKed." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A 2D point (2, 3) is subjected to a composite transformation: first, a rotation of -90 degrees (clockwise) about the origin, and second, a reflection about the x-axis. What are the final coordinates?",
+          "choices": [
+            { "option": "A", "text": "(3, 2)" },
+            { "option": "B", "text": "(-3, -2)" },
+            { "option": "C", "text": "(3, -2)" },
+            { "option": "D", "text": "(-2, 3)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 67,
+          "text": "Consider a system with 4 processes and 3 resource types (A, B, C). The total resources are (9, 7, 8). At T0, the state is as follows. Is the system in a safe state?\n\\begin{center}\n\\begin{tabular}{|c|c|c|}\n\\hline\nProcess & Allocation & Max Need \\\\\n\\hline\nP0 & (1, 2, 2) & (4, 3, 3) \\\\\nP1 & (2, 0, 1) & (3, 2, 2) \\\\\nP2 & (3, 1, 4) & (9, 1, 4) \\\\\nP3 & (0, 2, 0) & (2, 2, 2) \\\\\n\\hline\n\\end{tabular}\n\\end{center}",
+          "choices": [
+            { "option": "A", "text": "Yes, a safe sequence exists (e.g., P3, P1, P0, P2)." },
+            { "option": "B", "text": "Yes, a safe sequence exists (e.g., P1, P0, P3, P2)." },
+            { "option": "C", "text": "No, the system is in an unsafe state." },
+            { "option": "D", "text": "The system is currently deadlocked." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "A project has a Budget at Completion (BAC) of $500,000. At a certain point, the Earned Value (EV) is $200,000, and the Actual Cost (AC) is $250,000. What is the Cost Performance Index (CPI), and what does it indicate?",
+          "choices": [
+            { "option": "A", "text": "CPI = 1.25, the project is under budget." },
+            { "option": "B", "text": "CPI = 1.25, the project is over budget." },
+            { "option": "C", "text": "CPI = 0.8, the project is over budget." },
+            { "option": "D", "text": "CPI = 0.8, the project is under budget." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 69,
+          "text": "In the RSA algorithm, p=7, q=11, e=13. What is the ciphertext for the plaintext message M=5?",
+          "choices": [
+            { "option": "A", "text": "19" },
+            { "option": "B", "text": "26" },
+            { "option": "C", "text": "47" },
+            { "option": "D", "text": "51" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 70,
+          "text": "What does the following SQL query do?\nSELECT e1.Name FROM Employees e1, Employees e2 WHERE e1.ManagerID = e2.ID AND e1.Salary > e2.Salary;",
+          "choices": [
+            { "option": "A", "text": "It lists all employees and their managers." },
+            { "option": "B", "text": "It lists all managers who earn more than their employees." },
+            { "option": "C", "text": "It lists all employees who earn more than their direct manager." },
+            { "option": "D", "text": "The query is invalid due to a self-join." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 71,
+          "text": "A control flow graph for a program has 10 nodes, 12 edges, and 2 connected components. What is its cyclomatic complexity? ($M = E - N + 2P$)",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "6" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 72,
+          "text": "What is the number of distinct simple graphs (undirected, no self-loops) that can be constructed with 3 labeled vertices?",
+          "choices": [
+            { "option": "A", "text": "3" },
+            { "option": "B", "text": "4" },
+            { "option": "C", "text": "8" },
+            { "option": "D", "text": "9" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "In a system with a 20-bit address bus and a 16-bit data bus, what is the maximum memory capacity and the word size?",
+          "choices": [
+            { "option": "A", "text": "1 MB, 16 bits" },
+            { "option": "B", "text": "2 MB, 16 bits" },
+            { "option": "C", "text": "1 MB, 20 bits" },
+            { "option": "D", "text": "20 MB, 16 bits" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 74,
+          "text": "What does the regular expression [a-zA-Z][a-zA-Z0-9]* typically represent?",
+          "choices": [
+            { "option": "A", "text": "A password" },
+            { "option": "B", "text": "An email address" },
+            { "option": "C", "text": "A valid identifier in many programming languages" },
+            { "option": "D", "text": "A hexadecimal number" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 75,
+          "text": "An A* search algorithm expands a node n. The path cost from the start to n, g(n), is 10. The heuristic estimate to the goal, h(n), is 5. The actual cost from n to the goal is 8. Is the heuristic admissible for this instance?",
+          "choices": [
+            { "option": "A", "text": "Yes, because h(n) < g(n)." },
+            { "option": "B", "text": "Yes, because h(n) <= actual cost (5 <= 8)." },
+            { "option": "C", "text": "No, because h(n) != actual cost." },
+            { "option": "D", "text": "No, because h(n) > 0." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "A system's memory consists of partitions of sizes 150K, 350K, 200K, and 400K. In what partition will a new process requiring 180K of memory be placed using the \"Best Fit\" algorithm?",
+          "choices": [
+            { "option": "A", "text": "150K" },
+            { "option": "B", "text": "350K" },
+            { "option": "C", "text": "200K" },
+            { "option": "D", "text": "400K" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern would be used to create a complex object step by step, allowing the construction process to create different representations of the object?",
+          "choices": [
+            { "option": "A", "text": "Factory Method" },
+            { "option": "B", "text": "Abstract Factory" },
+            { "option": "C", "text": "Builder Pattern" },
+            { "option": "D", "text": "Prototype Pattern" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 78,
+          "text": "What is the primary risk of not using a virtual destructor in a base class from which other classes are derived?",
+          "choices": [
+            { "option": "A", "text": "The program will not compile." },
+            { "option": "B", "text": "A memory leak can occur if a derived class object is deleted through a base class pointer." },
+            { "option": "C", "text": "The base class constructor will not be called." },
+            { "option": "D", "text": "Performance will be significantly reduced." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "A 4-bit parallel-in, serial-out (PISO) shift register is loaded with the data 1101. If the clock is pulsed 3 times, what will be the serial output? (Assume the LSB is shifted out first).",
+          "choices": [
+            { "option": "A", "text": "101" },
+            { "option": "B", "text": "110" },
+            { "option": "C", "text": "1101" },
+            { "option": "D", "text": "011" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "A project has a Planned Value (PV) of $1000, an Earned Value (EV) of $900, and an Actual Cost (AC) of $800. What is the status of the project?",
+          "choices": [
+            { "option": "A", "text": "Ahead of schedule and under budget." },
+            { "option": "B", "text": "Behind schedule and under budget." },
+            { "option": "C", "text": "Ahead of schedule and over budget." },
+            { "option": "D", "text": "Behind schedule and over budget." }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "setId": 18,
+  "title": "Computer Engineering MCQ Practice - Set 18",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "In a circuit with both independent and dependent sources, the Superposition theorem is applied by considering:",
+          "choices": [
+            { "option": "A", "text": "One independent source at a time, with dependent sources always active." },
+            { "option": "B", "text": "One source (independent or dependent) at a time." },
+            { "option": "C", "text": "Only one independent source at a time, with dependent sources deactivated." },
+            { "option": "D", "text": "The theorem cannot be applied to circuits with dependent sources." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 2,
+          "text": "In a parallel RLC circuit, the bandwidth is given by:",
+          "choices": [
+            { "option": "A", "text": "$R / L$" },
+            { "option": "B", "text": "$1 / (RC)$" },
+            { "option": "C", "text": "$L / R$" },
+            { "option": "D", "text": "$R / (2\\pi L)$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "The \"punch-through\" effect in a BJT occurs when:",
+          "choices": [
+            { "option": "A", "text": "The base-emitter junction breaks down." },
+            { "option": "B", "text": "The collector-base depletion region expands to touch the base-emitter depletion region." },
+            { "option": "C", "text": "The thermal runaway destroys the transistor." },
+            { "option": "D", "text": "The transistor enters the saturation region." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "text": "The primary difference between a depletion-mode and an enhancement-mode MOSFET is that:",
+          "choices": [
+            { "option": "A", "text": "Depletion-mode MOSFETs are \"normally ON\"; enhancement-mode are \"normally OFF\"." },
+            { "option": "B", "text": "Enhancement-mode MOSFETs are \"normally ON\"; depletion-mode are \"normally OFF\"." },
+            { "option": "C", "text": "Depletion-mode MOSFETs do not have a gate." },
+            { "option": "D", "text": "Enhancement-mode MOSFETs are used only in digital logic." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "An op-amp's \"Input Offset Voltage\" is the differential input voltage required to:",
+          "choices": [
+            { "option": "A", "text": "Drive the output to its maximum swing." },
+            { "option": "B", "text": "Make the open-loop gain infinite." },
+            { "option": "C", "text": "Make the output voltage exactly zero." },
+            { "option": "D", "text": "Maximize the Common Mode Rejection Ratio." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 6,
+          "text": "A \"cascode\" amplifier configuration is used primarily to:",
+          "choices": [
+            { "option": "A", "text": "Increase the output voltage swing." },
+            { "option": "B", "text": "Increase the input impedance." },
+            { "option": "C", "text": "Reduce the Miller effect and improve high-frequency performance." },
+            { "option": "D", "text": "Decrease the output impedance." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "text": "A \"dynamic hazard\" in a digital circuit is a condition where:",
+          "choices": [
+            { "option": "A", "text": "The output changes more than once for a single input change that was supposed to cause a single output change." },
+            { "option": "B", "text": "The circuit consumes power even when idle." },
+            { "option": "C", "text": "The output is stuck at a single value." },
+            { "option": "D", "text": "The circuit enters a race condition." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "text": "An \"antifuse\" in a Field-Programmable Gate Array (FPGA) is a type of interconnect that:",
+          "choices": [
+            { "option": "A", "text": "Is normally a high resistance path that can be permanently changed to a low resistance path." },
+            { "option": "B", "text": "Is normally a low resistance path that can be permanently broken." },
+            { "option": "C", "text": "Is reconfigurable like an SRAM cell." },
+            { "option": "D", "text": "Is used to store the configuration data." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 9,
+          "text": "A \"look-ahead carry\" adder is faster than a ripple-carry adder because:",
+          "choices": [
+            { "option": "A", "text": "It uses fewer logic gates." },
+            { "option": "B", "text": "It generates the carry-in for each bit position simultaneously, without waiting for the previous bit's carry-out." },
+            { "option": "C", "text": "It uses synchronous flip-flops." },
+            { "option": "D", "text": "It operates on a higher clock frequency." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 10,
+          "text": "A \"VLIW\" (Very Long Instruction Word) architecture is characterized by:",
+          "choices": [
+            { "option": "A", "text": "Relying on the hardware to find instruction-level parallelism." },
+            { "option": "B", "text": "A complex instruction set." },
+            { "option": "C", "text": "Relying on the compiler to bundle multiple, independent, simple instructions into a single very long instruction word." },
+            { "option": "D", "text": "A deep instruction pipeline." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "In C, a \"flexible array member\" is an array of unspecified size that can only be declared as the:",
+          "choices": [
+            { "option": "A", "text": "First member of a structure." },
+            { "option": "B", "text": "Last member of a structure that has at least one other member." },
+            { "option": "C", "text": "A global variable." },
+            { "option": "D", "text": "A static local variable." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "What is \"type punning\" in C, and why can it be dangerous?",
+          "choices": [
+            { "option": "A", "text": "It is giving a type a new name using typedef. It is always safe." },
+            { "option": "B", "text": "It is a technique to access a piece of memory as different types, often violating strict aliasing rules and leading to undefined behavior." },
+            { "option": "C", "text": "It is the process of converting an integer to a float. It can cause a loss of precision." },
+            { "option": "D", "text": "It refers to using void* pointers, which is a standard and safe practice." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C++, what does \"perfect forwarding\" refer to?",
+          "choices": [
+            { "option": "A", "text": "The ability to pass arguments to a function template and have them forwarded to another function with their original value category (lvalue/rvalue) preserved." },
+            { "option": "B", "text": "A way to ensure a function always returns the correct type." },
+            { "option": "C", "text": "A linker optimization." },
+            { "option": "D", "text": "The process of copying an object without invoking the copy constructor." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "text": "What is the difference between a \"structural hazard\" and a \"data hazard\" in a pipeline?",
+          "choices": [
+            { "option": "A", "text": "They are the same." },
+            { "option": "B", "text": "A structural hazard is due to resource conflict; a data hazard is due to an instruction needing a result that is not yet available." },
+            { "option": "C", "text": "A data hazard is a resource conflict; a structural hazard is a dependency issue." },
+            { "option": "D", "text": "A structural hazard is caused by branches; a data hazard is caused by memory access." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "What is the purpose of \"Random Early Detection\" (RED) in a network router?",
+          "choices": [
+            { "option": "A", "text": "To provide a mechanism for congestion avoidance by randomly dropping packets before the queue is completely full." },
+            { "option": "B", "text": "To detect and correct bit errors in packets." },
+            { "option": "C", "text": "To find the shortest path to a destination." },
+            { "option": "D", "text": "To filter malicious traffic." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "A problem is in the complexity class \"NP-Hard\" if:",
+          "choices": [
+            { "option": "A", "text": "It can be solved in non-deterministic polynomial time." },
+            { "option": "B", "text": "It is at least as hard as the hardest problems in NP; any NP problem can be reduced to it." },
+            { "option": "C", "text": "A solution can be verified in polynomial time." },
+            { "option": "D", "text": "It is undecidable." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "A \"Fibonacci heap\" is a data structure used to implement a priority queue that has a better amortized running time for some operations compared to a:",
+          "choices": [
+            { "option": "A", "text": "Binary heap" },
+            { "option": "B", "text": "B-Tree" },
+            { "option": "C", "text": "Hash table" },
+            { "option": "D", "text": "Stack" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "text": "A \"monitor\" as a synchronization construct provides mutual exclusion and what other key capability?",
+          "choices": [
+            { "option": "A", "text": "Condition variables, allowing threads to wait for specific conditions to become true." },
+            { "option": "B", "text": "The ability to execute in parallel." },
+            { "option": "C", "text": "Deadlock detection." },
+            { "option": "D", "text": "Priority inversion handling." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 19,
+          "text": "What is \"Content-Addressable Memory\" (CAM)?",
+          "choices": [
+            { "option": "A", "text": "A type of memory that is accessed by its physical address." },
+            { "option": "B", "text": "A special type of memory that is searched by its content rather than its address, often used for high-speed searching applications like routing tables." },
+            { "option": "C", "text": "A computer memory that is much slower than RAM." },
+            { "option": "D", "text": "Another name for a CPU cache." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "text": "The \"Liskov Substitution Principle\" (LSP) in SOLID design states that if S is a subtype of T, then objects of type T may be:",
+          "choices": [
+            { "option": "A", "text": "Replaced with objects of type S without altering any of the desirable properties of the program." },
+            { "option": "B", "text": "Converted to type S." },
+            { "option": "C", "text": "Used to access private members of S." },
+            { "option": "D", "text": "Inherited from S." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 21,
+          "text": "In machine learning, \"ensemble learning\" is a technique that:",
+          "choices": [
+            { "option": "A", "text": "Uses a single, complex model for prediction." },
+            { "option": "B", "text": "Combines the predictions of multiple individual models to produce a more accurate result." },
+            { "option": "C", "text": "Is used only for unsupervised learning." },
+            { "option": "D", "text": "Focuses on feature selection." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 22,
+          "text": "In project management, \"fast tracking\" is a schedule compression technique that involves:",
+          "choices": [
+            { "option": "A", "text": "Adding more resources to the project." },
+            { "option": "B", "text": "Reducing the project scope." },
+            { "option": "C", "text": "Performing activities in parallel that would normally be done in sequence." },
+            { "option": "D", "text": "Using a more experienced team." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 23,
+          "text": "An engineer is asked by their manager to approve a design that they know is marginally safe. The ethical course of action is to:",
+          "choices": [
+            { "option": "A", "text": "Approve the design to keep their job." },
+            { "option": "B", "text": "Refuse to approve the design and report their concerns about public safety to the appropriate authorities." },
+            { "option": "C", "text": "Ask a junior engineer to approve it." },
+            { "option": "D", "text": "Approve the design but write a secret memo about their concerns." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "A \"lookaside buffer\" is another name for:",
+          "choices": [
+            { "option": "A", "text": "A cache" },
+            { "option": "B", "text": "A Translation Lookaside Buffer (TLB)" },
+            { "option": "C", "text": "A register file" },
+            { "option": "D", "text": "A write buffer" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 25,
+          "text": "What is the primary motivation for using a \"Gray code\" sequence in a mechanical shaft encoder?",
+          "choices": [
+            { "option": "A", "text": "It requires fewer bits to represent a position." },
+            { "option": "B", "text": "It is a weighted code, making calculations easier." },
+            { "option": "C", "text": "It eliminates ambiguity during transitions because only one bit changes at a time." },
+            { "option": "D", "text": "It is more resistant to magnetic interference." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 26,
+          "text": "What is the difference between a union and a struct in C in terms of memory alignment?",
+          "choices": [
+            { "option": "A", "text": "struct members are not aligned; union members are." },
+            { "option": "B", "text": "The alignment of a union is the alignment of its largest member, while a struct may have padding between members." },
+            { "option": "C", "text": "They have the same alignment rules." },
+            { "option": "D", "text": "A union's alignment is always 1 byte." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 27,
+          "text": "What is \"Curiously Recurring Template Pattern\" (CRTP) in C++?",
+          "choices": [
+            { "option": "A", "text": "A common syntax error in templates." },
+            { "option": "B", "text": "A design pattern where a class X derives from a template class instantiated with X itself." },
+            { "option": "C", "text": "A way to create recursive functions using templates." },
+            { "option": "D", "text": "An anti-pattern that should be avoided." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "In TCP, what is the \"silly window syndrome\"?",
+          "choices": [
+            { "option": "A", "text": "A problem where the congestion window grows too large." },
+            { "option": "B", "text": "A problem caused by sending a large amount of data in very small segments, leading to inefficient use of the network." },
+            { "option": "C", "text": "A security vulnerability in the windowing mechanism." },
+            { "option": "D", "text": "The result of a timeout." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "Cook's theorem proved that the \"Boolean Satisfiability Problem\" (SAT) is:",
+          "choices": [
+            { "option": "A", "text": "In P" },
+            { "option": "B", "text": "NP-complete" },
+            { "option": "C", "text": "Undecidable" },
+            { "option": "D", "text": "A context-free language" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "What is a \"B+ Tree\", and how does it differ from a B-Tree?",
+          "choices": [
+            { "option": "A", "text": "It is a less efficient version of a B-Tree." },
+            { "option": "B", "text": "All data pointers are stored only in the leaf nodes, making the leaf nodes a linked list for efficient range queries." },
+            { "option": "C", "text": "It is a binary version of a B-Tree." },
+            { "option": "D", "text": "There is no difference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In OS memory management, what is the \"buddy system\"?",
+          "choices": [
+            { "option": "A", "text": "A memory allocation algorithm that divides memory into partitions of power-of-2 sizes and tries to find a \"buddy\" block to merge with upon deallocation." },
+            { "option": "B", "text": "A page replacement algorithm." },
+            { "option": "C", "text": "A way for two processes to share memory." },
+            { "option": "D", "text": "A technique for deadlock prevention." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 32,
+          "text": "What is \"metaprogramming\" in software engineering?",
+          "choices": [
+            { "option": "A", "text": "A style of programming that avoids using functions." },
+            { "option": "B", "text": "The practice of writing programs that write or manipulate other programs (or themselves)." },
+            { "option": "C", "text": "A type of object-oriented design." },
+            { "option": "D", "text": "A methodology for project management." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 33,
+          "text": "What is the primary difference between a \"knowledge-based system\" and a conventional program?",
+          "choices": [
+            { "option": "A", "text": "A knowledge-based system has its knowledge base and inference engine separated, making it easier to modify the knowledge." },
+            { "option": "B", "text": "A conventional program is written in a higher-level language." },
+            { "option": "C", "text": "There is no difference." },
+            { "option": "D", "text": "A knowledge-based system cannot use procedural logic." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 34,
+          "text": "In machine learning, what is a \"Support Vector Machine\" (SVM)?",
+          "choices": [
+            { "option": "A", "text": "A supervised learning model that finds a hyperplane that best separates data into classes." },
+            { "option": "B", "text": "A type of neural network." },
+            { "option": "C", "text": "A clustering algorithm." },
+            { "option": "D", "text": "A reinforcement learning algorithm." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "The \"Cost Performance Index\" (CPI) in project management is calculated as:",
+          "choices": [
+            { "option": "A", "text": "$EV / AC$ (Earned Value / Actual Cost)" },
+            { "option": "B", "text": "$EV / PV$ (Earned Value / Planned Value)" },
+            { "option": "C", "text": "$AC / EV$" },
+            { "option": "D", "text": "$PV / EV$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 36,
+          "text": "An engineer's responsibility of \"due diligence\" means:",
+          "choices": [
+            { "option": "A", "text": "Taking reasonable care and effort to ensure that their work meets professional standards and does not cause harm." },
+            { "option": "B", "text": "Completing a project on the due date." },
+            { "option": "C", "text": "Paying their professional fees on time." },
+            { "option": "D", "text": "Attending all project meetings." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 37,
+          "text": "In a BJT, the \"alpha\" ($\\alpha$) is the ratio of:",
+          "choices": [
+            { "option": "A", "text": "Collector current to base current ($I_c / I_b$)" },
+            { "option": "B", "text": "Collector current to emitter current ($I_c / I_e$)" },
+            { "option": "C", "text": "Base current to emitter current ($I_b / I_e$)" },
+            { "option": "D", "text": "Emitter current to collector current ($I_e / I_c$)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "A \"Mealy machine\" can have fewer states than an equivalent \"Moore machine\" because:",
+          "choices": [
+            { "option": "A", "text": "The output is associated with the transitions, allowing for different outputs on the same state." },
+            { "option": "B", "text": "It is a more powerful type of automaton." },
+            { "option": "C", "text": "It uses a different type of memory." },
+            { "option": "D", "text": "It is not restricted to a binary alphabet." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "In C++, what does the \\texttt{explicit} keyword do when applied to a constructor?",
+          "choices": [
+            { "option": "A", "text": "It makes the constructor private." },
+            { "option": "B", "text": "It prevents the compiler from using the constructor for implicit type conversions." },
+            { "option": "C", "text": "It marks the constructor as the default constructor." },
+            { "option": "D", "text": "It ensures the constructor is inlined." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "A \"control hazard\" caused by a conditional branch is often mitigated in modern pipelines using:",
+          "choices": [
+            { "option": "A", "text": "Data forwarding" },
+            { "option": "B", "text": "Scoreboarding" },
+            { "option": "C", "text": "Speculative execution" },
+            { "option": "D", "text": "Increasing the number of pipeline stages" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 41,
+          "text": "What is \"Address Space Layout Randomization\" (ASLR)?",
+          "choices": [
+            { "option": "A", "text": "A memory management technique in operating systems." },
+            { "option": "B", "text": "A computer security technique that involves randomly arranging the address space positions of key data areas." },
+            { "option": "C", "text": "A way to optimize database queries." },
+            { "option": "D", "text": "A network routing protocol." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "A \"lambda calculus\" is a formal system in mathematical logic for expressing:",
+          "choices": [
+            { "option": "A", "text": "Computation based on function abstraction and application." },
+            { "option": "B", "text": "Set theory." },
+            { "option": "C", "text": "Graph theory." },
+            { "option": "D", "text": "Propositional logic." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 43,
+          "text": "In concurrency, a \"futex\" (fast userspace mutex) is a:",
+          "choices": [
+            { "option": "A", "text": "A kernel-level synchronization primitive." },
+            { "option": "B", "text": "A low-level primitive that allows a thread to wait for a value at a given address to change, avoiding system calls when there is no contention." },
+            { "option": "C", "text": "A hardware-based lock." },
+            { "option": "D", "text": "A type of semaphore." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "The \"Decorator\" design pattern is used to:",
+          "choices": [
+            { "option": "A", "text": "Add new responsibilities to an object dynamically without altering its class." },
+            { "option": "B", "text": "Create objects." },
+            { "option": "C", "text": "Define a communication channel between objects." },
+            { "option": "D", "text": "Ensure a class has only one instance." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 45,
+          "text": "What is a \"Generative Adversarial Network\" (GAN)?",
+          "choices": [
+            { "option": "A", "text": "A type of supervised learning model." },
+            { "option": "B", "text": "A class of machine learning frameworks where two neural networks (a generator and a discriminator) contest with each other." },
+            { "option": "C", "text": "A reinforcement learning algorithm." },
+            { "option": "D", "text": "A data clustering method." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "The \"Schedule Performance Index\" (SPI) is calculated as $EV / PV$. An SPI of 0.8 indicates the project is:",
+          "choices": [
+            { "option": "A", "text": "On schedule" },
+            { "option": "B", "text": "Ahead of schedule" },
+            { "option": "C", "text": "Behind schedule" },
+            { "option": "D", "text": "Under budget" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 47,
+          "text": "What is the difference between an \"abstract class\" and an \"interface\"?",
+          "choices": [
+            { "option": "A", "text": "An interface can have method implementations, but an abstract class cannot." },
+            { "option": "B", "text": "A class can implement multiple interfaces but can only inherit from one abstract class (in many languages)." },
+            { "option": "C", "text": "An abstract class cannot have constructors." },
+            { "option": "D", "text": "There is no significant difference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 48,
+          "text": "In networking, \"jitter\" is the variation in the:",
+          "choices": [
+            { "option": "A", "text": "Bandwidth of a connection." },
+            { "option": "B", "text": "Latency (ping time) of packets over time." },
+            { "option": "C", "text": "Signal strength." },
+            { "option": "D", "text": "Packet size." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 49,
+          "text": "Homomorphic encryption is a form of encryption that allows:",
+          "choices": [
+            { "option": "A", "text": "Computation to be performed on ciphertext, generating an encrypted result which, when decrypted, matches the result of operations performed on the plaintext." },
+            { "option": "B", "text": "Encryption using two different keys." },
+            { "option": "C", "text": "Very fast decryption." },
+            { "option": "D", "text": "Encryption that cannot be broken." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "What is a \"Byzantine Fault\" in a distributed system?",
+          "choices": [
+            { "option": "A", "text": "A simple crash fault." },
+            { "option": "B", "text": "A condition where a component can exhibit arbitrary and malicious behavior, including sending conflicting information to different parts of the system." },
+            { "option": "C", "text": "A network partition." },
+            { "option": "D", "text": "A temporary loss of service." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "The \"Early effect\" in a BJT causes an increase in which h-parameter?",
+          "choices": [
+            { "option": "A", "text": "$h_{ie}$" },
+            { "option": "B", "text": "$h_{re}$" },
+            { "option": "C", "text": "$h_{fe}$" },
+            { "option": "D", "text": "$h_{oe}$" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 52,
+          "text": "What is the primary advantage of a \"Carry-Select Adder\"?",
+          "choices": [
+            { "option": "A", "text": "It has the lowest gate count." },
+            { "option": "B", "text": "It reduces the propagation delay by pre-calculating the sum for both possible carry-in values (0 and 1)." },
+            { "option": "C", "text": "It is a type of sequential circuit." },
+            { "option": "D", "text": "It can also perform subtraction." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 53,
+          "text": "What does the C++ keyword \\texttt{mutable} do?",
+          "choices": [
+            { "option": "A", "text": "It allows a non-const member function to modify a data member, even if the object is const." },
+            { "option": "B", "text": "It allows a data member of a const object to be modified." },
+            { "option": "C", "text": "It makes a variable's value unchangeable." },
+            { "option": "D", "text": "It is a synonym for \\texttt{volatile}." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 54,
+          "text": "In the context of the OSI model, what is a \"Protocol Data Unit\" (PDU)?",
+          "choices": [
+            { "option": "A", "text": "A specific protocol like TCP or UDP." },
+            { "option": "B", "text": "The single unit of information transmitted among peer entities of a computer network." },
+            { "option": "C", "text": "The physical medium." },
+            { "option": "D", "text": "A network device." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 55,
+          "text": "The \"halting problem\" is an example of a problem that is:",
+          "choices": [
+            { "option": "A", "text": "Decidable and in P." },
+            { "option": "B", "text": "Recognizable but not decidable." },
+            { "option": "C", "text": "In NP but not NP-complete." },
+            { "option": "D", "text": "Context-free." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "What is the difference between \"cohesion\" and \"coupling\" in software design?",
+          "choices": [
+            { "option": "A", "text": "High cohesion and high coupling are desirable." },
+            { "option": "B", "text": "Low cohesion and low coupling are desirable." },
+            { "option": "C", "text": "High cohesion (relatedness within a module) and low coupling (independence between modules) are desirable." },
+            { "option": "D", "text": "Low cohesion and high coupling are desirable." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "What is \"transfer learning\" in machine learning?",
+          "choices": [
+            { "option": "A", "text": "A technique where a model trained on one task is re-purposed on a second, related task." },
+            { "option": "B", "text": "The process of transferring data over a network." },
+            { "option": "C", "text": "A type of reinforcement learning." },
+            { "option": "D", "text": "The process of learning from unlabeled data." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 58,
+          "text": "The \"critical path\" of a project is the sequence of activities that:",
+          "choices": [
+            { "option": "A", "text": "Has the largest amount of slack." },
+            { "option": "B", "text": "Represents the longest path through the project, which determines the shortest possible project duration." },
+            { "option": "C", "text": "Contains the most expensive activities." },
+            { "option": "D", "text": "Is performed by the most critical team members." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "An engineer's ethical duty to \"act as a faithful agent\" for their client means they must:",
+          "choices": [
+            { "option": "A", "text": "Always agree with the client, even if the client is wrong." },
+            { "option": "B", "text": "Protect the client's interests and confidentiality, and avoid conflicts of interest." },
+            { "option": "C", "text": "Work for free if the client requests it." },
+            { "option": "D", "text": "Share the client's proprietary information with competitors." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "What is \"Tomásulo's algorithm\"?",
+          "choices": [
+            { "option": "A", "text": "A hardware algorithm for dynamic instruction scheduling that allows for out-of-order execution." },
+            { "option": "B", "text": "A page replacement algorithm." },
+            { "option": "C", "text": "A deadlock detection algorithm." },
+            { "option": "D", "text": "A graph traversal algorithm." }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A common-emitter amplifier has a load resistance of $10 \\, \\mathrm{k}\\Omega$ and a collector resistance of $10 \\, \\mathrm{k}\\Omega$. If the $\\beta$ ($h_{fe}$) of the transistor is 100 and the internal emitter resistance ($r_e$) is $25 \\, \\Omega$, what is the approximate voltage gain? ($A_v \\approx -R_{c_{total}} / r_e$)",
+          "choices": [
+            { "option": "A", "text": "$-400$" },
+            { "option": "B", "text": "$-200$" },
+            { "option": "C", "text": "$-100$" },
+            { "option": "D", "text": "$-50$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 62,
+          "text": "A state machine is defined by the following transitions: State A on input 0 goes to B, on 1 goes to A. State B on input 0 goes to A, on 1 goes to B. If the machine starts in state A, which of the following input strings will end in state B?",
+          "choices": [
+            { "option": "A", "text": "$1010$" },
+            { "option": "B", "text": "$0110$" },
+            { "option": "C", "text": "$1100$" },
+            { "option": "D", "text": "$0011$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of the following C++ code that uses \\texttt{std::shared_ptr}?\n\\begin{verbatim}\n#include <iostream>\n#include <memory>\nint main() {\n    std::shared_ptr<int> p1 = std::make_shared<int>(100);\n    std::shared_ptr<int> p2 = p1;\n    std::cout << p1.use_count() << std::endl;\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "$0$" },
+            { "option": "B", "text": "$1$" },
+            { "option": "C", "text": "$2$" },
+            { "option": "D", "text": "Undefined behavior" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 64,
+          "text": "A system has a 16-bit virtual address and a $4 \\, \\mathrm{KB}$ page size. How many entries are there in a two-level page table if the first-level page table fits exactly into a single page?",
+          "choices": [
+            { "option": "A", "text": "The outer table has 16 entries; each inner table has 256 entries." },
+            { "option": "B", "text": "The outer table has 64 entries; each inner table has 64 entries." },
+            { "option": "C", "text": "The outer table has 256 entries; each inner table has 16 entries." },
+            { "option": "D", "text": "The outer table has 4 entries; each inner table has 1024 entries." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "In the OSI model, what is the PDU (Protocol Data Unit) at the first three layers (from the bottom up)?",
+          "choices": [
+            { "option": "A", "text": "Bit, Frame, Packet" },
+            { "option": "B", "text": "Packet, Segment, Data" },
+            { "option": "C", "text": "Frame, Packet, Segment" },
+            { "option": "D", "text": "Data, Segment, Packet" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 66,
+          "text": "A 3D point $(1, 2, 3)$ is rotated by 90 degrees around the Z-axis. What are the new coordinates? (Rotation matrix: $\\begin{bmatrix} \\cos\\theta & -\\sin\\theta & 0 \\\\ \\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$)",
+          "choices": [
+            { "option": "A", "text": "$(-2, 1, 3)$" },
+            { "option": "B", "text": "$(1, -2, 3)$" },
+            { "option": "C", "text": "$(3, 2, -1)$" },
+            { "option": "D", "text": "$(2, 3, 1)$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 67,
+          "text": "A system is using the Banker's algorithm. If a request by a process leads to a state where the Need matrix is greater than the Available vector for all processes, the state is:",
+          "choices": [
+            { "option": "A", "text": "Safe" },
+            { "option": "B", "text": "Guaranteed to be unsafe" },
+            { "option": "C", "text": "Not necessarily unsafe, a safe sequence might still be found" },
+            { "option": "D", "text": "Deadlocked" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "A project has a Planned Value (PV) of \\$500, a Cost Performance Index (CPI) of 1.25, and a Schedule Performance Index (SPI) of 0.8. What is the Actual Cost (AC)?",
+          "choices": [
+            { "option": "A", "text": "\\$400" },
+            { "option": "B", "text": "\\$625" },
+            { "option": "C", "text": "\\$500" },
+            { "option": "D", "text": "\\$1000" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "In Diffie-Hellman key exchange, Alice and Bob publicly share a prime $p=23$ and a primitive root $g=5$. Alice chooses a private key $a=4$, and Bob chooses $b=3$. What is the shared secret key they compute?",
+          "choices": [
+            { "option": "A", "text": "4" },
+            { "option": "B", "text": "9" },
+            { "option": "C", "text": "18" },
+            { "option": "D", "text": "2" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 70,
+          "text": "What does the following SQL query with a correlated subquery do?\n\\begin{verbatim}\nSELECT e.Name, e.Salary FROM Employees e WHERE e.Salary > \n(SELECT AVG(Salary) FROM Employees WHERE DepartmentID = e.DepartmentID);\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "Selects all employees who earn more than the overall average salary." },
+            { "option": "B", "text": "Selects all employees who earn more than the average salary of their own department." },
+            { "option": "C", "text": "Selects the average salary for each department." },
+            { "option": "D", "text": "The query is invalid." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "The \"dependency inversion principle\" states that high-level modules should not depend on low-level modules. Both should depend on:",
+          "choices": [
+            { "option": "A", "text": "Concretions" },
+            { "option": "B", "text": "Abstractions" },
+            { "option": "C", "text": "The main function" },
+            { "option": "D", "text": "Global variables" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "What language does the following CFG generate: $S \\to aSb \\mid c$?",
+          "choices": [
+            { "option": "A", "text": "$\\{ a^n c b^n \\mid n \\geq 0 \\}$" },
+            { "option": "B", "text": "$\\{ a^n b^n c \\mid n \\geq 0 \\}$" },
+            { "option": "C", "text": "$\\{ a c b \\}$" },
+            { "option": "D", "text": "$\\{ (ab)^n c \\mid n \\geq 0 \\}$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 73,
+          "text": "In TCP, if the MSS is $1 \\, \\mathrm{KB}$ and the receiver advertises a window of $64 \\, \\mathrm{KB}$, and the congestion window is $32 \\, \\mathrm{KB}$, what is the maximum amount of unacknowledged data the sender can have in transit?",
+          "choices": [
+            { "option": "A", "text": "$1 \\, \\mathrm{KB}$" },
+            { "option": "B", "text": "$32 \\, \\mathrm{KB}$" },
+            { "option": "C", "text": "$64 \\, \\mathrm{KB}$" },
+            { "option": "D", "text": "$96 \\, \\mathrm{KB}$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "A problem is known to be NP-Hard. A new problem is developed, and it is proven that the known NP-Hard problem can be reduced to this new problem in polynomial time. What can be concluded about the new problem?",
+          "choices": [
+            { "option": "A", "text": "The new problem is in P." },
+            { "option": "B", "text": "The new problem is also NP-Hard." },
+            { "option": "C", "text": "The new problem is NP-complete." },
+            { "option": "D", "text": "Nothing can be concluded." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "A machine learning model for detecting a rare disease has an accuracy of 99\\%. Why might this metric be misleading?",
+          "choices": [
+            { "option": "A", "text": "A model that always predicts \"no disease\" could achieve 99\\% accuracy if the disease only affects 1\\% of the population." },
+            { "option": "B", "text": "Accuracy is not a valid metric for classification." },
+            { "option": "C", "text": "99\\% accuracy is too low to be useful." },
+            { "option": "D", "text": "The model is likely overfitting." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 76,
+          "text": "In a file system using indexed allocation, if the inode has 12 direct pointers, one single indirect pointer, and the block size is $4 \\, \\mathrm{KB}$, what is the maximum file size? (Assume block pointers are 4 bytes).",
+          "choices": [
+            { "option": "A", "text": "$48 \\, \\mathrm{KB}$" },
+            { "option": "B", "text": "$1072 \\, \\mathrm{KB}$" },
+            { "option": "C", "text": "$4144 \\, \\mathrm{KB}$" },
+            { "option": "D", "text": "$4 \\, \\mathrm{GB}$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern would be most suitable for defining a skeleton of an algorithm in a base class, but letting subclasses override specific steps of the algorithm without changing its structure?",
+          "choices": [
+            { "option": "A", "text": "Strategy Pattern" },
+            { "option": "B", "text": "Template Method Pattern" },
+            { "option": "C", "text": "Observer Pattern" },
+            { "option": "D", "text": "State Pattern" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code related to const correctness?\n\\begin{verbatim}\n#include <iostream>\nclass MyClass {\n    int val;\npublic:\n    MyClass(int v) : val(v) {}\n    void print() const { std::cout << val << std::endl; }\n};\nint main() {\n    const MyClass obj(10);\n    obj.print();\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "$10$" },
+            { "option": "B", "text": "The code will not compile because a const object is calling a member function." },
+            { "option": "C", "text": "The code will not compile because the constructor is not const." },
+            { "option": "D", "text": "The code has undefined behavior." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 79,
+          "text": "A circuit is described by the Boolean expression $F = (A'B + C)'$. Using De Morgan's laws, what is the equivalent expression?",
+          "choices": [
+            { "option": "A", "text": "$(A + B')C'$" },
+            { "option": "B", "text": "$AB' + C'$" },
+            { "option": "C", "text": "$(A + B') + C'$" },
+            { "option": "D", "text": "$AB'C'$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 80,
+          "text": "A project's critical path has an expected duration of 60 days. The path with the second-longest duration is 58 days. What is the total float (slack) of an activity on the critical path?",
+          "choices": [
+            { "option": "A", "text": "0 days" },
+            { "option": "B", "text": "2 days" },
+            { "option": "C", "text": "58 days" },
+            { "option": "D", "text": "60 days" }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

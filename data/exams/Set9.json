@@ -1,0 +1,897 @@
+{
+  "setId": 9,
+  "title": "Computer Engineering MCQ Practice - Set 9",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A circuit element that opposes a change in current is a(n):",
+          "choices": [
+            { "option": "A", "text": "Resistor" },
+            { "option": "B", "text": "Capacitor" },
+            { "option": "C", "text": "Inductor" },
+            { "option": "D", "text": "Diode" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "In a parallel RLC circuit, the current is at a minimum at the resonant frequency because:",
+          "choices": [
+            { "option": "A", "text": "The voltage is at a minimum." },
+            { "option": "B", "text": "The total impedance is at a maximum." },
+            { "option": "C", "text": "The inductive and capacitive reactances are zero." },
+            { "option": "D", "text": "The resistance is at a maximum." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "The average value of a full-wave rectified sine wave with a peak value Vp is:",
+          "choices": [
+            { "option": "A", "text": "Vp / π" },
+            { "option": "B", "text": "2Vp / π" },
+            { "option": "C", "text": "Vp / √2" },
+            { "option": "D", "text": "0" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "text": "A Zener diode is primarily used as a:",
+          "choices": [
+            { "option": "A", "text": "Current amplifier" },
+            { "option": "B", "text": "Switch" },
+            { "option": "C", "text": "Rectifier" },
+            { "option": "D", "text": "Voltage regulator" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 5,
+          "text": "An operational amplifier (op-amp) has a very high:",
+          "choices": [
+            { "option": "A", "text": "Input impedance and low output impedance" },
+            { "option": "B", "text": "Input impedance and high output impedance" },
+            { "option": "C", "text": "Low input impedance and low output impedance" },
+            { "option": "D", "text": "Low input impedance and high output impedance" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 6,
+          "text": "The efficiency of a Class A transformer-coupled amplifier is approximately:",
+          "choices": [
+            { "option": "A", "text": "10%" },
+            { "option": "B", "text": "25%" },
+            { "option": "C", "text": "50%" },
+            { "option": "D", "text": "78.5%" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "text": "The octal number system is a base-___ system.",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "10" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "text": "A decoder is a combinational circuit that converts:",
+          "choices": [
+            { "option": "A", "text": "Binary information from n input lines to a maximum of 2^n unique output lines." },
+            { "option": "B", "text": "Binary information from 2^n input lines to n output lines." },
+            { "option": "C", "text": "Multiple input lines into a single output line." },
+            { "option": "D", "text": "A single input line into multiple output lines." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 9,
+          "text": "A JK flip-flop is in a 'toggle' condition when:",
+          "choices": [
+            { "option": "A", "text": "J=0, K=0" },
+            { "option": "B", "text": "J=0, K=1" },
+            { "option": "C", "text": "J=1, K=0" },
+            { "option": "D", "text": "J=1, K=1" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 10,
+          "text": "The component of the CPU that decodes an instruction is the:",
+          "choices": [
+            { "option": "A", "text": "Arithmetic Logic Unit (ALU)" },
+            { "option": "B", "text": "Control Unit (CU)" },
+            { "option": "C", "text": "Program Counter (PC)" },
+            { "option": "D", "text": "Memory Management Unit (MMU)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 11,
+          "text": "Direct Memory Access (DMA) is a feature that allows:",
+          "choices": [
+            { "option": "A", "text": "The CPU to directly access I/O devices." },
+            { "option": "B", "text": "Certain hardware subsystems to access main system memory independently of the CPU." },
+            { "option": "C", "text": "All memory to be accessed at the same speed." },
+            { "option": "D", "text": "The operating system to manage memory." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "What is the difference between a struct and a union in C?",
+          "choices": [
+            { "option": "A", "text": "struct can have members of different data types, while union cannot." },
+            { "option": "B", "text": "struct allocates memory for each member, while union allocates a shared memory space for all members." },
+            { "option": "C", "text": "union is a keyword, while struct is not." },
+            { "option": "D", "text": "There is no difference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C++, what does :: (Scope Resolution Operator) do?",
+          "choices": [
+            { "option": "A", "text": "It is used for pointer dereferencing." },
+            { "option": "B", "text": "It is used to define a member function outside a class or to access a global variable when there is a local variable with the same name." },
+            { "option": "C", "text": "It performs a bitwise OR operation." },
+            { "option": "D", "text": "It is used to create a reference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "What is the primary role of the new and delete operators in C++?",
+          "choices": [
+            { "option": "A", "text": "To create and destroy files." },
+            { "option": "B", "text": "To start and stop processes." },
+            { "option": "C", "text": "To perform dynamic memory allocation and deallocation." },
+            { "option": "D", "text": "To declare and initialize variables." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 15,
+          "text": "A microprogrammed control unit is generally:",
+          "choices": [
+            { "option": "A", "text": "Faster than a hardwired control unit." },
+            { "option": "B", "text": "More flexible and easier to modify than a hardwired control unit." },
+            { "option": "C", "text": "Less complex than a hardwired control unit." },
+            { "option": "D", "text": "Used only in RISC processors." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "The Harvard architecture has:",
+          "choices": [
+            { "option": "A", "text": "A single shared memory for instructions and data." },
+            { "option": "B", "text": "Separate memories for instructions and data." },
+            { "option": "C", "text": "No cache memory." },
+            { "option": "D", "text": "A single bus for both addresses and data." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "Which of the following is an example of a real-time operating system (RTOS)?",
+          "choices": [
+            { "option": "A", "text": "Windows 10" },
+            { "option": "B", "text": "Ubuntu Linux" },
+            { "option": "C", "text": "VxWorks" },
+            { "option": "D", "text": "Android" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 18,
+          "text": "The Transport Layer (Layer 4) of the OSI model is responsible for:",
+          "choices": [
+            { "option": "A", "text": "Providing reliable or unreliable end-to-end data delivery." },
+            { "option": "B", "text": "Routing packets between networks." },
+            { "option": "C", "text": "Framing data for transmission on the physical medium." },
+            { "option": "D", "text": "Managing the physical connection." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 19,
+          "text": "A network device that connects different networks and forwards packets between them is a:",
+          "choices": [
+            { "option": "A", "text": "Hub" },
+            { "option": "B", "text": "Switch" },
+            { "option": "C", "text": "Router" },
+            { "option": "D", "text": "Repeater" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 20,
+          "text": "A 'Denial of Service' (DoS) attack is an attempt to:",
+          "choices": [
+            { "option": "A", "text": "Steal sensitive information." },
+            { "option": "B", "text": "Make a machine or network resource unavailable to its intended users." },
+            { "option": "C", "text": "Install malicious software on a system." },
+            { "option": "D", "text": "Intercept communications between two parties." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "text": "Which of the following languages is NOT context-free?",
+          "choices": [
+            { "option": "A", "text": "{ a^n b^n | n ≥ 0 }" },
+            { "option": "B", "text": "{ ww^R | w is in {a,b}* }" },
+            { "option": "C", "text": "{ a^n b^n c^n | n ≥ 0 }" },
+            { "option": "D", "text": "The set of all palindromes over {a,b}." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 22,
+          "text": "The 'pumping lemma' is a tool used to prove that a language is:",
+          "choices": [
+            { "option": "A", "text": "Regular" },
+            { "option": "B", "text": "Context-free" },
+            { "option": "C", "text": "Not regular" },
+            { "option": "D", "text": "Computable" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 23,
+          "text": "The CMYK color model, used in printing, is a(n):",
+          "choices": [
+            { "option": "A", "text": "Additive color model" },
+            { "option": "B", "text": "Subtractive color model" },
+            { "option": "C", "text": "Grayscale model" },
+            { "option": "D", "text": "Indexed color model" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "The process of representing a continuous image with a finite set of digital values is called:",
+          "choices": [
+            { "option": "A", "text": "Transformation" },
+            { "option": "B", "text": "Rendering" },
+            { "option": "C", "text": "Digitization (sampling and quantization)" },
+            { "option": "D", "text": "Clipping" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 25,
+          "text": "A graph in which there is a path from every vertex to every other vertex is called a:",
+          "choices": [
+            { "option": "A", "text": "Complete graph" },
+            { "option": "B", "text": "Connected graph" },
+            { "option": "C", "text": "Tree" },
+            { "option": "D", "text": "Bipartite graph" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "Which of the following sorting algorithms has a best-case time complexity of O(n)?",
+          "choices": [
+            { "option": "A", "text": "Selection Sort" },
+            { "option": "B", "text": "Merge Sort" },
+            { "option": "C", "text": "Bubble Sort (with an optimization for sorted lists)" },
+            { "option": "D", "text": "Quick Sort" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 27,
+          "text": "A 'trigger' in a database is a:",
+          "choices": [
+            { "option": "A", "text": "Stored procedure that is automatically executed in response to certain events on a particular table." },
+            { "option": "B", "text": "A special type of index." },
+            { "option": "C", "text": "A view that combines multiple tables." },
+            { "option": "D", "text": "A security mechanism to grant permissions." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 28,
+          "text": "The 'shell' in an operating system is the:",
+          "choices": [
+            { "option": "A", "text": "Core component that manages system resources." },
+            { "option": "B", "text": "File management system." },
+            { "option": "C", "text": "User interface that allows users to interact with the kernel." },
+            { "option": "D", "text": "Memory management unit." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 29,
+          "text": "'Extreme Programming' (XP) is:",
+          "choices": [
+            { "option": "A", "text": "A heavyweight software development methodology." },
+            { "option": "B", "text": "An agile software development framework that aims to produce higher quality software and higher quality of life for the development team." },
+            { "option": "C", "text": "A model focused on comprehensive upfront planning and documentation." },
+            { "option": "D", "text": "A type of software testing." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "'White-box testing' is a testing technique where:",
+          "choices": [
+            { "option": "A", "text": "The tester has no knowledge of the internal workings of the software." },
+            { "option": "B", "text": "The tester has knowledge of the internal logic and structure of the code." },
+            { "option": "C", "text": "The software is tested for its usability." },
+            { "option": "D", "text": "The software is tested by the end-users." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In UML, a 'State Diagram' is used to model:",
+          "choices": [
+            { "option": "A", "text": "The static structure of a system." },
+            { "option": "B", "text": "The interaction between objects over time." },
+            { "option": "C", "text": "The dynamic behavior of a single object, showing how it responds to events." },
+            { "option": "D", "text": "The physical deployment of the system." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 32,
+          "text": "The principle of 'Abstraction' in OOP means:",
+          "choices": [
+            { "option": "A", "text": "Hiding the internal implementation details and showing only the essential features of an object." },
+            { "option": "B", "text": "Creating a new class from an existing class." },
+            { "option": "C", "text": "The ability of a message to be displayed in more than one form." },
+            { "option": "D", "text": "Binding data and the functions that operate on them into a single unit." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "A 'Simple Reflex Agent' in AI is an agent that:",
+          "choices": [
+            { "option": "A", "text": "Has an internal model of the world." },
+            { "option": "B", "text": "Acts based on goals." },
+            { "option": "C", "text": "Acts only on the basis of the current percept, ignoring the rest of the percept history." },
+            { "option": "D", "text": "Considers the utility of its actions." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "'Semantic Nets' are a knowledge representation technique that uses:",
+          "choices": [
+            { "option": "A", "text": "A graph of nodes (representing concepts) and links (representing relationships)." },
+            { "option": "B", "text": "If-then rules." },
+            { "option": "C", "text": "First-order logic." },
+            { "option": "D", "text": "Data tables." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "The 'perceptron' is the simplest form of a(n):",
+          "choices": [
+            { "option": "A", "text": "Genetic algorithm" },
+            { "option": "B", "text": "Decision tree" },
+            { "option": "C", "text": "Artificial neural network" },
+            { "option": "D", "text": "Fuzzy logic system" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 36,
+          "text": "In engineering drawings, a 'sectional view' is used to show:",
+          "choices": [
+            { "option": "A", "text": "The exterior of an object." },
+            { "option": "B", "text": "The interior details of an object as if it were cut open." },
+            { "option": "C", "text": "A 3D representation of the object." },
+            { "option": "D", "text": "The object from multiple angles." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 37,
+          "text": "The Internal Rate of Return (IRR) is a metric in capital budgeting that:",
+          "choices": [
+            { "option": "A", "text": "Measures the profitability of potential investments." },
+            { "option": "B", "text": "Is the discount rate that makes the Net Present Value (NPV) of all cash flows equal to zero." },
+            { "option": "C", "text": "Is always equal to the MARR." },
+            { "option": "D", "text": "Calculates the time it takes to recover the initial investment." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "The Critical Path Method (CPM) is a project management technique for:",
+          "choices": [
+            { "option": "A", "text": "Identifying the sequence of tasks that determines the shortest possible project duration." },
+            { "option": "B", "text": "Managing project risks." },
+            { "option": "C", "text": "Allocating project budget." },
+            { "option": "D", "text": "Communicating with stakeholders." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "Plagiarism in an engineering context is:",
+          "choices": [
+            { "option": "A", "text": "A valid form of research." },
+            { "option": "B", "text": "Using the ideas or work of another person without giving proper credit." },
+            { "option": "C", "text": "Collaborating with other engineers on a project." },
+            { "option": "D", "text": "An effective way to complete reports quickly." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "The primary difference between the Nepal Engineering Council (NEC) and the Nepal Engineers' Association (NEA) is that:",
+          "choices": [
+            { "option": "A", "text": "NEC is a regulatory body (licensing), while NEA is a professional society (for members)." },
+            { "option": "B", "text": "NEA is a government body, while NEC is a private organization." },
+            { "option": "C", "text": "NEC sets project budgets, while NEA executes them." },
+            { "option": "D", "text": "There is no significant difference." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 41,
+          "text": "In a three-phase system, the phases are typically separated by:",
+          "choices": [
+            { "option": "A", "text": "90 degrees" },
+            { "option": "B", "text": "120 degrees" },
+            { "option": "C", "text": "180 degrees" },
+            { "option": "D", "text": "360 degrees" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "A bilateral circuit is one whose properties are:",
+          "choices": [
+            { "option": "A", "text": "The same in either direction of current flow." },
+            { "option": "B", "text": "Different for different directions of current flow." },
+            { "option": "C", "text": "Independent of the applied voltage." },
+            { "option": "D", "text": "Dependent on the frequency." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 43,
+          "text": "A race condition in a sequential logic circuit occurs when:",
+          "choices": [
+            { "option": "A", "text": "The clock signal is too fast." },
+            { "option": "B", "text": "The output depends on the unpredictable sequence or timing of other events." },
+            { "option": "C", "text": "The circuit enters an unused state." },
+            { "option": "D", "text": "The setup and hold times are violated." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "What is a page in the context of virtual memory?",
+          "choices": [
+            { "option": "A", "text": "A single instruction." },
+            { "option": "B", "text": "A fixed-size block of virtual memory." },
+            { "option": "C", "text": "The entire address space of a process." },
+            { "option": "D", "text": "A segment of code." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "What is the function of the telnet protocol?",
+          "choices": [
+            { "option": "A", "text": "To transfer files between computers." },
+            { "option": "B", "text": "To send and receive email." },
+            { "option": "C", "text": "To provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection." },
+            { "option": "D", "text": "To browse websites securely." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 46,
+          "text": "A regular expression is a sequence of characters that defines a:",
+          "choices": [
+            { "option": "A", "text": "Search pattern" },
+            { "option": "B", "text": "Programming language" },
+            { "option": "C", "text": "Data structure" },
+            { "option": "D", "text": "Network protocol" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 47,
+          "text": "Dijkstra's algorithm is used to find the:",
+          "choices": [
+            { "option": "A", "text": "Minimum spanning tree of a graph." },
+            { "option": "B", "text": "Shortest path from a single source vertex to all other vertices in a weighted graph." },
+            { "option": "C", "text": "All-pairs shortest path in a graph." },
+            { "option": "D", "text": "Topological sort of a directed acyclic graph." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 48,
+          "text": "In an operating system, a semaphore is used for:",
+          "choices": [
+            { "option": "A", "text": "File management." },
+            { "option": "B", "text": "Memory allocation." },
+            { "option": "C", "text": "Process synchronization." },
+            { "option": "D", "text": "Device scheduling." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 49,
+          "text": "In software engineering, what is 'coupling'?",
+          "choices": [
+            { "option": "A", "text": "The degree to which the elements inside a module belong together." },
+            { "option": "B", "text": "The degree of interdependence between software modules." },
+            { "option": "C", "text": "The number of lines of code in a module." },
+            { "option": "D", "text": "The time it takes to compile a module." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 50,
+          "text": "What is an 'expert system' in AI?",
+          "choices": [
+            { "option": "A", "text": "A system that mimics the decision-making ability of a human expert in a narrow domain." },
+            { "option": "B", "text": "A general-purpose AI that can perform any intellectual task a human can." },
+            { "option": "C", "text": "A type of neural network." },
+            { "option": "D", "text": "A search algorithm." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 51,
+          "text": "The time value of money is a concept that states:",
+          "choices": [
+            { "option": "A", "text": "Money available now is worth more than the same amount in the future due to its potential earning capacity." },
+            { "option": "B", "text": "The value of money is constant over time." },
+            { "option": "C", "text": "Money available in the future is worth more than money available now." },
+            { "option": "D", "text": "The value of money depends on the current inflation rate only." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 52,
+          "text": "A T-flip flop is created by connecting the inputs of which flip-flop together?",
+          "choices": [
+            { "option": "A", "text": "RS flip-flop" },
+            { "option": "B", "text": "D flip-flop" },
+            { "option": "C", "text": "JK flip-flop" },
+            { "option": "D", "text": "Master-Slave flip-flop" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 53,
+          "text": "What is the primary function of the finally block in exception handling (e.g., in Java or C#)?",
+          "choices": [
+            { "option": "A", "text": "To catch an exception." },
+            { "option": "B", "text": "To throw an exception." },
+            { "option": "C", "text": "To execute code regardless of whether an exception was thrown or caught." },
+            { "option": "D", "text": "To specify the type of exception to handle." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 54,
+          "text": "The 'Internet of Things' (IoT) refers to:",
+          "choices": [
+            { "option": "A", "text": "The global network of interconnected computers." },
+            { "option": "B", "text": "A network of physical objects embedded with sensors, software, and other technologies to connect and exchange data over the internet." },
+            { "option": "C", "text": "The social media platforms on the web." },
+            { "option": "D", "text": "A new version of the World Wide Web." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 55,
+          "text": "The rendering pipeline in computer graphics describes the:",
+          "choices": [
+            { "option": "A", "text": "Process of creating a 3D model." },
+            { "option": "B", "text": "Sequence of steps used to transform a 3D scene into a 2D image." },
+            { "option": "C", "text": "Method for storing image files." },
+            { "option": "D", "text": "Algorithm for line clipping." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "The 'Big O' notation in algorithm analysis is used to describe the:",
+          "choices": [
+            { "option": "A", "text": "Best-case performance of an algorithm." },
+            { "option": "B", "text": "Average-case performance of an algorithm." },
+            { "option": "C", "text": "Asymptotic upper bound or worst-case time complexity of an algorithm." },
+            { "option": "D", "text": "Exact execution time of an algorithm." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "The V-Model in software development is an extension of the:",
+          "choices": [
+            { "option": "A", "text": "Agile Model" },
+            { "option": "B", "text": "Spiral Model" },
+            { "option": "C", "text": "Waterfall Model" },
+            { "option": "D", "text": "Prototyping Model" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 58,
+          "text": "A 'model-based agent' in AI differs from a simple reflex agent because it:",
+          "choices": [
+            { "option": "A", "text": "Maintains an internal state or model of the world." },
+            { "option": "B", "text": "Acts only based on the current percept." },
+            { "option": "C", "text": "Has no sensors." },
+            { "option": "D", "text": "Is always goal-driven." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 59,
+          "text": "A 'tender' in project management is a:",
+          "choices": [
+            { "option": "A", "text": "Formal offer to supply goods or services at a stated price." },
+            { "option": "B", "text": "The project plan." },
+            { "option": "C", "text": "A risk assessment document." },
+            { "option": "D", "text": "The final project report." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 60,
+          "text": "Which of the following is a key characteristic of SRAM (Static RAM)?",
+          "choices": [
+            { "option": "A", "text": "It is cheaper and denser than DRAM." },
+            { "option": "B", "text": "It requires periodic refreshing." },
+            { "option": "C", "text": "It is faster than DRAM and does not need to be refreshed." },
+            { "option": "D", "text": "It is non-volatile." }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A voltage of 10V is applied across a parallel combination of a 5 Ω resistor and a 20 Ω resistor. What is the total current drawn from the source?",
+          "choices": [
+            { "option": "A", "text": "0.5 A" },
+            { "option": "B", "text": "2.0 A" },
+            { "option": "C", "text": "2.5 A" },
+            { "option": "D", "text": "4.0 A" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "Simplify the Boolean function F(A, B, C) = Σ(0, 1, 2, 4, 5, 6) using a K-map.",
+          "choices": [
+            { "option": "A", "text": "A' + B'" },
+            { "option": "B", "text": "B' + C'" },
+            { "option": "C", "text": "A' + C'" },
+            { "option": "D", "text": "A + B + C" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of the following C++ code that uses operator overloading?\n#include <iostream>\nclass Point {\n    int x, y;\npublic:\n    Point(int i=0, int j=0) : x(i), y(j) {}\n    Point operator+(const Point &obj) {\n        Point temp;\n        temp.x = x + obj.x;\n        temp.y = y + obj.y;\n        return temp;\n    }\n    void print() { std::cout << x << \" \" << y << std::endl; }\n};\nint main() {\n    Point p1(10, 20), p2(5, 3);\n    Point p3 = p1 + p2;\n    p3.print();\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "10 20" },
+            { "option": "B", "text": "5 3" },
+            { "option": "C", "text": "15 23" },
+            { "option": "D", "text": "Compilation Error" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 64,
+          "text": "A computer system has a 16 KB cache, a 2 MB main memory, and a block size of 128 bytes. How many cache lines are there in the cache? (1 KB = 1024 bytes)",
+          "choices": [
+            { "option": "A", "text": "128" },
+            { "option": "B", "text": "256" },
+            { "option": "C", "text": "512" },
+            { "option": "D", "text": "1024" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "A network has a class B address 150.100.0.0. You want to create 100 subnets. What is the minimum number of bits you need to borrow from the host part, and what is the corresponding subnet mask?",
+          "choices": [
+            { "option": "A", "text": "6 bits, 255.255.252.0" },
+            { "option": "B", "text": "7 bits, 255.255.254.0" },
+            { "option": "C", "text": "8 bits, 255.255.255.0" },
+            { "option": "D", "text": "9 bits, 255.255.255.128" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A triangle with vertices A(2,2), B(5,2), and C(3,5) is rotated by 180 degrees about the origin. What are the new coordinates of vertex C?",
+          "choices": [
+            { "option": "A", "text": "(3, -5)" },
+            { "option": "B", "text": "(-3, -5)" },
+            { "option": "C", "text": "(-5, -3)" },
+            { "option": "D", "text": "(5, 3)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 67,
+          "text": "Consider a hash table of size 7 with the hash function h(k) = k mod 7. Show the state of the table after inserting keys 10, 18, 25, 3, 17 using chaining to resolve collisions.",
+          "choices": [
+            { "option": "A", "text": "Index 1:, Index 3:" },
+            { "option": "B", "text": "Index 1:, Index 3:, Index 4:, Index 5:" },
+            { "option": "C", "text": "Index 3:, Index 4:, Index 1:, Index 3: -> (Collision)" },
+            { "option": "D", "text": "Index 1:, Index 3:, Index 5:" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "What is the All-Pairs Shortest Path in the given graph using an appropriate algorithm (e.g., Floyd-Warshall)? (A simplified question: What is the shortest path from A to C?) \nGraph: A-B (cost 2), B-C (cost 3), A-D (cost 1), D-C (cost 5)",
+          "choices": [
+            { "option": "A", "text": "5 (path A-B-C)" },
+            { "option": "B", "text": "6 (path A-D-C)" },
+            { "option": "C", "text": "2 (path A-B)" },
+            { "option": "D", "text": "8 (sum of all edges)" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "A system with a single resource has three processes: P1 (requires 5 units), P2 (requires 3 units), and P3 (requires 8 units). The system has a total of 12 units of the resource. If P1 holds 2, P2 holds 2, and P3 holds 3, is the system in a safe state?",
+          "choices": [
+            { "option": "A", "text": "Yes, it is in a safe state." },
+            { "option": "B", "text": "No, it is in an unsafe state." },
+            { "option": "C", "text": "The system is deadlocked." },
+            { "option": "D", "text": "Cannot be determined." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 70,
+          "text": "What is the result of the following SQL query on a table Products? \nSELECT Category, AVG(Price) FROM Products GROUP BY Category HAVING COUNT(*) > 10;",
+          "choices": [
+            { "option": "A", "text": "The average price of all products." },
+            { "option": "B", "text": "The categories and their average prices, for all categories." },
+            { "option": "C", "text": "The categories and their average prices, but only for categories that have more than 10 products." },
+            { "option": "D", "text": "The names of products in categories with more than 10 items." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 71,
+          "text": "A software project is estimated to be 400 KLOC (Kilo Lines of Code). Using the basic COCOMO model (Effort = a × (KLOC)^b), if a=2.4 and b=1.05, what is the estimated effort in person-months?",
+          "choices": [
+            { "option": "A", "text": "Approximately 960" },
+            { "option": "B", "text": "Approximately 1150" },
+            { "option": "C", "text": "Approximately 1350" },
+            { "option": "D", "text": "Approximately 1500" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "How many flip-flops are required to build a MOD-12 counter?",
+          "choices": [
+            { "option": "A", "text": "3" },
+            { "option": "B", "text": "4" },
+            { "option": "C", "text": "5" },
+            { "option": "D", "text": "12" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "In TCP, if the current congestion window size is 16 KB and a timeout occurs, what will be the new congestion window size if the Slow Start Threshold (ssthresh) is set to 8 KB?",
+          "choices": [
+            { "option": "A", "text": "16 KB" },
+            { "option": "B", "text": "8 KB" },
+            { "option": "C", "text": "4 KB" },
+            { "option": "D", "text": "1 KB" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 74,
+          "text": "Which string is accepted by a grammar with the rules: S → aSb | ε ?",
+          "choices": [
+            { "option": "A", "text": "\"ab\"" },
+            { "option": "B", "text": "\"aabb\"" },
+            { "option": "C", "text": "\"aaab\"" },
+            { "option": "D", "text": "\"bbaa\"" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "In a neural network, a single neuron receives two inputs (x1=0.5, x2=0.8) with corresponding weights (w1=0.3, w2=0.6). If the bias is -0.2, what is the net input to the activation function?",
+          "choices": [
+            { "option": "A", "text": "0.15" },
+            { "option": "B", "text": "0.48" },
+            { "option": "C", "text": "0.63" },
+            { "option": "D", "text": "0.43" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 76,
+          "text": "Consider a hard disk with 10 concentric tracks. If the disk rotates at 6000 RPM, what is the average rotational latency?",
+          "choices": [
+            { "option": "A", "text": "5 ms" },
+            { "option": "B", "text": "10 ms" },
+            { "option": "C", "text": "6 ms" },
+            { "option": "D", "text": "12 ms" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 77,
+          "text": "Which software design principle suggests that classes should be open for extension but closed for modification?",
+          "choices": [
+            { "option": "A", "text": "Single Responsibility Principle" },
+            { "option": "B", "text": "Open/Closed Principle" },
+            { "option": "C", "text": "Liskov Substitution Principle" },
+            { "option": "D", "text": "Dependency Inversion Principle" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 78,
+          "text": "What is the result of applying a 2D shearing transformation in the x-direction with a shear factor of 2 to a point (3, 4)? (The new coordinates are x' = x + shx * y, y' = y)",
+          "choices": [
+            { "option": "A", "text": "(3, 10)" },
+            { "option": "B", "text": "(11, 4)" },
+            { "option": "C", "text": "(6, 8)" },
+            { "option": "D", "text": "(5, 4)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "What is the decimal equivalent of the hexadecimal number (2AF.C)_{16}?",
+          "choices": [
+            { "option": "A", "text": "687.75" },
+            { "option": "B", "text": "587.25" },
+            { "option": "C", "text": "687.12" },
+            { "option": "D", "text": "587.75" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "A project requires an initial investment of Rs. 1,000,000. It is expected to yield Rs. 300,000 per year for 5 years. What is the simple payback period?",
+          "choices": [
+            { "option": "A", "text": "3 years" },
+            { "option": "B", "text": "3.33 years" },
+            { "option": "C", "text": "4 years" },
+            { "option": "D", "text": "5 years" }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

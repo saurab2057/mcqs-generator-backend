@@ -1,0 +1,897 @@
+{
+  "setId": 20,
+  "title": "Computer Engineering MCQ Practice - Set 20",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "The reciprocity theorem is applicable to circuits that are:",
+          "choices": [
+            { "option": "A", "text": "Linear, bilateral, and contain a single source." },
+            { "option": "B", "text": "Non-linear and unilateral." },
+            { "option": "C", "text": "Any circuit with resistors." },
+            { "option": "D", "text": "Linear and contain multiple sources." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 2,
+          "text": "A \"Chebyshev\" filter is known for having a steeper roll-off than a Butterworth filter, at the cost of:",
+          "choices": [
+            { "option": "A", "text": "Being more complex to design." },
+            { "option": "B", "text": "Having ripples in the passband." },
+            { "option": "C", "text": "Having a non-flat passband." },
+            { "option": "D", "text": "Poorer phase response." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "The \"Early voltage\" of a BJT is a parameter that models the:",
+          "choices": [
+            { "option": "A", "text": "Slope of the output characteristic curves in the active region." },
+            { "option": "B", "text": "Breakdown voltage of the collector-base junction." },
+            { "option": "C", "text": "Forward voltage drop of the base-emitter junction." },
+            { "option": "D", "text": "Turn-on voltage." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 4,
+          "text": "A \"thyristor\" or \"Silicon-Controlled Rectifier\" (SCR) is a semiconductor device that acts like a:",
+          "choices": [
+            { "option": "A", "text": "Voltage-controlled switch" },
+            { "option": "B", "text": "Latching switch (once turned on, it stays on until the current drops below a holding value)" },
+            { "option": "C", "text": "Current amplifier" },
+            { "option": "D", "text": "Variable resistor" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 5,
+          "text": "An op-amp \"instrumentation amplifier\" is a differential amplifier configuration optimized for high input impedance, high CMRR, and precise gain. It is typically built using:",
+          "choices": [
+            { "option": "A", "text": "A single op-amp." },
+            { "option": "B", "text": "Two op-amps." },
+            { "option": "C", "text": "Three op-amps." },
+            { "option": "D", "text": "A combination of op-amps and discrete transistors." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 6,
+          "text": "The \"unity-gain frequency\" ($f_T$) of a transistor is the frequency at which the:",
+          "choices": [
+            { "option": "A", "text": "Voltage gain becomes unity." },
+            { "option": "B", "text": "Short-circuit common-emitter current gain ($\\beta$) becomes unity." },
+            { "option": "C", "text": "Power gain becomes unity." },
+            { "option": "D", "text": "Input impedance becomes zero." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 7,
+          "text": "What is a \"hazard-free\" design in digital logic?",
+          "choices": [
+            { "option": "A", "text": "A design that is guaranteed to be free of static and dynamic hazards." },
+            { "option": "B", "text": "A design that uses only AND and OR gates." },
+            { "option": "C", "text": "A design that is implemented using a ROM." },
+            { "option": "D", "text": "A design that has been formally verified." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "text": "In an FPGA, the primary logic element that implements combinational and sequential logic is the:",
+          "choices": [
+            { "option": "A", "text": "Programmable Interconnect Point (PIP)" },
+            { "option": "B", "text": "I/O Block (IOB)" },
+            { "option": "C", "text": "Configurable Logic Block (CLB) or Logic Array Block (LAB)" },
+            { "option": "D", "text": "Block RAM (BRAM)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "A \"Wallace Tree\" is a hardware implementation of a:",
+          "choices": [
+            { "option": "A", "text": "Fast multiplier that reduces the number of partial product addition stages." },
+            { "option": "B", "text": "A divider." },
+            { "option": "C", "text": "A floating-point unit." },
+            { "option": "D", "text": "A barrel shifter." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 10,
+          "text": "\"SIMD\" (Single Instruction, Multiple Data) is a class of parallel computers in Flynn's taxonomy that is characterized by:",
+          "choices": [
+            { "option": "A", "text": "A single processor executing a single stream of instructions on a single stream of data." },
+            { "option": "B", "text": "Multiple processors executing different instructions on different data." },
+            { "option": "C", "text": "A single control unit dispatching a single instruction to multiple processing units that operate on different data." },
+            { "option": "D", "text": "Multiple processors executing the same instruction on the same data." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "In C++, \\texttt{std::mutex} provides mutual exclusion. What does \\texttt{std::lock_guard} provide?",
+          "choices": [
+            { "option": "A", "text": "A more efficient mutex." },
+            { "option": "B", "text": "A RAII-style mechanism that acquires a mutex on construction and releases it on destruction, preventing deadlocks from forgetting to unlock." },
+            { "option": "C", "text": "A way to lock multiple mutexes at once." },
+            { "option": "D", "text": "A recursive mutex." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "What is \"template metaprogramming\" in C++?",
+          "choices": [
+            { "option": "A", "text": "The process of writing templates." },
+            { "option": "B", "text": "A technique using templates to generate code and perform computations at compile time." },
+            { "option": "C", "text": "A way to debug templates." },
+            { "option": "D", "text": "A feature for handling runtime polymorphism." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In TCP, what is the role of the \"Urgent Pointer\" field?",
+          "choices": [
+            { "option": "A", "text": "It indicates that the packet should be processed with high priority by routers." },
+            { "option": "B", "text": "It is used in conjunction with a flag to indicate a location in the segment data where \"urgent\" data ends." },
+            { "option": "C", "text": "It specifies the size of the receive window." },
+            { "option": "D", "text": "It is used to terminate a connection immediately." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "A problem is \"undecidable\" if:",
+          "choices": [
+            { "option": "A", "text": "It is NP-hard." },
+            { "option": "B", "text": "No algorithm can be constructed that will always lead to a correct yes-or-no answer." },
+            { "option": "C", "text": "It takes exponential time to solve." },
+            { "option": "D", "text": "The solution is difficult to verify." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "A \"Bloom filter\" is a probabilistic data structure used to test whether an element is a member of a set. It is known for being space-efficient but can have:",
+          "choices": [
+            { "option": "A", "text": "False positives (may say an element is in the set when it is not)." },
+            { "option": "B", "text": "False negatives (may say an element is not in the set when it is)." },
+            { "option": "C", "text": "Both false positives and false negatives." },
+            { "option": "D", "text": "Very slow query times." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "In operating systems, a \"futex\" is a feature of the Linux kernel that allows for:",
+          "choices": [
+            { "option": "A", "text": "Fast userspace locking with kernel assistance only when contention occurs." },
+            { "option": "B", "text": "Inter-process communication." },
+            { "option": "C", "text": "File system management." },
+            { "option": "D", "text": "Device driver implementation." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 17,
+          "text": "What is the core idea of \"Aspect-Oriented Programming\" (AOP)?",
+          "choices": [
+            { "option": "A", "text": "To increase the coupling between modules." },
+            { "option": "B", "text": "To allow for the modularization of cross-cutting concerns (like logging or security) that span across multiple objects." },
+            { "option": "C", "text": "It is another name for object-oriented programming." },
+            { "option": "D", "text": "To program using only functions." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "In machine learning, \"boosting\" is an ensemble technique that:",
+          "choices": [
+            { "option": "A", "text": "Trains multiple models in parallel on different subsets of the data." },
+            { "option": "B", "text": "Trains models sequentially, where each subsequent model attempts to correct the errors of its predecessor." },
+            { "option": "C", "text": "Uses a single, very deep neural network." },
+            { "option": "D", "text": "Is used for unsupervised learning." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "What is \"critical chain project management\" (CCPM)?",
+          "choices": [
+            { "option": "A", "text": "A method that focuses on managing the resources required to execute project tasks and uses buffers to manage uncertainty." },
+            { "option": "B", "text": "Another name for the waterfall model." },
+            { "option": "C", "text": "An agile framework." },
+            { "option": "D", "text": "A technique for cost estimation." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 20,
+          "text": "An engineer's ethical duty of \"continuing professional development\" means they must:",
+          "choices": [
+            { "option": "A", "text": "Only work in their original area of expertise." },
+            { "option": "B", "text": "Keep current with the knowledge and skills in their field." },
+            { "option": "C", "text": "Teach at a university." },
+            { "option": "D", "text": "Publish research papers annually." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "text": "In a BJT, the \"alpha cutoff frequency\" ($f_\\alpha$) is generally much higher than the \"beta cutoff frequency\" ($f_\\beta$) because:",
+          "choices": [
+            { "option": "A", "text": "The common-base configuration has a higher gain." },
+            { "option": "B", "text": "The transit time of charge carriers across the base is the primary limiting factor, and its effect is less pronounced on $\\alpha$ than on $\\beta$." },
+            { "option": "C", "text": "Alpha is always less than 1." },
+            { "option": "D", "text": "The collector capacitance is larger." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 22,
+          "text": "What is the purpose of a \"finite state machine with output\" (like Mealy or Moore machines)?",
+          "choices": [
+            { "option": "A", "text": "To act as a language recognizer." },
+            { "option": "B", "text": "To act as a transducer, converting an input sequence into an output sequence." },
+            { "option": "C", "text": "To solve optimization problems." },
+            { "option": "D", "text": "To store large amounts of data." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "What is \"copy elision\" in C++?",
+          "choices": [
+            { "option": "A", "text": "A compiler optimization technique that eliminates unnecessary copying of objects." },
+            { "option": "B", "text": "A syntax error." },
+            { "option": "C", "text": "A way to explicitly copy an object." },
+            { "option": "D", "text": "A feature of the C++ preprocessor." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "text": "A \"speculative execution\" vulnerability like Spectre exploits:",
+          "choices": [
+            { "option": "A", "text": "A bug in the operating system's kernel." },
+            { "option": "B", "text": "A network protocol flaw." },
+            { "option": "C", "text": "The side effects of a CPU's predictive execution to leak information from protected memory." },
+            { "option": "D", "text": "A weak password policy." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 25,
+          "text": "What is \"Multipath TCP\" (MPTCP)?",
+          "choices": [
+            { "option": "A", "text": "A proposed extension to TCP that allows a connection to use multiple paths to maximize resource usage and increase redundancy." },
+            { "option": "B", "text": "A protocol for routing packets." },
+            { "option": "C", "text": "A security layer on top of TCP." },
+            { "option": "D", "text": "An older, obsolete version of TCP." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 26,
+          "text": "The \"Rice's Theorem\" in computability theory states that:",
+          "choices": [
+            { "option": "A", "text": "All non-trivial semantic properties of programs are undecidable." },
+            { "option": "B", "text": "The halting problem is undecidable." },
+            { "option": "C", "text": "Any regular language can be described by a regular expression." },
+            { "option": "D", "text": "The SAT problem is NP-complete." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "text": "A \"persistent data structure\" is a data structure that:",
+          "choices": [
+            { "option": "A", "text": "Is stored on a hard disk." },
+            { "option": "B", "text": "Always preserves the previous version of itself when it is modified." },
+            { "option": "C", "text": "Is very slow to update." },
+            { "option": "D", "text": "Is used for network communication." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "In an operating system, a \"light-weight process\" (LWP) is:",
+          "choices": [
+            { "option": "A", "text": "A process with a very small memory footprint." },
+            { "option": "B", "text": "A kernel-level abstraction that is scheduled by the kernel and that user-level threads can be mapped to." },
+            { "option": "C", "text": "A process that does not perform I/O." },
+            { "option": "D", "text": "A synonym for a thread." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 29,
+          "text": "What is a \"feature toggle\" or \"feature flag\" in software development?",
+          "choices": [
+            { "option": "A", "text": "A technique that allows parts of a program to be turned on or off at runtime without deploying new code." },
+            { "option": "B", "text": "A type of software bug." },
+            { "option": "C", "text": "A comment in the code." },
+            { "option": "D", "text": "A documentation standard." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "The \"Composite\" design pattern is a structural pattern that:",
+          "choices": [
+            { "option": "A", "text": "Lets you compose objects into tree structures to represent part-whole hierarchies." },
+            { "option": "B", "text": "Ensures a class has only one instance." },
+            { "option": "C", "text": "Defines a communication channel." },
+            { "option": "D", "text": "Creates objects." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In machine learning, what is a \"convolutional neural network\" (CNN) particularly good at?",
+          "choices": [
+            { "option": "A", "text": "Processing sequential data like text." },
+            { "option": "B", "text": "Processing grid-like data, such as images." },
+            { "option": "C", "text": "Reinforcement learning tasks." },
+            { "option": "D", "text": "Clustering data." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 32,
+          "text": "The \"To-Complete Performance Index\" (TCPI) based on the Budget at Completion (BAC) is calculated as:",
+          "choices": [
+            { "option": "A", "text": "$(BAC - EV) / (BAC - AC)$" },
+            { "option": "B", "text": "$(EV - AC) / (EV - PV)$" },
+            { "option": "C", "text": "$BAC / CPI$" },
+            { "option": "D", "text": "$EV / AC$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "An engineer's ethical responsibility to avoid \"deceptive acts\" means they must not:",
+          "choices": [
+            { "option": "A", "text": "Disagree with a client." },
+            { "option": "B", "text": "Misrepresent their qualifications or falsify data." },
+            { "option": "C", "text": "Work for a competitor." },
+            { "option": "D", "text": "Advertise their services." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 34,
+          "text": "In an op-amp, the \"virtual ground\" concept at the inverting input of a negative feedback configuration means that:",
+          "choices": [
+            { "option": "A", "text": "The input is physically connected to ground." },
+            { "option": "B", "text": "The op-amp drives the inverting input to the same potential as the non-inverting input (which is often ground), but no current flows into the op-amp." },
+            { "option": "C", "text": "The input impedance is zero." },
+            { "option": "D", "text": "The output is always at ground potential." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 35,
+          "text": "The primary difference between a \"binary semaphore\" and a \"mutex\" is that:",
+          "choices": [
+            { "option": "A", "text": "A mutex can be acquired and released by different threads, while a semaphore must be released by the same thread that acquired it." },
+            { "option": "B", "text": "A semaphore can be acquired and released by different threads, while a mutex must be released by the same thread that acquired it." },
+            { "option": "C", "text": "A mutex can have a count greater than 1." },
+            { "option": "D", "text": "There is no practical difference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 36,
+          "text": "What is the function of the \\texttt{volatile} keyword in C?",
+          "choices": [
+            { "option": "A", "text": "It tells the compiler to perform aggressive optimizations on the variable." },
+            { "option": "B", "text": "It informs the compiler that the value of the variable may change by means outside the control of the current program, preventing certain optimizations." },
+            { "option": "C", "text": "It makes the variable read-only." },
+            { "option": "D", "text": "It allocates the variable in a special memory region." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 37,
+          "text": "In networking, what is \"path MTU discovery\"?",
+          "choices": [
+            { "option": "A", "text": "The process of finding the shortest path to a destination." },
+            { "option": "B", "text": "A standardized technique to determine the maximum transmission unit (MTU) size on the network path between two hosts." },
+            { "option": "C", "text": "A way to discover all the routers on a path." },
+            { "option": "D", "text": "A security protocol." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "What is the relationship between the complexity classes P and NP?",
+          "choices": [
+            { "option": "A", "text": "P is a subset of NP." },
+            { "option": "B", "text": "NP is a subset of P." },
+            { "option": "C", "text": "P and NP are disjoint." },
+            { "option": "D", "text": "P = NP." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "The \"Command\" design pattern encapsulates a request as an object, which is useful for:",
+          "choices": [
+            { "option": "A", "text": "Creating objects." },
+            { "option": "B", "text": "Implementing undoable operations, queues, and logging." },
+            { "option": "C", "text": "Adding new functionality to an object." },
+            { "option": "D", "text": "Simplifying a complex interface." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "\"Gradient clipping\" is a technique used when training neural networks to:",
+          "choices": [
+            { "option": "A", "text": "Speed up the training process." },
+            { "option": "B", "text": "Prevent the problem of exploding gradients by capping the gradient's value." },
+            { "option": "C", "text": "Select the best features." },
+            { "option": "D", "text": "Add more layers to the network." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "What is \"constructive cost model\" (COCOMO)?",
+          "choices": [
+            { "option": "A", "text": "A project management framework." },
+            { "option": "B", "text": "A software cost estimation model based on lines of code and various cost drivers." },
+            { "option": "C", "text": "A software testing methodology." },
+            { "option": "D", "text": "A UML diagram." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "An engineer is asked to sign off on a project they did not personally supervise. Ethically, they should:",
+          "choices": [
+            { "option": "A", "text": "Sign off to be helpful." },
+            { "option": "B", "text": "Refuse to sign off unless they have personally reviewed the work and are competent to verify its adequacy." },
+            { "option": "C", "text": "Ask someone else to sign off." },
+            { "option": "D", "text": "Sign off but add a disclaimer." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "A \"clipper\" circuit is used to:",
+          "choices": [
+            { "option": "A", "text": "Add a DC level." },
+            { "option": "B", "text": "Remove a DC level." },
+            { "option": "C", "text": "Cut off or limit the portions of a signal that are above or below a certain reference level." },
+            { "option": "D", "text": "Differentiate a signal." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 44,
+          "text": "What is \"static timing analysis\" (STA) in digital design?",
+          "choices": [
+            { "option": "A", "text": "A simulation of the circuit to check its functionality." },
+            { "option": "B", "text": "A method of verifying the timing of a digital circuit without requiring simulation, by checking all paths for setup and hold time violations." },
+            { "option": "C", "text": "An analysis of the circuit's power consumption." },
+            { "option": "D", "text": "A way to generate a test pattern." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "In C++, what is an \"lvalue\" and an \"rvalue\"?",
+          "choices": [
+            { "option": "A", "text": "An lvalue is a value on the left of an assignment; an rvalue is on the right." },
+            { "option": "B", "text": "An lvalue is an expression that refers to a memory location; an rvalue is typically a temporary value." },
+            { "option": "C", "text": "An lvalue is a local variable; an rvalue is a global variable." },
+            { "option": "D", "text": "They are interchangeable terms." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "What is \"BGP route flapping\"?",
+          "choices": [
+            { "option": "A", "text": "A desirable condition where routes are updated quickly." },
+            { "option": "B", "text": "A situation where a BGP router repeatedly advertises a route as available, then unavailable, causing instability." },
+            { "option": "C", "text": "A security feature of BGP." },
+            { "option": "D", "text": "A way to load balance traffic." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "What is the \"PCP\" (Post's Correspondence Problem)?",
+          "choices": [
+            { "option": "A", "text": "A famous undecidable problem in computability theory." },
+            { "option": "B", "text": "An NP-complete problem." },
+            { "option": "C", "text": "A problem solvable in polynomial time." },
+            { "option": "D", "text": "A problem related to networking." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 48,
+          "text": "In software development, what is a \"canary release\"?",
+          "choices": [
+            { "option": "A", "text": "The final, stable release of a product." },
+            { "option": "B", "text": "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users." },
+            { "option": "C", "text": "A beta release." },
+            { "option": "D", "text": "A release with many known bugs." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 49,
+          "text": "What is the \"no free lunch\" theorem in machine learning?",
+          "choices": [
+            { "option": "A", "text": "It states that all machine learning models are equally good." },
+            { "option": "B", "text": "It states that there is no one model that works best for every problem; the performance of a model is specific to the problem." },
+            { "option": "C", "text": "It states that machine learning models require a large amount of data." },
+            { "option": "D", "text": "It is a theorem about reinforcement learning." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 50,
+          "text": "In project management, what is a \"phase-gate\" review?",
+          "choices": [
+            { "option": "A", "text": "A daily status meeting." },
+            { "option": "B", "text": "A review at the end of a project phase in which a decision is made to continue, modify, or terminate the project." },
+            { "option": "C", "text": "The project kick-off meeting." },
+            { "option": "D", "text": "A brainstorming session." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "A \"differential amplifier\" is a circuit that amplifies the:",
+          "choices": [
+            { "option": "A", "text": "Sum of two input voltages." },
+            { "option": "B", "text": "Difference between two input voltages." },
+            { "option": "C", "text": "Average of two input voltages." },
+            { "option": "D", "text": "Product of two input voltages." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 52,
+          "text": "What is \"quine\" in computing?",
+          "choices": [
+            { "option": "A", "text": "A program that produces a copy of its own source code as its only output." },
+            { "option": "B", "text": "A type of sorting algorithm." },
+            { "option": "C", "text": "A security vulnerability." },
+            { "option": "D", "text": "A data structure." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 53,
+          "text": "In the C++ standard library, what is the difference between \\texttt{std::vector} and \\texttt{std::list}?",
+          "choices": [
+            { "option": "A", "text": "\\texttt{vector} provides fast random access but slow insertion/deletion in the middle; \\texttt{list} provides slow random access but fast insertion/deletion anywhere." },
+            { "option": "B", "text": "\\texttt{list} is a fixed-size array." },
+            { "option": "C", "text": "\\texttt{vector} is a linked list." },
+            { "option": "D", "text": "There is no major difference in performance." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 54,
+          "text": "What is a \"remote procedure call\" (RPC)?",
+          "choices": [
+            { "option": "A", "text": "A protocol that allows a program on one computer to execute a procedure on another computer without the programmer needing to code the details for the remote interaction." },
+            { "option": "B", "text": "A way to call functions within the same program." },
+            { "option": "C", "text": "A system call to the operating system." },
+            { "option": "D", "text": "A hardware interrupt." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "The \"CAP theorem\" in distributed systems states that it is impossible for a distributed data store to simultaneously provide more than two out of which three guarantees?",
+          "choices": [
+            { "option": "A", "text": "Correctness, Atomicity, Performance" },
+            { "option": "B", "text": "Consistency, Availability, Partition tolerance" },
+            { "option": "C", "text": "Confidentiality, Integrity, Availability" },
+            { "option": "D", "text": "Concurrency, Availability, Persistence" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "The \"Bridge\" design pattern is a structural pattern whose intent is to:",
+          "choices": [
+            { "option": "A", "text": "Decouple an abstraction from its implementation so that the two can vary independently." },
+            { "option": "B", "text": "Ensure a class has only one instance." },
+            { "option": "C", "text": "Add functionality to an object." },
+            { "option": "D", "text": "Define a family of algorithms." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 57,
+          "text": "In machine learning, what is a \"recurrent neural network\" (RNN) suitable for?",
+          "choices": [
+            { "option": "A", "text": "Image classification." },
+            { "option": "B", "text": "Processing sequential data where the order of information is important, like time series or natural language." },
+            { "option": "C", "text": "Clustering." },
+            { "option": "D", "text": "Dimensionality reduction." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "What is a \"contingency reserve\" in project management?",
+          "choices": [
+            { "option": "A", "text": "The budget allocated for the entire project." },
+            { "option": "B", "text": "The budget or time set aside for identified risks (\"known unknowns\")." },
+            { "option": "C", "text": "The budget set aside for unidentified risks (\"unknown unknowns\")." },
+            { "option": "D", "text": "The profit margin of the project." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "An engineer is reviewing a design by a non-engineer that is technically sound but inefficient. The engineer's ethical duty is to:",
+          "choices": [
+            { "option": "A", "text": "Reject the design outright because it was not made by an engineer." },
+            { "option": "B", "text": "Provide constructive feedback and suggest improvements, while acknowledging the sound aspects of the design." },
+            { "option": "C", "text": "Approve the design as-is to avoid conflict." },
+            { "option": "D", "text": "Take credit for the design." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "What is a \"soft real-time system\"?",
+          "choices": [
+            { "option": "A", "text": "A system where missing a deadline is a catastrophic failure." },
+            { "option": "B", "text": "A system where missing a deadline results in a degradation of performance but not a total failure." },
+            { "option": "C", "text": "A system that does not have deadlines." },
+            { "option": "D", "text": "A user interface." }
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "An ideal op-amp is configured as an inverting amplifier with an input resistor of $10 \\, \\mathrm{k}\\Omega$ and a feedback resistor of $150 \\, \\mathrm{k}\\Omega$. If the input voltage is $+0.5 \\, \\mathrm{V}$, what is the output voltage?",
+          "choices": [
+            { "option": "A", "text": "$+7.5 \\, \\mathrm{V}$" },
+            { "option": "B", "text": "$-7.5 \\, \\mathrm{V}$" },
+            { "option": "C", "text": "$+15 \\, \\mathrm{V}$" },
+            { "option": "D", "text": "$-15 \\, \\mathrm{V}$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 62,
+          "text": "A \"carry-lookahead\" logic block has inputs $P_i = A_i \\oplus B_i$ (propagate) and $G_i = A_i \\cdot B_i$ (generate). What is the expression for the carry-out of the second bit, $C_2$?",
+          "choices": [
+            { "option": "A", "text": "$G_1 + P_1 \\cdot C_0$" },
+            { "option": "B", "text": "$G_1 + P_1 \\cdot G_0$" },
+            { "option": "C", "text": "$G_1 + P_1 (G_0 + P_0 \\cdot C_{-1})$" },
+            { "option": "D", "text": "$G_1 + P_1 \\cdot G_0 + P_1 \\cdot P_0 \\cdot C_{-1}$ (assuming $C_{-1}$ is carry-in to the first bit)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of this C++ code that demonstrates \\texttt{const_cast}?\n\\begin{verbatim}\n#include <iostream>\nvoid print(const int* p) {\n    int* q = const_cast<int*>(p);\n    *q = 20; // Modifying a const object leads to undefined behavior\n    std::cout << *p << std::endl;\n}\nint main() {\n    const int x = 10;\n    print(&x);\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "20" },
+            { "option": "C", "text": "Compilation Error." },
+            { "option": "D", "text": "Undefined Behavior." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 64,
+          "text": "A system has a 2-level page table. The virtual address is 32 bits. The page size is $4 \\, \\mathrm{KB}$. The page directory index uses 10 bits and the page table index uses 10 bits. What is the size of a single page table for the second level? (Assume each entry is 4 bytes).",
+          "choices": [
+            { "option": "A", "text": "$1 \\, \\mathrm{KB}$" },
+            { "option": "B", "text": "$4 \\, \\mathrm{KB}$" },
+            { "option": "C", "text": "$10 \\, \\mathrm{KB}$" },
+            { "option": "D", "text": "$1 \\, \\mathrm{MB}$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "You are designing a reliable protocol over an unreliable channel. The probability of a single packet being lost is $p$. What is the probability that a packet needs to be transmitted exactly 3 times to be successfully received?",
+          "choices": [
+            { "option": "A", "text": "$p^3$" },
+            { "option": "B", "text": "$(1-p) \\cdot p^2$" },
+            { "option": "C", "text": "$p^2 \\cdot (1-p)$" },
+            { "option": "D", "text": "$3p$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 66,
+          "text": "What is the parametric equation for a circle centered at $(x_c, y_c)$ with radius $r$?",
+          "choices": [
+            { "option": "A", "text": "$x(t) = r \\cdot \\cos(t) + x_c; y(t) = r \\cdot \\sin(t) + y_c$" },
+            { "option": "B", "text": "$x(t) = r \\cdot \\sin(t) + x_c; y(t) = r \\cdot \\cos(t) + y_c$" },
+            { "option": "C", "text": "$x(t) = t + x_c; y(t) = t + y_c$" },
+            { "option": "D", "text": "$x(t) = r \\cdot t; y(t) = r \\cdot t$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 67,
+          "text": "A system has 3 processes ($P_1$, $P_2$, $P_3$) and a single resource with 12 instances. $P_1$ requires 10, $P_2$ requires 4, and $P_3$ requires 9. At time $t$, $P_1$ holds 5, $P_2$ holds 2, and $P_3$ holds 2. Is this state safe or unsafe?",
+          "choices": [
+            { "option": "A", "text": "Safe, sequence $\\langle P_2, P_1, P_3 \\rangle$ exists." },
+            { "option": "B", "text": "Safe, sequence $\\langle P_2, P_3, P_1 \\rangle$ exists." },
+            { "option": "C", "text": "Unsafe, as no process can be guaranteed to finish." },
+            { "option": "D", "text": "Deadlocked." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "A project has $BAC = \\$1000$, $AC = \\$600$, $EV = \\$400$. What is the To-Complete Performance Index (TCPI) required to finish on budget? ($TCPI = (BAC - EV) / (BAC - AC)$)",
+          "choices": [
+            { "option": "A", "text": "0.67" },
+            { "option": "B", "text": "1.0" },
+            { "option": "C", "text": "1.5" },
+            { "option": "D", "text": "2.0" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 69,
+          "text": "Consider the grammar: $S \\to S + S \\mid S * S \\mid (S) \\mid a$. Why is this grammar problematic for parsing?",
+          "choices": [
+            { "option": "A", "text": "It is not context-free." },
+            { "option": "B", "text": "It is ambiguous." },
+            { "option": "C", "text": "It cannot generate strings like \"a+a\"." },
+            { "option": "D", "text": "It is left-recursive." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "What is the difference between \\texttt{TRUNCATE TABLE} and \\texttt{DELETE FROM TABLE} in SQL?",
+          "choices": [
+            { "option": "A", "text": "They are the same." },
+            { "option": "B", "text": "\\texttt{TRUNCATE} is faster and cannot be rolled back; \\texttt{DELETE} is slower, can be rolled back, and can have a \\texttt{WHERE} clause." },
+            { "option": "C", "text": "\\texttt{DELETE} is faster than \\texttt{TRUNCATE}." },
+            { "option": "D", "text": "\\texttt{TRUNCATE} removes the table structure; \\texttt{DELETE} only removes the data." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "What is a \"race condition\"?",
+          "choices": [
+            { "option": "A", "text": "A situation where the outcome of a computation depends on the non-deterministic relative timing of events." },
+            { "option": "B", "text": "A type of deadlock." },
+            { "option": "C", "text": "An OS scheduling policy." },
+            { "option": "D", "text": "A hardware bug." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 72,
+          "text": "What language does the Turing Machine described below recognize? ($q_0$ = start, $q_f$ = final, $B$ = blank) \\\\\n$\\delta(q_0, 0) \\to (q_0, 0, R)$ \\\\\n$\\delta(q_0, 1) \\to (q_0, 1, R)$ \\\\\n$\\delta(q_0, B) \\to (q_f, B, R)$",
+          "choices": [
+            { "option": "A", "text": "The empty language." },
+            { "option": "B", "text": "The language of all binary strings $\\{0, 1\\}^*." },
+            { "option": "C", "text": "The language of strings with an equal number of 0s and 1s." },
+            { "option": "D", "text": "The language of palindromes." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "In the context of IPv4, what is a \"supernet\"?",
+          "choices": [
+            { "option": "A", "text": "A network with a very large number of hosts." },
+            { "option": "B", "text": "An aggregation of multiple smaller subnets into a single larger network, summarized by a single routing entry." },
+            { "option": "C", "text": "A network that uses IPv6." },
+            { "option": "D", "text": "A network with a /32 prefix." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "In machine learning, the \"F1 Score\" is the harmonic mean of:",
+          "choices": [
+            { "option": "A", "text": "Accuracy and Precision" },
+            { "option": "B", "text": "Precision and Recall" },
+            { "option": "C", "text": "Recall and Specificity" },
+            { "option": "D", "text": "Accuracy and Recall" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "What is the primary trade-off in choosing the order (size of $d$) of a B-Tree?",
+          "choices": [
+            { "option": "A", "text": "A larger order increases the height of the tree." },
+            { "option": "B", "text": "A larger order reduces the height of the tree (fewer disk I/Os) but increases the cost of operations within a node." },
+            { "option": "C", "text": "The order does not affect performance." },
+            { "option": "D", "text": "A smaller order is always better." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "A file system uses an inode with 10 direct pointers, one single indirect, one double indirect, and one triple indirect pointer. If a block is $8 \\, \\mathrm{KB}$ and a block address is 4 bytes, what is the theoretical maximum file size?",
+          "choices": [
+            { "option": "A", "text": "$\\sim 32 \\, \\mathrm{GB}$" },
+            { "option": "B", "text": "$\\sim 64 \\, \\mathrm{GB}$" },
+            { "option": "C", "text": "$\\sim 16 \\, \\mathrm{TB}$" },
+            { "option": "D", "text": "$\\sim 8 \\, \\mathrm{GB}$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "What is the \"Chain of Responsibility\" design pattern?",
+          "choices": [
+            { "option": "A", "text": "A pattern that creates a chain of receiver objects for a request, allowing each receiver a chance to handle it." },
+            { "option": "B", "text": "A pattern for creating objects." },
+            { "option": "C", "text": "A pattern for adding functionality to an object." },
+            { "option": "D", "text": "A pattern for defining a communication channel." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C code?\n\\begin{verbatim}\n#include <stdio.h>\nint main() {\n    printf(\"%f\\n\", 5 / 2);\n    printf(\"%f\\n\", 5.0 / 2);\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "2.500000, 2.500000" },
+            { "option": "B", "text": "2.000000, 2.500000" },
+            { "option": "C", "text": "2, 2.5" },
+            { "option": "D", "text": "The first \\texttt{printf} has undefined behavior (wrong format specifier for integer division result)." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 79,
+          "text": "A 4-bit synchronous binary counter is in state 0110. What will be the state after the next clock pulse?",
+          "choices": [
+            { "option": "A", "text": "0111" },
+            { "option": "B", "text": "1000" },
+            { "option": "C", "text": "0101" },
+            { "option": "D", "text": "0000" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "A project has a critical path A-B-C. Activity A has a duration of 5 days, B has a duration of 10 days, and C has a duration of 3 days. What is the latest start time for activity B if the project must finish in 18 days?",
+          "choices": [
+            { "option": "A", "text": "5" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "10" },
+            { "option": "D", "text": "15" }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

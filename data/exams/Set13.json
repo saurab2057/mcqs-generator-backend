@@ -1,0 +1,897 @@
+{
+  "setId": 13,
+  "title": "Computer Engineering MCQ Practice - Set 13",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "The ability of a material to conduct electricity is called its:",
+          "choices": [
+            { "option": "A", "text": "Resistance" },
+            { "option": "B", "text": "Resistivity" },
+            { "option": "C", "text": "Conductance" },
+            { "option": "D", "text": "Inductance" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "In an AC circuit, the instantaneous power varies with time. The average of this instantaneous power over a full cycle is the:",
+          "choices": [
+            { "option": "A", "text": "Reactive Power" },
+            { "option": "B", "text": "Apparent Power" },
+            { "option": "C", "text": "Active (Real) Power" },
+            { "option": "D", "text": "Peak Power" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 3,
+          "text": "A PN junction diode is formed by joining:",
+          "choices": [
+            { "option": "A", "text": "Two p-type semiconductors" },
+            { "option": "B", "text": "Two n-type semiconductors" },
+            { "option": "C", "text": "A p-type semiconductor with an n-type semiconductor" },
+            { "option": "D", "text": "An intrinsic semiconductor with a metal" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "A CMOS inverter uses:",
+          "choices": [
+            { "option": "A", "text": "Two NMOS transistors" },
+            { "option": "B", "text": "Two PMOS transistors" },
+            { "option": "C", "text": "One NMOS and one PMOS transistor" },
+            { "option": "D", "text": "A BJT and a MOSFET" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 5,
+          "text": "In a negative feedback amplifier, the feedback network:",
+          "choices": [
+            { "option": "A", "text": "Adds a portion of the output signal in phase with the input." },
+            { "option": "B", "text": "Adds a portion of the output signal out of phase with the input." },
+            { "option": "C", "text": "Is connected in parallel with the input." },
+            { "option": "D", "text": "Is only used in oscillators." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "A 'Buffer Amplifier' or 'Voltage Follower' using an op-amp has a voltage gain of approximately:",
+          "choices": [
+            { "option": "A", "text": "Zero" },
+            { "option": "B", "text": "One" },
+            { "option": "C", "text": "Infinity" },
+            { "option": "D", "text": "-1" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 7,
+          "text": "The hexadecimal number system includes digits 0-9 and letters:",
+          "choices": [
+            { "option": "A", "text": "A-F" },
+            { "option": "B", "text": "A-E" },
+            { "option": "C", "text": "F-Z" },
+            { "option": "D", "text": "G-L" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "text": "What is a 'truth table'?",
+          "choices": [
+            { "option": "A", "text": "A diagram of a logic circuit." },
+            { "option": "B", "text": "A table showing the output of a logic circuit for all possible combinations of its inputs." },
+            { "option": "C", "text": "A simplified Boolean expression." },
+            { "option": "D", "text": "A timing diagram." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 9,
+          "text": "An asynchronous (ripple) counter's speed is limited by the:",
+          "choices": [
+            { "option": "A", "text": "Clock frequency" },
+            { "option": "B", "text": "Number of flip-flops" },
+            { "option": "C", "text": "Cumulative propagation delay of the flip-flops" },
+            { "option": "D", "text": "Supply voltage" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 10,
+          "text": "The 'fetch-decode-execute' cycle is the basic operational process of a:",
+          "choices": [
+            { "option": "A", "text": "Memory unit" },
+            { "option": "B", "text": "Hard disk" },
+            { "option": "C", "text": "Central Processing Unit (CPU)" },
+            { "option": "D", "text": "Display controller" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "The 8259 is a Programmable Interrupt Controller (PIC) used to:",
+          "choices": [
+            { "option": "A", "text": "Perform arithmetic operations." },
+            { "option": "B", "text": "Manage multiple interrupt requests and send a single interrupt to the CPU." },
+            { "option": "C", "text": "Control direct memory access." },
+            { "option": "D", "text": "Generate clock signals." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "What is the primary purpose of the break statement in C?",
+          "choices": [
+            { "option": "A", "text": "To terminate the entire program." },
+            { "option": "B", "text": "To exit immediately from a loop (for, while, do-while) or a switch statement." },
+            { "option": "C", "text": "To skip the current iteration of a loop." },
+            { "option": "D", "text": "To return a value from a function." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C++, an 'inheritance' relationship represents a(n):",
+          "choices": [
+            { "option": "A", "text": "'is-a' relationship" },
+            { "option": "B", "text": "'has-a' relationship" },
+            { "option": "C", "text": "'part-of' relationship" },
+            { "option": "D", "text": "'uses-a' relationship" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "text": "What is the difference between opening a file in 'w' mode versus 'a' mode in C?",
+          "choices": [
+            { "option": "A", "text": "'w' is for writing, 'a' is for reading." },
+            { "option": "B", "text": "'w' overwrites the file if it exists, while 'a' appends to the end of the file." },
+            { "option": "C", "text": "'w' is for text files, 'a' is for binary files." },
+            { "option": "D", "text": "There is no difference." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "A 'bus contention' occurs when:",
+          "choices": [
+            { "option": "A", "text": "The bus is idle." },
+            { "option": "B", "text": "Multiple devices try to drive the bus at the same time." },
+            { "option": "C", "text": "The data on the bus is corrupted." },
+            { "option": "D", "text": "The bus speed is too slow." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "The 'write-back' cache policy involves writing a modified cache block to main memory:",
+          "choices": [
+            { "option": "A", "text": "Immediately after it is modified." },
+            { "option": "B", "text": "Only when the cache block is about to be replaced." },
+            { "option": "C", "text": "Periodically." },
+            { "option": "D", "text": "Never." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "A device driver is a piece of software that:",
+          "choices": [
+            { "option": "A", "text": "Is part of the application program." },
+            { "option": "B", "text": "Allows the operating system to communicate with and control a specific hardware device." },
+            { "option": "C", "text": "Is stored in the hardware device itself." },
+            { "option": "D", "text": "Manages the system's memory." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "The primary function of the Data Link Layer (Layer 2) is to:",
+          "choices": [
+            { "option": "A", "text": "Route packets between different networks." },
+            { "option": "B", "text": "Provide a reliable node-to-node data transfer over a physical link." },
+            { "option": "C", "text": "Manage the physical transmission of bits." },
+            { "option": "D", "text": "Handle end-to-end communication." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "A 'port' number in TCP and UDP is used to:",
+          "choices": [
+            { "option": "A", "text": "Identify a specific host on the network." },
+            { "option": "B", "text": "Identify a specific process or application running on a host." },
+            { "option": "C", "text": "Identify the physical connector." },
+            { "option": "D", "text": "Specify the size of the packet." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "text": "A 'man-in-the-middle' attack is a type of security breach where an attacker:",
+          "choices": [
+            { "option": "A", "text": "Floods a server with traffic." },
+            { "option": "B", "text": "Tries to guess a user's password." },
+            { "option": "C", "text": "Secretly relays and possibly alters the communication between two parties who believe they are directly communicating." },
+            { "option": "D", "text": "Installs a virus on a computer." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 21,
+          "text": "The Chomsky Hierarchy classifies formal languages into four types. Which is the most general (most powerful) type?",
+          "choices": [
+            { "option": "A", "text": "Type 3 (Regular)" },
+            { "option": "B", "text": "Type 2 (Context-Free)" },
+            { "option": "C", "text": "Type 1 (Context-Sensitive)" },
+            { "option": "D", "text": "Type 0 (Recursively Enumerable)" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 22,
+          "text": "What is 'computational complexity'?",
+          "choices": [
+            { "option": "A", "text": "The study of how difficult it is to write a program." },
+            { "option": "B", "text": "The study of the resources (like time and memory) required by an algorithm to solve a problem." },
+            { "option": "C", "text": "The physical complexity of a computer." },
+            { "option": "D", "text": "The complexity of a user interface." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "In computer graphics, 'anti-aliasing' is a technique used to:",
+          "choices": [
+            { "option": "A", "text": "Add jagged edges to lines and polygons." },
+            { "option": "B", "text": "Reduce the appearance of jagged edges ('jaggies') by smoothing them." },
+            { "option": "C", "text": "Increase the resolution of an image." },
+            { "option": "D", "text": "Apply color to a wireframe model." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "A 'world coordinate system' in computer graphics is used to:",
+          "choices": [
+            { "option": "A", "text": "Define the coordinate system of the display screen." },
+            { "option": "B", "text": "Define the coordinate system for a single object." },
+            { "option": "C", "text": "Provide a common reference frame for all objects in a scene." },
+            { "option": "D", "text": "Define the viewing volume." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 25,
+          "text": "A 'queue' is a data structure that operates on a:",
+          "choices": [
+            { "option": "A", "text": "Last-In, First-Out (LIFO) basis." },
+            { "option": "B", "text": "First-In, First-Out (FIFO) basis." },
+            { "option": "C", "text": "Random access basis." },
+            { "option": "D", "text": "Priority basis." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "Which searching algorithm requires the data to be sorted beforehand?",
+          "choices": [
+            { "option": "A", "text": "Linear Search" },
+            { "option": "B", "text": "Binary Search" },
+            { "option": "C", "text": "Depth-First Search" },
+            { "option": "D", "text": "Breadth-First Search" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 27,
+          "text": "What is a 'deadlock' in the context of database transactions?",
+          "choices": [
+            { "option": "A", "text": "When a transaction completes successfully." },
+            { "option": "B", "text": "When two or more transactions are waiting for each other to release locks." },
+            { "option": "C", "text": "When a transaction is rolled back." },
+            { "option": "D", "text": "When the database server crashes." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 28,
+          "text": "'Paging' is a memory management scheme that allows:",
+          "choices": [
+            { "option": "A", "text": "The physical address space of a process to be non-contiguous." },
+            { "option": "B", "text": "A process to be stored in a single, contiguous block of memory." },
+            { "option": "C", "text": "The CPU to directly access the hard disk." },
+            { "option": "D", "text": "Processes to share the same address space without protection." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 29,
+          "text": "What is a 'bug' in software?",
+          "choices": [
+            { "option": "A", "text": "A feature that was not requested." },
+            { "option": "B", "text": "An error, flaw, or fault in a computer program that causes it to produce an incorrect or unexpected result." },
+            { "option": "C", "text": "A slow part of the program." },
+            { "option": "D", "text": "A security vulnerability." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "The primary purpose of a 'requirements specification document' is to:",
+          "choices": [
+            { "option": "A", "text": "Describe the design and architecture of the software." },
+            { "option": "B", "text": "Provide a detailed description of the system's intended functions and behavior." },
+            { "option": "C", "text": "List the test cases for the software." },
+            { "option": "D", "text": "Serve as the user manual." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In UML, a 'component diagram' is used to model:",
+          "choices": [
+            { "option": "A", "text": "The interactions between users and the system." },
+            { "option": "B", "text": "The dynamic behavior of objects." },
+            { "option": "C", "text": "The physical organization of software components and their dependencies." },
+            { "option": "D", "text": "The structure of classes." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 32,
+          "text": "In C++, what is the difference between 'aggregation' and 'composition'?",
+          "choices": [
+            { "option": "A", "text": "They are the same." },
+            { "option": "B", "text": "Aggregation implies a weak 'has-a' relationship, while composition implies a strong 'part-of' relationship where the part cannot exist without the whole." },
+            { "option": "C", "text": "Composition is another name for inheritance." },
+            { "option": "D", "text": "Aggregation is used for interfaces, while composition is for classes." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 33,
+          "text": "In the context of search algorithms, 'admissibility' of a heuristic means that the heuristic:",
+          "choices": [
+            { "option": "A", "text": "Never overestimates the cost to reach the goal." },
+            { "option": "B", "text": "Always returns the exact cost to the goal." },
+            { "option": "C", "text": "Is very fast to compute." },
+            { "option": "D", "text": "Guarantees that the search will be fast." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 34,
+          "text": "The 'inference engine' is the component of an expert system that:",
+          "choices": [
+            { "option": "A", "text": "Stores the facts and rules." },
+            { "option": "B", "text": "Interacts with the user." },
+            { "option": "C", "text": "Applies the rules to the known facts to deduce new information (performs reasoning)." },
+            { "option": "D", "text": "Explains the reasoning process." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 35,
+          "text": "'Clustering' is a type of:",
+          "choices": [
+            { "option": "A", "text": "Supervised learning" },
+            { "option": "B", "text": "Unsupervised learning" },
+            { "option": "C", "text": "Reinforcement learning" },
+            { "option": "D", "text": "Semi-supervised learning" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 36,
+          "text": "The 'discount rate' in engineering economics represents the:",
+          "choices": [
+            { "option": "A", "text": "Rate of inflation." },
+            { "option": "B", "text": "Interest rate used in discounted cash flow analysis to determine the present value of future cash flows." },
+            { "option": "C", "text": "Rate at which an asset depreciates." },
+            { "option": "D", "text": "Profit margin of a project." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 37,
+          "text": "A 'milestone' in a project plan is a:",
+          "choices": [
+            { "option": "A", "text": "Specific task that needs to be done." },
+            { "option": "B", "text": "A significant event or point in the project with zero duration." },
+            { "option": "C", "text": "A risk or an issue." },
+            { "option": "D", "text": "A member of the project team." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "The 'triple constraint' of project management refers to the balance between:",
+          "choices": [
+            { "option": "A", "text": "Team, Budget, and Technology" },
+            { "option": "B", "text": "Scope, Time, and Cost" },
+            { "option": "C", "text": "Risk, Quality, and Resources" },
+            { "option": "D", "text": "Planning, Execution, and Closing" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 39,
+          "text": "An engineer's ethical responsibility for 'confidentiality' means:",
+          "choices": [
+            { "option": "A", "text": "Sharing all project information publicly." },
+            { "option": "B", "text": "Keeping the proprietary information of their employer or client confidential." },
+            { "option": "C", "text": "Avoiding communication with other engineers." },
+            { "option": "D", "text": "Only working on classified projects." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "According to the NEC regulations, an engineer's registration can be suspended or revoked for:",
+          "choices": [
+            { "option": "A", "text": "Professional misconduct or negligence." },
+            { "option": "B", "text": "Failing to join the Nepal Engineers' Association." },
+            { "option": "C", "text": "Working on a project that is not profitable." },
+            { "option": "D", "text": "Disagreeing with a government policy." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 41,
+          "text": "The unit of energy is the:",
+          "choices": [
+            { "option": "A", "text": "Watt" },
+            { "option": "B", "text": "Ampere" },
+            { "option": "C", "text": "Volt" },
+            { "option": "D", "text": "Joule" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 42,
+          "text": "A capacitor blocks _____ and allows _____ to pass.",
+          "choices": [
+            { "option": "A", "text": "AC, DC" },
+            { "option": "B", "text": "DC, AC" },
+            { "option": "C", "text": "both AC and DC" },
+            { "option": "D", "text": "neither AC nor DC" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "The setup time of a flip-flop is the minimum time for which the data input must be:",
+          "choices": [
+            { "option": "A", "text": "Stable after the active clock edge." },
+            { "option": "B", "text": "Stable before the active clock edge." },
+            { "option": "C", "text": "HIGH." },
+            { "option": "D", "text": "LOW." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "An operating system 'kernel' is the:",
+          "choices": [
+            { "option": "A", "text": "User interface of the OS." },
+            { "option": "B", "text": "Central component of the OS that manages system resources." },
+            { "option": "C", "text": "A set of utility programs." },
+            { "option": "D", "text": "The initial boot loader." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "Which protocol is stateless?",
+          "choices": [
+            { "option": "A", "text": "TCP" },
+            { "option": "B", "text": "FTP" },
+            { "option": "C", "text": "HTTP" },
+            { "option": "D", "text": "Telnet" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 46,
+          "text": "What is a 'parser' in the context of compilers?",
+          "choices": [
+            { "option": "A", "text": "A program that performs lexical analysis." },
+            { "option": "B", "text": "A program that checks the syntax of the source code according to a grammar." },
+            { "option": "C", "text": "A program that generates machine code." },
+            { "option": "D", "text": "A program that optimizes the code." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "A 'hash function' takes an input (or 'key') and returns:",
+          "choices": [
+            { "option": "A", "text": "A sorted version of the input." },
+            { "option": "B", "text": "A fixed-size string of bytes or an integer." },
+            { "option": "C", "text": "The original input, un-changed." },
+            { "option": "D", "text": "An encrypted version of the input." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 48,
+          "text": "In C++, new operator allocates memory from the _____, while local variables are typically allocated on the _____.",
+          "choices": [
+            { "option": "A", "text": "stack, heap" },
+            { "option": "B", "text": "heap, stack" },
+            { "option": "C", "text": "global memory, stack" },
+            { "option": "D", "text": "heap, global memory" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 49,
+          "text": "What is the 'curse of dimensionality' in machine learning?",
+          "choices": [
+            { "option": "A", "text": "The difficulty of training a model on a small dataset." },
+            { "option": "B", "text": "Various phenomena that arise when analyzing data in high-dimensional spaces, such as data becoming sparse." },
+            { "option": "C", "text": "The problem of overfitting." },
+            { "option": "D", "text": "The problem of underfitting." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 50,
+          "text": "The 'closing phase' of a project involves:",
+          "choices": [
+            { "option": "A", "text": "Starting the project work." },
+            { "option": "B", "text": "Monitoring the project progress." },
+            { "option": "C", "text": "Formalizing acceptance of the project deliverables and bringing the project to an orderly end." },
+            { "option": "D", "text": "Planning the project." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 51,
+          "text": "The ASCII code is a:",
+          "choices": [
+            { "option": "A", "text": "7-bit or 8-bit character encoding standard." },
+            { "option": "B", "text": "Error correcting code." },
+            { "option": "C", "text": "Data compression algorithm." },
+            { "option": "D", "text": "Network protocol." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 52,
+          "text": "The continue statement in C is used to:",
+          "choices": [
+            { "option": "A", "text": "Exit a loop." },
+            { "option": "B", "text": "Skip the rest of the current iteration and proceed to the next iteration of a loop." },
+            { "option": "C", "text": "Go to a specific labeled statement." },
+            { "option": "D", "text": "Stop the program." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 53,
+          "text": "What is a 'memory leak'?",
+          "choices": [
+            { "option": "A", "text": "A situation where memory is allocated dynamically but never deallocated, making it unusable." },
+            { "option": "B", "text": "A hardware fault in a memory chip." },
+            { "option": "C", "text": "Unauthorized access to memory." },
+            { "option": "D", "text": "When the system runs out of memory." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 54,
+          "text": "The 'critical section' is a part of a program that:",
+          "choices": [
+            { "option": "A", "text": "Must be executed by only one process at a time." },
+            { "option": "B", "text": "Is never executed." },
+            { "option": "C", "text": "Handles errors." },
+            { "option": "D", "text": "Is responsible for user input." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "The purpose of a 'gateway' in a network is to:",
+          "choices": [
+            { "option": "A", "text": "Connect devices within the same local network." },
+            { "option": "B", "text": "Connect two different networks that use different protocols." },
+            { "option": "C", "text": "Assign IP addresses." },
+            { "option": "D", "text": "Filter network traffic." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "What is a 'decidable problem' in computability theory?",
+          "choices": [
+            { "option": "A", "text": "A problem for which a Turing machine will halt on every input." },
+            { "option": "B", "text": "A problem that can be solved efficiently." },
+            { "option": "C", "text": "A problem that has a yes/no answer." },
+            { "option": "D", "text": "A problem that is unsolvable." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 57,
+          "text": "The 'Scrum Master' in the Scrum agile framework is responsible for:",
+          "choices": [
+            { "option": "A", "text": "Managing the project budget." },
+            { "option": "B", "text": "Ensuring the team adheres to Scrum theory, practices, and rules." },
+            { "option": "C", "text": "Writing the code." },
+            { "option": "D", "text": "Dictating the project requirements." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "The 'Bayes' Rule' is used to calculate:",
+          "choices": [
+            { "option": "A", "text": "The probability of an event." },
+            { "option": "B", "text": "The expected value of a random variable." },
+            { "option": "C", "text": "The conditional probability of an event based on prior knowledge." },
+            { "option": "D", "text": "The correlation between two variables." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 59,
+          "text": "'Earned Value Management' (EVM) is a project management technique for:",
+          "choices": [
+            { "option": "A", "text": "Measuring project performance and progress in an objective manner." },
+            { "option": "B", "text": "Identifying project risks." },
+            { "option": "C", "text": "Selecting the project team." },
+            { "option": "D", "text": "Defining the project scope." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 60,
+          "text": "In a BJT, the emitter is always:",
+          "choices": [
+            { "option": "A", "text": "Lightly doped." },
+            { "option": "B", "text": "Moderately doped." },
+            { "option": "C", "text": "Heavily doped." },
+            { "option": "D", "text": "Undoped." }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A full-wave rectifier is fed with a 230V, 50 Hz AC supply. What is the fundamental ripple frequency at the output?",
+          "choices": [
+            { "option": "A", "text": "25 Hz" },
+            { "option": "B", "text": "50 Hz" },
+            { "option": "C", "text": "100 Hz" },
+            { "option": "D", "text": "230 Hz" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "What is the minimum number of 2-input NAND gates required to implement an XOR gate?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "5" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int i = 5;\n    printf(\"%d %d %d\\n\", i++, i, ++i);\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "5 6 7" },
+            { "option": "B", "text": "6 6 6" },
+            { "option": "C", "text": "5 5 6" },
+            { "option": "D", "text": "The output is undefined and depends on the compiler." }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 64,
+          "text": "A system's virtual address is 32 bits, and its physical address is 24 bits. If the page size is 4 KB, how many entries are there in the page table for a single process? (1 KB = 2^10 bytes)",
+          "choices": [
+            { "option": "A", "text": "2^12" },
+            { "option": "B", "text": "2^20" },
+            { "option": "C", "text": "2^24" },
+            { "option": "D", "text": "2^32" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "A web page consists of a 10 KB HTML file and 3 images of 20 KB each. The connection uses persistent HTTP with pipelining. How many round-trip times (RTTs) are needed to fetch the entire page?",
+          "choices": [
+            { "option": "A", "text": "5 RTTs" },
+            { "option": "B", "text": "4 RTTs" },
+            { "option": "C", "text": "3 RTTs" },
+            { "option": "D", "text": "2 RTTs" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 66,
+          "text": "What is the composite transformation matrix for rotating a 2D point by 90 degrees counter-clockwise and then scaling it by a factor of 2 in both x and y directions?",
+          "choices": [
+            { "option": "A", "text": "[ [0, -2], [2, 0] ]" },
+            { "option": "B", "text": "[ [2, 0], [0, 2] ]" },
+            { "option": "C", "text": "[ [0, 2], [-2, 0] ]" },
+            { "option": "D", "text": "[ [1, -2], [2, 1] ]" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 67,
+          "text": "For an undirected graph with V vertices, what is the maximum number of edges it can have if it is a simple graph (no self-loops or multiple edges)?",
+          "choices": [
+            { "option": "A", "text": "V - 1" },
+            { "option": "B", "text": "V" },
+            { "option": "C", "text": "V * (V - 1) / 2" },
+            { "option": "D", "text": "V * V" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "Consider a system using the Optimal Page Replacement algorithm with 3 frames. What is the number of page faults for the reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3?",
+          "choices": [
+            { "option": "A", "text": "5" },
+            { "option": "B", "text": "6" },
+            { "option": "C", "text": "7" },
+            { "option": "D", "text": "8" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 69,
+          "text": "If you invest Rs. 50,000 today at an annual interest rate of 8% compounded annually, what will be its value after 3 years?",
+          "choices": [
+            { "option": "A", "text": "Rs. 60,000" },
+            { "option": "B", "text": "Rs. 62,985.60" },
+            { "option": "C", "text": "Rs. 65,000" },
+            { "option": "D", "text": "Rs. 74,000" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "What is the output of the following SQL query, assuming an Employees table with a Salary column?\nSELECT COUNT(DISTINCT Salary) FROM Employees;",
+          "choices": [
+            { "option": "A", "text": "The total number of employees." },
+            { "option": "B", "text": "The sum of all salaries." },
+            { "option": "C", "text": "The number of unique salary values." },
+            { "option": "D", "text": "The number of non-null salary values." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 71,
+          "text": "A piece of code has two independent if statements in sequence. What is its cyclomatic complexity?",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "2" },
+            { "option": "C", "text": "3" },
+            { "option": "D", "text": "4" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 72,
+          "text": "What is the decimal value of the 8-bit 2's complement number 11001100?",
+          "choices": [
+            { "option": "A", "text": "204" },
+            { "option": "B", "text": "-52" },
+            { "option": "C", "text": "-51" },
+            { "option": "D", "text": "-204" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "A network using CSMA/CD has a bandwidth of 10 Mbps and a maximum propagation delay of 25.6 µs. What is the minimum frame size required to ensure collision detection?",
+          "choices": [
+            { "option": "A", "text": "256 bits" },
+            { "option": "B", "text": "512 bits" },
+            { "option": "C", "text": "1024 bits" },
+            { "option": "D", "text": "2048 bits" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "A pushdown automaton (PDA) recognizes a language by:",
+          "choices": [
+            { "option": "A", "text": "Final state only." },
+            { "option": "B", "text": "Empty stack only." },
+            { "option": "C", "text": "Either final state or empty stack." },
+            { "option": "D", "text": "The number of states visited." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 75,
+          "text": "In machine learning, if a classification model has high 'precision' but low 'recall', it means:",
+          "choices": [
+            { "option": "A", "text": "The model correctly identifies most of the positive cases but has many false positives." },
+            { "option": "B", "text": "The model's positive predictions are mostly correct, but it misses many actual positive cases." },
+            { "option": "C", "text": "The model is highly accurate overall." },
+            { "option": "D", "text": "The model is performing poorly on both measures." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "In the basic COCOMO model, what type of project would typically have the highest effort multiplier 'a'?",
+          "choices": [
+            { "option": "A", "text": "Organic (small, experienced team)" },
+            { "option": "B", "text": "Semi-detached (medium size and complexity)" },
+            { "option": "C", "text": "Embedded (complex, tightly coupled hardware/software)" },
+            { "option": "D", "text": "All have the same multiplier." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically?",
+          "choices": [
+            { "option": "A", "text": "Observer Pattern" },
+            { "option": "B", "text": "Singleton Pattern" },
+            { "option": "C", "text": "Adapter Pattern" },
+            { "option": "D", "text": "State Pattern" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 78,
+          "text": "What is the purpose of a 'namespace' in C++?",
+          "choices": [
+            { "option": "A", "text": "To provide a scope for identifiers (names of types, functions, variables) to avoid name collisions." },
+            { "option": "B", "text": "To allocate memory for objects." },
+            { "option": "C", "text": "To define a class template." },
+            { "option": "D", "text": "To handle runtime errors." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 79,
+          "text": "What is the Boolean expression for the output F of a 2-to-1 MUX with data inputs I0, I1 and selection line S?",
+          "choices": [
+            { "option": "A", "text": "F = S'I0 + SI1" },
+            { "option": "B", "text": "F = SI0 + S'I1" },
+            { "option": "C", "text": "F = (S + I0)(S' + I1)" },
+            { "option": "D", "text": "F = I0 + I1" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "In a project network diagram, what does an arrow represent?",
+          "choices": [
+            { "option": "A", "text": "A task or activity" },
+            { "option": "B", "text": "A dependency or precedence relationship" },
+            { "option": "C", "text": "A project milestone" },
+            { "option": "D", "text": "A project resource" }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

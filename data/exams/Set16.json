@@ -1,0 +1,897 @@
+{
+  "setId": 16,
+  "title": "Computer Engineering MCQ Practice - Set 16",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A dependent source in a circuit is one whose value depends on:",
+          "choices": [
+            { "option": "A", "text": "A fixed constant" },
+            { "option": "B", "text": "The time of day" },
+            { "option": "C", "text": "A voltage or current elsewhere in the circuit" },
+            { "option": "D", "text": "The temperature" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "Resonance in a series RLC circuit is the condition where:",
+          "choices": [
+            { "option": "A", "text": "The inductive reactance equals the capacitive reactance ($X_L = X_C$)." },
+            { "option": "B", "text": "The resistance is zero." },
+            { "option": "C", "text": "The impedance is maximum." },
+            { "option": "D", "text": "The current is zero." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "text": "The working principle of a transformer is based on:",
+          "choices": [
+            { "option": "A", "text": "Ohm's Law" },
+            { "option": "B", "text": "Kirchhoff's Laws" },
+            { "option": "C", "text": "Faraday's Law of Mutual Induction" },
+            { "option": "D", "text": "The Seebeck effect" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "A photodiode is a semiconductor device that converts:",
+          "choices": [
+            { "option": "A", "text": "Light energy into electrical energy" },
+            { "option": "B", "text": "Electrical energy into light energy" },
+            { "option": "C", "text": "AC to DC" },
+            { "option": "D", "text": "Heat energy into electrical energy" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "The common-mode rejection ratio (CMRR) of an op-amp is a measure of its ability to:",
+          "choices": [
+            { "option": "A", "text": "Amplify the difference between two input signals." },
+            { "option": "B", "text": "Reject signals that are common to both inputs." },
+            { "option": "C", "text": "Amplify a wide range of frequencies." },
+            { "option": "D", "text": "Change its output voltage quickly." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "The main purpose of a coupling capacitor in a multi-stage amplifier is to:",
+          "choices": [
+            { "option": "A", "text": "Block the DC component from passing to the next stage while allowing the AC signal to pass." },
+            { "option": "B", "text": "Amplify the DC signal." },
+            { "option": "C", "text": "Provide a path for DC current." },
+            { "option": "D", "text": "Control the amplifier's gain." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 7,
+          "text": "Subtracting a binary number from another can be achieved by:",
+          "choices": [
+            { "option": "A", "text": "Adding the 2's complement of the subtrahend." },
+            { "option": "B", "text": "Performing a bitwise NOR operation." },
+            { "option": "C", "text": "Inverting all the bits of the subtrahend." },
+            { "option": "D", "text": "Using a full adder directly." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "text": "A 'parity bit' is an extra bit added to a binary code to:",
+          "choices": [
+            { "option": "A", "text": "Increase the data value." },
+            { "option": "B", "text": "Encrypt the data." },
+            { "option": "C", "text": "Detect errors in data transmission." },
+            { "option": "D", "text": "Correct multiple-bit errors." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "A 'ring counter' is a type of shift register where:",
+          "choices": [
+            { "option": "A", "text": "The output of the first flip-flop is connected to the input of the last flip-flop." },
+            { "option": "B", "text": "The inverted output of the last flip-flop is connected to the input of the first flip-flop." },
+            { "option": "C", "text": "The output of the last flip-flop is connected to the input of the first flip-flop." },
+            { "option": "D", "text": "The counter counts in a random sequence." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 10,
+          "text": "A 'machine cycle' in a CPU consists of the steps taken to:",
+          "choices": [
+            { "option": "A", "text": "Execute a single high-level language statement." },
+            { "option": "B", "text": "Fetch, decode, and execute one machine-level instruction." },
+            { "option": "C", "text": "Refresh the dynamic RAM." },
+            { "option": "D", "text": "Boot the entire computer." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 11,
+          "text": "In the context of microprocessors, what is an 'assembler'?",
+          "choices": [
+            { "option": "A", "text": "A hardware component that assembles the CPU." },
+            { "option": "B", "text": "A software program that translates assembly language into machine code." },
+            { "option": "C", "text": "A program that interprets high-level code." },
+            { "option": "D", "text": "A debugger." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "In C, the -> operator is used to:",
+          "choices": [
+            { "option": "A", "text": "Access a member of a structure or union using a variable of its type." },
+            { "option": "B", "text": "Access a member of a structure or union using a pointer to it." },
+            { "option": "C", "text": "Indicate a logical implication." },
+            { "option": "D", "text": "Perform a bitwise shift." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C++, what is a 'copy constructor'?",
+          "choices": [
+            { "option": "A", "text": "A constructor that takes no arguments." },
+            { "option": "B", "text": "A constructor that is used to create a new object as a copy of an existing object." },
+            { "option": "C", "text": "A constructor that cannot be called." },
+            { "option": "D", "text": "A constructor defined in a derived class." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "What is the function of the throw keyword in C++ exception handling?",
+          "choices": [
+            { "option": "A", "text": "To specify a block of code to be tested for errors." },
+            { "option": "B", "text": "To define a block of code to be executed if an error occurs." },
+            { "option": "C", "text": "To signal that an exceptional condition has occurred." },
+            { "option": "D", "text": "To handle all types of exceptions." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 15,
+          "text": "'Out-of-order execution' is a technique used in high-performance CPUs to:",
+          "choices": [
+            { "option": "A", "text": "Execute instructions in the order they appear in the program." },
+            { "option": "B", "text": "Improve performance by executing instructions as soon as their operands are ready, regardless of the original program order." },
+            { "option": "C", "text": "Reduce the power consumption of the CPU." },
+            { "option": "D", "text": "Simplify the design of the control unit." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "The 'address bus' of a computer system is used to:",
+          "choices": [
+            { "option": "A", "text": "Transfer data between the CPU and memory." },
+            { "option": "B", "text": "Specify the memory location that the CPU wants to access." },
+            { "option": "C", "text": "Carry control signals." },
+            { "option": "D", "text": "Power the memory chips." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "Task 'synchronization' in a multitasking system refers to:",
+          "choices": [
+            { "option": "A", "text": "The coordination of the execution of multiple tasks." },
+            { "option": "B", "text": "The process of starting multiple tasks at the same time." },
+            { "option": "C", "text": "The scheduling of tasks based on their priority." },
+            { "option": "D", "text": "The termination of tasks." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "text": "The IEEE 802.11 standard is for:",
+          "choices": [
+            { "option": "A", "text": "Ethernet" },
+            { "option": "B", "text": "Token Ring" },
+            { "option": "C", "text": "Wireless Local Area Networks (WLAN or Wi-Fi)" },
+            { "option": "D", "text": "Bluetooth" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 19,
+          "text": "A 'proxy server' is a server that acts as an intermediary for requests from clients seeking resources from other servers. One of its primary uses is:",
+          "choices": [
+            { "option": "A", "text": "To assign IP addresses." },
+            { "option": "B", "text": "To provide content filtering, caching, and anonymity." },
+            { "option": "C", "text": "To resolve domain names." },
+            { "option": "D", "text": "To secure the physical network." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "text": "'Cryptography' is the practice and study of techniques for:",
+          "choices": [
+            { "option": "A", "text": "Securing communication in the presence of adversaries." },
+            { "option": "B", "text": "Designing computer networks." },
+            { "option": "C", "text": "Managing databases." },
+            { "option": "D", "text": "Testing software." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 21,
+          "text": "A 'derivation tree' (or parse tree) in the context of formal grammars shows:",
+          "choices": [
+            { "option": "A", "text": "How a string can be generated by the grammar." },
+            { "option": "B", "text": "The states of a finite automaton." },
+            { "option": "C", "text": "The execution flow of a program." },
+            { "option": "D", "text": "The inheritance hierarchy of classes." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 22,
+          "text": "A 'decidable' problem is one for which there exists a Turing machine that will:",
+          "choices": [
+            { "option": "A", "text": "Halt for all inputs and either accept or reject the string." },
+            { "option": "B", "text": "Halt only for strings that are in the language." },
+            { "option": "C", "text": "Run in polynomial time." },
+            { "option": "D", "text": "Use a finite amount of memory." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 23,
+          "text": "'Texture mapping' in computer graphics is a method for:",
+          "choices": [
+            { "option": "A", "text": "Adding detail, surface texture, or color to a 3D model." },
+            { "option": "B", "text": "Removing hidden surfaces." },
+            { "option": "C", "text": "Calculating the lighting in a scene." },
+            { "option": "D", "text": "Smoothing polygon edges." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "text": "A 'viewport' in computer graphics is a:",
+          "choices": [
+            { "option": "A", "text": "3D volume that defines what is visible in a scene." },
+            { "option": "B", "text": "A 2D rectangular area on the display device to which the window is mapped." },
+            { "option": "C", "text": "A coordinate system for defining objects." },
+            { "option": "D", "text": "A type of projection." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 25,
+          "text": "What is the main disadvantage of an array-based implementation of a list?",
+          "choices": [
+            { "option": "A", "text": "Accessing an element by its index is slow." },
+            { "option": "B", "text": "The size of the array is fixed and cannot be easily changed." },
+            { "option": "C", "text": "It requires more memory than a linked list." },
+            { "option": "D", "text": "The elements are not stored in contiguous memory." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "What is the worst-case time complexity of the Quick Sort algorithm?",
+          "choices": [
+            { "option": "A", "text": "$O(n \\log n)$" },
+            { "option": "B", "text": "$O(n)$" },
+            { "option": "C", "text": "$O(n^2)$" },
+            { "option": "D", "text": "$O(\\log n)$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 27,
+          "text": "A 'log-based recovery' mechanism in a database system is used to:",
+          "choices": [
+            { "option": "A", "text": "Speed up queries." },
+            { "option": "B", "text": "Enforce security." },
+            { "option": "C", "text": "Ensure atomicity and durability by recording all modifications to the database." },
+            { "option": "D", "text": "Normalize the data." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 28,
+          "text": "'Demand paging' is a technique in virtual memory systems where a page is loaded into main memory:",
+          "choices": [
+            { "option": "A", "text": "When the process starts." },
+            { "option": "B", "text": "Only when it is accessed (demanded)." },
+            { "option": "C", "text": "Periodically." },
+            { "option": "D", "text": "By the user explicitly." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "'Usability testing' is a technique for evaluating a product by testing it with:",
+          "choices": [
+            { "option": "A", "text": "The developers." },
+            { "option": "B", "text": "Representative users." },
+            { "option": "C", "text": "Automated scripts." },
+            { "option": "D", "text": "The project manager." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "A 'class diagram' in UML is a type of:",
+          "choices": [
+            { "option": "A", "text": "Static structure diagram." },
+            { "option": "B", "text": "Behavioral diagram." },
+            { "option": "C", "text": "Interaction diagram." },
+            { "option": "D", "text": "Implementation diagram." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 31,
+          "text": "The 'Observer' design pattern is a behavioral pattern used to:",
+          "choices": [
+            { "option": "A", "text": "Ensure a class has only one instance." },
+            { "option": "B", "text": "Define a one-to-many dependency between objects so that when one object changes state, its dependents are notified." },
+            { "option": "C", "text": "Create objects without specifying their concrete classes." },
+            { "option": "D", "text": "Adapt the interface of one class to another." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 32,
+          "text": "A 'monolithic architecture' is a traditional software design model where the application is built as:",
+          "choices": [
+            { "option": "A", "text": "A single, indivisible unit." },
+            { "option": "B", "text": "A collection of loosely coupled services." },
+            { "option": "C", "text": "A set of communicating components." },
+            { "option": "D", "text": "A client-server system." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 33,
+          "text": "A 'genetic algorithm' is a search heuristic inspired by the process of:",
+          "choices": [
+            { "option": "A", "text": "Natural selection" },
+            { "option": "B", "text": "Hill climbing" },
+            { "option": "C", "text": "Annealing in metallurgy" },
+            { "option": "D", "text": "The functioning of the human brain" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 34,
+          "text": "In machine learning, the 'K-Nearest Neighbors' (KNN) algorithm is a type of:",
+          "choices": [
+            { "option": "A", "text": "Clustering algorithm." },
+            { "option": "B", "text": "Instance-based learning (lazy learning) algorithm." },
+            { "option": "C", "text": "Neural network." },
+            { "option": "D", "text": "Regression model." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 35,
+          "text": "The 'sigmoid' function is often used as an activation function in neural networks because it:",
+          "choices": [
+            { "option": "A", "text": "Is a linear function." },
+            { "option": "B", "text": "Is not differentiable." },
+            { "option": "C", "text": "Maps any real value into a range between 0 and 1." },
+            { "option": "D", "text": "Can only output discrete values." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 36,
+          "text": "An 'isometric view' is a type of 3D representation where:",
+          "choices": [
+            { "option": "A", "text": "The angles between the projection of the x, y, and z axes are all 120 degrees." },
+            { "option": "B", "text": "Only one side of the object is visible." },
+            { "option": "C", "text": "Objects farther away appear smaller." },
+            { "option": "D", "text": "The view is a wireframe." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 37,
+          "text": "The 'Net Present Value' (NPV) of an investment is the difference between:",
+          "choices": [
+            { "option": "A", "text": "The total cash inflows and total cash outflows." },
+            { "option": "B", "text": "The present value of cash inflows and the present value of cash outflows." },
+            { "option": "C", "text": "The initial investment and the final salvage value." },
+            { "option": "D", "text": "The project's revenue and its cost." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "A 'Work Breakdown Structure' (WBS) is a deliverable-oriented hierarchical decomposition of the work to be executed by the project team. Its lowest level items are called:",
+          "choices": [
+            { "option": "A", "text": "Milestones" },
+            { "option": "B", "text": "Tasks" },
+            { "option": "C", "text": "Work packages" },
+            { "option": "D", "text": "Deliverables" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 39,
+          "text": "The ethical principle of 'public interest' for an engineer means:",
+          "choices": [
+            { "option": "A", "text": "Their primary obligation is to the safety, health, and welfare of the public." },
+            { "option": "B", "text": "They should only work on public projects." },
+            { "option": "C", "text": "They should make all their work public." },
+            { "option": "D", "text": "They should be interested in public opinion." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 40,
+          "text": "To legally practice engineering in Nepal, an individual must be:",
+          "choices": [
+            { "option": "A", "text": "A member of the Nepal Engineers' Association." },
+            { "option": "B", "text": "Registered with the Nepal Engineering Council." },
+            { "option": "C", "text": "A graduate of a Nepalese university." },
+            { "option": "D", "text": "All of the above." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "In a purely capacitive AC circuit, the power factor is:",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "0 lagging" },
+            { "option": "C", "text": "0 leading" },
+            { "option": "D", "text": "0.5" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 42,
+          "text": "The 'slew rate' of an op-amp limits its ability to amplify:",
+          "choices": [
+            { "option": "A", "text": "Low-frequency, small-amplitude signals." },
+            { "option": "B", "text": "High-frequency, large-amplitude signals." },
+            { "option": "C", "text": "DC signals." },
+            { "option": "D", "text": "Signals with a high common-mode voltage." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "A 'barrel shifter' is a digital circuit that can:",
+          "choices": [
+            { "option": "A", "text": "Store a binary word." },
+            { "option": "B", "text": "Shift a data word by a specified number of bits in one clock cycle." },
+            { "option": "C", "text": "Add two binary numbers." },
+            { "option": "D", "text": "Count the number of set bits." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "A 'race condition' in concurrent programming occurs when:",
+          "choices": [
+            { "option": "A", "text": "The behavior of a system depends on the non-deterministic timing of uncontrollable events." },
+            { "option": "B", "text": "Two processes are deadlocked." },
+            { "option": "C", "text": "A process is starved for resources." },
+            { "option": "D", "text": "The system is running too fast." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 45,
+          "text": "The 'MAC address' is a unique identifier assigned to a network interface controller (NIC) and is used at which layer of the OSI model?",
+          "choices": [
+            { "option": "A", "text": "Physical Layer" },
+            { "option": "B", "text": "Data Link Layer" },
+            { "option": "C", "text": "Network Layer" },
+            { "option": "D", "text": "Transport Layer" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "What is 'syntax analysis' or 'parsing'?",
+          "choices": [
+            { "option": "A", "text": "The process of breaking the input string into tokens." },
+            { "option": "B", "text": "The process of checking if the sequence of tokens forms a valid sentence according to a grammar." },
+            { "option": "C", "text": "The process of generating machine code." },
+            { "option": "D", "text": "The process of checking the meaning of the program." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "A 'graph' is a non-linear data structure consisting of:",
+          "choices": [
+            { "option": "A", "text": "A collection of nodes or vertices and edges that connect pairs of nodes." },
+            { "option": "B", "text": "A hierarchical structure of nodes." },
+            { "option": "C", "text": "A linear sequence of elements." },
+            { "option": "D", "text": "A collection of key-value pairs." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 48,
+          "text": "In C++, polymorphism allows:",
+          "choices": [
+            { "option": "A", "text": "A single interface to represent different underlying forms (data types)." },
+            { "option": "B", "text": "Hiding data and implementation details." },
+            { "option": "C", "text": "Creating new classes from existing ones." },
+            { "option": "D", "text": "Sharing a single variable among all objects of a class." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 49,
+          "text": "'Reinforcement Learning' is a type of machine learning where an agent learns:",
+          "choices": [
+            { "option": "A", "text": "By being given labeled examples." },
+            { "option": "B", "text": "By finding patterns in unlabeled data." },
+            { "option": "C", "text": "By interacting with an environment and receiving rewards or penalties for its actions." },
+            { "option": "D", "text": "By following a predefined set of rules." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 50,
+          "text": "A 'project manager' is responsible for:",
+          "choices": [
+            { "option": "A", "text": "Providing the funding for the project." },
+            { "option": "B", "text": "Performing all the technical work." },
+            { "option": "C", "text": "Planning, executing, and closing the project to meet its objectives." },
+            { "option": "D", "text": "The long-term maintenance of the project's deliverable." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 51,
+          "text": "A 'semiconductor' is a material whose conductivity is:",
+          "choices": [
+            { "option": "A", "text": "As high as a conductor." },
+            { "option": "B", "text": "As low as an insulator." },
+            { "option": "C", "text": "Between that of a conductor and an insulator." },
+            { "option": "D", "text": "Always zero." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 52,
+          "text": "What is a 'hazard' in a digital logic circuit?",
+          "choices": [
+            { "option": "A", "text": "An unwanted switching transient." },
+            { "option": "B", "text": "A stuck-at fault." },
+            { "option": "C", "text": "A design error." },
+            { "option": "D", "text": "A power surge." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 53,
+          "text": "The static keyword in C, when applied to a global variable, restricts its visibility to:",
+          "choices": [
+            { "option": "A", "text": "The block in which it is defined." },
+            { "option": "B", "text": "The file in which it is defined." },
+            { "option": "C", "text": "The function in which it is defined." },
+            { "option": "D", "text": "The entire program." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 54,
+          "text": "What is 'internal fragmentation' in memory management?",
+          "choices": [
+            { "option": "A", "text": "Unused memory within a allocated block." },
+            { "option": "B", "text": "Unused memory between allocated blocks." },
+            { "option": "C", "text": "The total amount of unused memory." },
+            { "option": "D", "text": "A loss of memory due to swapping." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "The 'three-way handshake' in TCP is used to:",
+          "choices": [
+            { "option": "A", "text": "Terminate a connection." },
+            { "option": "B", "text": "Establish a connection." },
+            { "option": "C", "text": "Control the flow of data." },
+            { "option": "D", "text": "Handle congestion." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "A problem is in the complexity class 'NP' (Non-deterministic Polynomial time) if:",
+          "choices": [
+            { "option": "A", "text": "It can be solved in polynomial time." },
+            { "option": "B", "text": "A given solution can be verified in polynomial time." },
+            { "option": "C", "text": "It is unsolvable." },
+            { "option": "D", "text": "It is a decision problem." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 57,
+          "text": "'Refactoring' is the process of:",
+          "choices": [
+            { "option": "A", "text": "Adding new features to the software." },
+            { "option": "B", "text": "Fixing bugs." },
+            { "option": "C", "text": "Restructuring existing computer code without changing its external behavior." },
+            { "option": "D", "text": "Removing features from the software." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 58,
+          "text": "The 'A*' search algorithm uses the function $f(n) = g(n) + h(n)$, where $g(n)$ is the:",
+          "choices": [
+            { "option": "A", "text": "Estimated cost from node $n$ to the goal." },
+            { "option": "B", "text": "Actual cost from the start node to node $n$." },
+            { "option": "C", "text": "Number of nodes expanded so far." },
+            { "option": "D", "text": "Priority of node $n$." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "A 'Gantt chart' is a bar chart that illustrates:",
+          "choices": [
+            { "option": "A", "text": "The project budget." },
+            { "option": "B", "text": "The project schedule." },
+            { "option": "C", "text": "The project risks." },
+            { "option": "D", "text": "The project team structure." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "The 'cutoff region' of a BJT is when:",
+          "choices": [
+            { "option": "A", "text": "It acts like a closed switch." },
+            { "option": "B", "text": "It acts like an open switch." },
+            { "option": "C", "text": "It acts as an amplifier." },
+            { "option": "D", "text": "It is in thermal breakdown." }
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A 100W light bulb is connected to a 200V supply. What is the resistance of the bulb? ($P = \\frac{V^2}{R}$)",
+          "choices": [
+            { "option": "A", "text": "100 $\\Omega$" },
+            { "option": "B", "text": "200 $\\Omega$" },
+            { "option": "C", "text": "400 $\\Omega$" },
+            { "option": "D", "text": "0.5 $\\Omega$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "Design a combinational circuit that takes a 3-bit binary number as input and outputs a '1' if the number of 1s in the input is odd. This describes a(n):",
+          "choices": [
+            { "option": "A", "text": "3-bit adder" },
+            { "option": "B", "text": "3-to-8 decoder" },
+            { "option": "C", "text": "3-bit odd parity generator" },
+            { "option": "D", "text": "8-to-3 encoder" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What is the final value of $x$ in the following C code snippet?\n#include <stdio.h>\nint main() {\n    int x = 10;\n    if (x > 5) {\n        int x = 20;\n        x++;\n    }\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "21" },
+            { "option": "C", "text": "11" },
+            { "option": "D", "text": "20" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 64,
+          "text": "A system uses 32-bit memory addresses and has a 256 KB cache. If the cache is direct-mapped and the block size is 16 bytes, how many bits of the address are used for the tag?",
+          "choices": [
+            { "option": "A", "text": "18" },
+            { "option": "B", "text": "14" },
+            { "option": "C", "text": "12" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "A router has learned two paths to the same destination network: Path 1 has a hop count of 5, and Path 2 has a hop count of 3. If the routing protocol is RIP (Routing Information Protocol), which path will be placed in the routing table?",
+          "choices": [
+            { "option": "A", "text": "Path 1, because it was learned first." },
+            { "option": "B", "text": "Path 2, because it has a lower metric (hop count)." },
+            { "option": "C", "text": "Both paths will be used for load balancing." },
+            { "option": "D", "text": "Neither path, as there is a conflict." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A line is defined by the equation $y = 2x + 1$. What is the slope of a line that is perpendicular to this line?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "-2" },
+            { "option": "C", "text": "$\\frac{1}{2}$" },
+            { "option": "D", "text": "$-\\frac{1}{2}$" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 67,
+          "text": "What is the maximum number of nodes in a binary tree of height $h$? (Assuming the height of a tree with one node is 0)",
+          "choices": [
+            { "option": "A", "text": "$2^h - 1$" },
+            { "option": "B", "text": "$2^h$" },
+            { "option": "C", "text": "$2^{h+1} - 1$" },
+            { "option": "D", "text": "$2h + 1$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 68,
+          "text": "A system has a total of 10 instances of a resource. Three processes P1, P2, and P3 have maximum needs of 5, 4, and 3 instances respectively. Currently, they hold 2, 2, and 1 instances. Is the current state safe according to the Banker's algorithm?",
+          "choices": [
+            { "option": "A", "text": "Yes, the state is safe." },
+            { "option": "B", "text": "No, the state is unsafe." },
+            { "option": "C", "text": "The system is deadlocked." },
+            { "option": "D", "text": "Not enough information to determine." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "A project's critical path has an expected duration of 40 days and a variance of 9 days$^2$. What is the probability that the project will be completed in 46 days or less? (Assume a normal distribution. Z-value for 2.0 is approx 0.977)",
+          "choices": [
+            { "option": "A", "text": "$\\sim$50\\%" },
+            { "option": "B", "text": "$\\sim$97.7\\%" },
+            { "option": "C", "text": "$\\sim$84\\%" },
+            { "option": "D", "text": "$\\sim$95\\%" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "What is the result of the following SQL query?\nSELECT * FROM Employees WHERE Salary BETWEEN 20000 AND 40000;",
+          "choices": [
+            { "option": "A", "text": "Employees with a salary of exactly 20000 or 40000." },
+            { "option": "B", "text": "Employees with a salary greater than 20000 and less than 40000." },
+            { "option": "C", "text": "Employees with a salary greater than or equal to 20000 and less than or equal to 40000." },
+            { "option": "D", "text": "The query is syntactically incorrect." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 71,
+          "text": "What is the primary difference between 'black-box' and 'white-box' testing?",
+          "choices": [
+            { "option": "A", "text": "Black-box testing is automated; white-box is manual." },
+            { "option": "B", "text": "White-box testing is done by the user; black-box is by the developer." },
+            { "option": "C", "text": "Black-box testing focuses on functionality without knowledge of internal code; white-box testing uses knowledge of the internal code structure." },
+            { "option": "D", "text": "Black-box is for performance; white-box is for security." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 72,
+          "text": "What is the minimum bandwidth required to transmit a signal with 8 discrete levels at a rate of 1200 symbols per second, according to the Nyquist theorem?",
+          "choices": [
+            { "option": "A", "text": "600 Hz" },
+            { "option": "B", "text": "1200 Hz" },
+            { "option": "C", "text": "2400 Hz" },
+            { "option": "D", "text": "4800 Hz" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 73,
+          "text": "In TCP, what is the purpose of the 'acknowledgment number'?",
+          "choices": [
+            { "option": "A", "text": "To indicate the sequence number of the current packet." },
+            { "option": "B", "text": "To indicate the sequence number of the next byte the receiver expects to receive." },
+            { "option": "C", "text": "To specify the size of the receiver's buffer." },
+            { "option": "D", "text": "To signal the termination of a connection." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "Which of the following strings can be generated by the grammar: $S \\rightarrow (S) \\mid SS \\mid \\varepsilon$?",
+          "choices": [
+            { "option": "A", "text": "\"(()\"" },
+            { "option": "B", "text": "\"()()\"" },
+            { "option": "C", "text": "\")(\"" },
+            { "option": "D", "text": "\"((\"" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "A confusion matrix for a binary classifier is given below. What is the accuracy of the model?\n\\begin{center}\n\\begin{tabular}{|c|c|}\n\\hline\nTrue Positive (TP) & 80 \\\\\n\\hline\nTrue Negative (TN) & 100 \\\\\n\\hline\nFalse Positive (FP) & 10 \\\\\n\\hline\nFalse Negative (FN) & 10 \\\\\n\\hline\n\\end{tabular}\n\\end{center}",
+          "choices": [
+            { "option": "A", "text": "80\\%" },
+            { "option": "B", "text": "88\\%" },
+            { "option": "C", "text": "90\\%" },
+            { "option": "D", "text": "95\\%" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 76,
+          "text": "In a file system that uses inodes, where are the pointers to the actual data blocks of a file stored?",
+          "choices": [
+            { "option": "A", "text": "In the directory entry." },
+            { "option": "B", "text": "In the file itself." },
+            { "option": "C", "text": "In the inode." },
+            { "option": "D", "text": "In a master file table." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern would be suitable for adding new functionalities (like scrolling or borders) to a UI window object at runtime?",
+          "choices": [
+            { "option": "A", "text": "Decorator Pattern" },
+            { "option": "B", "text": "Singleton Pattern" },
+            { "option": "C", "text": "Adapter Pattern" },
+            { "option": "D", "text": "Facade Pattern" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code using a \\texttt{std::map}?\n#include <iostream>\n#include <map>\n#include <string>\nint main() {\n    std::map<std::string, int> ages;\n    ages[\"Alice\"] = 30;\n    ages[\"Bob\"] = 25;\n    ages[\"Alice\"] = 32;\n    std::cout << ages[\"Alice\"] << std::endl;\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "30" },
+            { "option": "B", "text": "25" },
+            { "option": "C", "text": "32" },
+            { "option": "D", "text": "Compilation Error" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 79,
+          "text": "A 16-to-1 multiplexer requires how many selection lines?",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "2" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 80,
+          "text": "If a project has an NPV of zero, what is the relationship between its IRR and the discount rate used?",
+          "choices": [
+            { "option": "A", "text": "The IRR is equal to the discount rate." },
+            { "option": "B", "text": "The IRR is greater than the discount rate." },
+            { "option": "C", "text": "The IRR is less than the discount rate." },
+            { "option": "D", "text": "There is no relationship." }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

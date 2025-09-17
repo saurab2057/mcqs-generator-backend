@@ -1,0 +1,897 @@
+{
+  "setId": 21,
+  "title": "Computer and Electrical Engineering MCQ Practice - Set 21",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "In a series RLC circuit at resonance, the power factor is:",
+          "choices": [
+            { "option": "A", "text": "Zero" },
+            { "option": "B", "text": "Unity" },
+            { "option": "C", "text": "Leading" },
+            { "option": "D", "text": "Lagging" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 2,
+          "text": "If two resistors of 10 Ω each are connected in parallel, and then in series with a 5 Ω resistor, the total equivalent resistance is:",
+          "choices": [
+            { "option": "A", "text": "5 Ω" },
+            { "option": "B", "text": "10 Ω" },
+            { "option": "C", "text": "15 Ω" },
+            { "option": "D", "text": "20 Ω" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "A triangular wave has a peak-to-peak voltage of 20 V and a frequency of 50 Hz. Its RMS value is approximately:",
+          "choices": [
+            { "option": "A", "text": "5.77 V" },
+            { "option": "B", "text": "7.07 V" },
+            { "option": "C", "text": "10 V" },
+            { "option": "D", "text": "14.14 V" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 4,
+          "text": "In a BJT common emitter amplifier, if the collector resistance is increased, the voltage gain:",
+          "choices": [
+            { "option": "A", "text": "Increases" },
+            { "option": "B", "text": "Decreases" },
+            { "option": "C", "text": "Remains the same" },
+            { "option": "D", "text": "Becomes zero" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "A Colpitts oscillator uses:",
+          "choices": [
+            { "option": "A", "text": "Two inductors and one capacitor" },
+            { "option": "B", "text": "Two capacitors and one inductor" },
+            { "option": "C", "text": "Three capacitors" },
+            { "option": "D", "text": "Three inductors" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "The efficiency of a class C amplifier is typically:",
+          "choices": [
+            { "option": "A", "text": "Less than 50%" },
+            { "option": "B", "text": "Around 50%" },
+            { "option": "C", "text": "Between 70-80%" },
+            { "option": "D", "text": "Over 90%" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 7,
+          "text": "Convert the binary number 1011.101 to hexadecimal:",
+          "choices": [
+            { "option": "A", "text": "B.A" },
+            { "option": "B", "text": "B.B" },
+            { "option": "C", "text": "C.5" },
+            { "option": "D", "text": "B.C" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 8,
+          "text": "A device that converts multiple input signals into a single output is called:",
+          "choices": [
+            { "option": "A", "text": "Encoder" },
+            { "option": "B", "text": "Decoder" },
+            { "option": "C", "text": "Multiplexer" },
+            { "option": "D", "text": "Demultiplexer" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "In a ring counter with 4 flip-flops, the number of unique states is:",
+          "choices": [
+            { "option": "A", "text": "4" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "16" },
+            { "option": "D", "text": "2" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 10,
+          "text": "In 8085 microprocessor, the HL register pair is used for:",
+          "choices": [
+            { "option": "A", "text": "Storing addresses" },
+            { "option": "B", "text": "Accumulating results" },
+            { "option": "C", "text": "Counting instructions" },
+            { "option": "D", "text": "Temporary storage only" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 11,
+          "text": "The 8259 PIC (Programmable Interrupt Controller) can handle how many interrupt levels?",
+          "choices": [
+            { "option": "A", "text": "4" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "16" },
+            { "option": "D", "text": "32" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "Which interrupt in 8086 is non-maskable?",
+          "choices": [
+            { "option": "A", "text": "INT 0" },
+            { "option": "B", "text": "NMI" },
+            { "option": "C", "text": "TRAP" },
+            { "option": "D", "text": "RST 5.5" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C, the correct way to declare a function pointer is:",
+          "choices": [
+            { "option": "A", "text": "int (*func)(int);" },
+            { "option": "B", "text": "int *func(int);" },
+            { "option": "C", "text": "int func(*int);" },
+            { "option": "D", "text": "(*int) func(int);" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "text": "To read a binary file in C, the mode used with fopen is:",
+          "choices": [
+            { "option": "A", "text": "\"r\"" },
+            { "option": "B", "text": "\"rb\"" },
+            { "option": "C", "text": "\"w\"" },
+            { "option": "D", "text": "\"wb\"" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "In C++, operator overloading is not possible for:",
+          "choices": [
+            { "option": "A", "text": "+" },
+            { "option": "B", "text": "." },
+            { "option": "C", "text": "*" },
+            { "option": "D", "text": "/" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "Polymorphism in OOP is achieved through:",
+          "choices": [
+            { "option": "A", "text": "Inheritance" },
+            { "option": "B", "text": "Encapsulation" },
+            { "option": "C", "text": "Overriding" },
+            { "option": "D", "text": "Data hiding" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 17,
+          "text": "Pure virtual functions in C++ are declared with:",
+          "choices": [
+            { "option": "A", "text": "= 0" },
+            { "option": "B", "text": "virtual = 0" },
+            { "option": "C", "text": "abstract" },
+            { "option": "D", "text": "pure" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "text": "In C++, try-catch blocks handle:",
+          "choices": [
+            { "option": "A", "text": "Syntax errors" },
+            { "option": "B", "text": "Runtime exceptions" },
+            { "option": "C", "text": "Compilation errors" },
+            { "option": "D", "text": "Logical errors" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "In register indirect addressing mode, the effective address is:",
+          "choices": [
+            { "option": "A", "text": "In the instruction" },
+            { "option": "B", "text": "In a register" },
+            { "option": "C", "text": "Calculated from offset" },
+            { "option": "D", "text": "Immediate value" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "text": "The component with the lowest access time in CPU is:",
+          "choices": [
+            { "option": "A", "text": "Cache" },
+            { "option": "B", "text": "RAM" },
+            { "option": "C", "text": "Registers" },
+            { "option": "D", "text": "Hard disk" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 21,
+          "text": "SPI (Serial Peripheral Interface) is a:",
+          "choices": [
+            { "option": "A", "text": "Synchronous serial protocol" },
+            { "option": "B", "text": "Asynchronous serial protocol" },
+            { "option": "C", "text": "Parallel protocol" },
+            { "option": "D", "text": "Wireless protocol" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 22,
+          "text": "Firmware in embedded systems is typically:",
+          "choices": [
+            { "option": "A", "text": "Volatile" },
+            { "option": "B", "text": "Non-volatile" },
+            { "option": "C", "text": "RAM-based" },
+            { "option": "D", "text": "Cache-based" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "Priority scheduling can lead to:",
+          "choices": [
+            { "option": "A", "text": "Starvation" },
+            { "option": "B", "text": "Deadlock" },
+            { "option": "C", "text": "Thrashing" },
+            { "option": "D", "text": "Inversion" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "text": "In FPGA design, place and route follows:",
+          "choices": [
+            { "option": "A", "text": "Synthesis" },
+            { "option": "B", "text": "Simulation" },
+            { "option": "C", "text": "Verification" },
+            { "option": "D", "text": "Compilation" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 25,
+          "text": "The OSI layer responsible for routing is:",
+          "choices": [
+            { "option": "A", "text": "Physical" },
+            { "option": "B", "text": "Data Link" },
+            { "option": "C", "text": "Network" },
+            { "option": "D", "text": "Transport" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 26,
+          "text": "ICMP is used for:",
+          "choices": [
+            { "option": "A", "text": "Error reporting" },
+            { "option": "B", "text": "File transfer" },
+            { "option": "C", "text": "Email" },
+            { "option": "D", "text": "Web browsing" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "text": "In link state routing, each router shares:",
+          "choices": [
+            { "option": "A", "text": "Its entire routing table" },
+            { "option": "B", "text": "Only neighbor info" },
+            { "option": "C", "text": "Link costs with all" },
+            { "option": "D", "text": "Distance vectors" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 28,
+          "text": "UDP is a:",
+          "choices": [
+            { "option": "A", "text": "Connection-oriented protocol" },
+            { "option": "B", "text": "Reliable protocol" },
+            { "option": "C", "text": "Connectionless protocol" },
+            { "option": "D", "text": "Secure protocol" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 29,
+          "text": "SMTP is used for:",
+          "choices": [
+            { "option": "A", "text": "Sending email" },
+            { "option": "B", "text": "Receiving email" },
+            { "option": "C", "text": "Storing email" },
+            { "option": "D", "text": "Deleting email" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 30,
+          "text": "A common data link layer vulnerability is:",
+          "choices": [
+            { "option": "A", "text": "Spoofing" },
+            { "option": "B", "text": "SQL injection" },
+            { "option": "C", "text": "Buffer overflow" },
+            { "option": "D", "text": "Phishing" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 31,
+          "text": "Context-free languages are recognized by:",
+          "choices": [
+            { "option": "A", "text": "Finite automata" },
+            { "option": "B", "text": "Pushdown automata" },
+            { "option": "C", "text": "Turing machines" },
+            { "option": "D", "text": "Linear bounded automata" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 32,
+          "text": "Pumping lemma for regular languages divides the string into:",
+          "choices": [
+            { "option": "A", "text": "Two parts" },
+            { "option": "B", "text": "Three parts" },
+            { "option": "C", "text": "Four parts" },
+            { "option": "D", "text": "Five parts" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 33,
+          "text": "The time complexity of quicksort in worst case is:",
+          "choices": [
+            { "option": "A", "text": "O(n log n)" },
+            { "option": "B", "text": "O(n)" },
+            { "option": "C", "text": "O(n^2)" },
+            { "option": "D", "text": "O(log n)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "In computer graphics, the frame buffer stores:",
+          "choices": [
+            { "option": "A", "text": "Pixel values" },
+            { "option": "B", "text": "Vector data" },
+            { "option": "C", "text": "Transformation matrices" },
+            { "option": "D", "text": "Clipping windows" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "A transformation that changes size without changing shape is:",
+          "choices": [
+            { "option": "A", "text": "Translation" },
+            { "option": "B", "text": "Rotation" },
+            { "option": "C", "text": "Scaling" },
+            { "option": "D", "text": "Shearing" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 36,
+          "text": "In 3D transformations, perspective projection preserves:",
+          "choices": [
+            { "option": "A", "text": "Parallel lines" },
+            { "option": "B", "text": "Angles" },
+            { "option": "C", "text": "Distances" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 37,
+          "text": "A data structure that allows insertion and deletion from both ends is:",
+          "choices": [
+            { "option": "A", "text": "Stack" },
+            { "option": "B", "text": "Queue" },
+            { "option": "C", "text": "Deque" },
+            { "option": "D", "text": "Linked list" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 38,
+          "text": "Bellman-Ford algorithm detects:",
+          "choices": [
+            { "option": "A", "text": "Negative cycles" },
+            { "option": "B", "text": "Positive cycles" },
+            { "option": "C", "text": "Shortest paths in DAG" },
+            { "option": "D", "text": "Minimum spanning tree" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "text": "A multivalued attribute in ER diagram is represented by:",
+          "choices": [
+            { "option": "A", "text": "Oval" },
+            { "option": "B", "text": "Double oval" },
+            { "option": "C", "text": "Rectangle" },
+            { "option": "D", "text": "Diamond" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "text": "ACID properties ensure:",
+          "choices": [
+            { "option": "A", "text": "Database consistency" },
+            { "option": "B", "text": "Query optimization" },
+            { "option": "C", "text": "Indexing" },
+            { "option": "D", "text": "Normalization" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 41,
+          "text": "In Linux, the command to create a new process is:",
+          "choices": [
+            { "option": "A", "text": "fork()" },
+            { "option": "B", "text": "exec()" },
+            { "option": "C", "text": "wait()" },
+            { "option": "D", "text": "exit()" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 42,
+          "text": "In LRU page replacement, the page replaced is:",
+          "choices": [
+            { "option": "A", "text": "Least recently used" },
+            { "option": "B", "text": "Most recently used" },
+            { "option": "C", "text": "First in" },
+            { "option": "D", "text": "Random" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 43,
+          "text": "SDLC stands for:",
+          "choices": [
+            { "option": "A", "text": "System Development Life Cycle" },
+            { "option": "B", "text": "Software Development Life Cycle" },
+            { "option": "C", "text": "System Design Life Cycle" },
+            { "option": "D", "text": "Software Design Life Cycle" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "In Java RMI, the skeleton is on the:",
+          "choices": [
+            { "option": "A", "text": "Client side" },
+            { "option": "B", "text": "Server side" },
+            { "option": "C", "text": "Both sides" },
+            { "option": "D", "text": "None" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "Black box testing focuses on:",
+          "choices": [
+            { "option": "A", "text": "Internal code" },
+            { "option": "B", "text": "Functionality" },
+            { "option": "C", "text": "Performance" },
+            { "option": "D", "text": "Security" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "In UML, a diagram showing interactions over time is:",
+          "choices": [
+            { "option": "A", "text": "Class diagram" },
+            { "option": "B", "text": "Sequence diagram" },
+            { "option": "C", "text": "Use case diagram" },
+            { "option": "D", "text": "State diagram" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "Object-oriented design emphasizes:",
+          "choices": [
+            { "option": "A", "text": "Procedures" },
+            { "option": "B", "text": "Data" },
+            { "option": "C", "text": "Objects" },
+            { "option": "D", "text": "Functions" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 48,
+          "text": "A stereotype in UML is a:",
+          "choices": [
+            { "option": "A", "text": "Extension mechanism" },
+            { "option": "B", "text": "Basic element" },
+            { "option": "C", "text": "Relationship" },
+            { "option": "D", "text": "Attribute" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 49,
+          "text": "Expert systems are a branch of:",
+          "choices": [
+            { "option": "A", "text": "AI" },
+            { "option": "B", "text": "ML" },
+            { "option": "C", "text": "Data mining" },
+            { "option": "D", "text": "Big data" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "A* algorithm uses:",
+          "choices": [
+            { "option": "A", "text": "Heuristic" },
+            { "option": "B", "text": "Breadth-first" },
+            { "option": "C", "text": "Depth-first" },
+            { "option": "D", "text": "Random" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 51,
+          "text": "Frames in knowledge representation are similar to:",
+          "choices": [
+            { "option": "A", "text": "Objects" },
+            { "option": "B", "text": "Rules" },
+            { "option": "C", "text": "Scripts" },
+            { "option": "D", "text": "Semantic nets" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 52,
+          "text": "Forward chaining in expert systems is:",
+          "choices": [
+            { "option": "A", "text": "Data-driven" },
+            { "option": "B", "text": "Goal-driven" },
+            { "option": "C", "text": "Both" },
+            { "option": "D", "text": "Neither" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 53,
+          "text": "Reinforcement learning involves:",
+          "choices": [
+            { "option": "A", "text": "Rewards" },
+            { "option": "B", "text": "Labels" },
+            { "option": "C", "text": "Clusters" },
+            { "option": "D", "text": "Associations" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 54,
+          "text": "In neural networks, activation function for hidden layers is often:",
+          "choices": [
+            { "option": "A", "text": "Sigmoid" },
+            { "option": "B", "text": "Linear" },
+            { "option": "C", "text": "Step" },
+            { "option": "D", "text": "Constant" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "If a drawing scale is 1:10 and actual length is 50 cm, the drawing length is:",
+          "choices": [
+            { "option": "A", "text": "5 cm" },
+            { "option": "B", "text": "10 cm" },
+            { "option": "C", "text": "50 cm" },
+            { "option": "D", "text": "500 cm" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 56,
+          "text": "IRR is the rate where NPV is:",
+          "choices": [
+            { "option": "A", "text": "Positive" },
+            { "option": "B", "text": "Negative" },
+            { "option": "C", "text": "Zero" },
+            { "option": "D", "text": "Infinite" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "Gantt chart is used for:",
+          "choices": [
+            { "option": "A", "text": "Resource allocation" },
+            { "option": "B", "text": "Scheduling" },
+            { "option": "C", "text": "Cost estimation" },
+            { "option": "D", "text": "Risk analysis" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "Risk transference involves:",
+          "choices": [
+            { "option": "A", "text": "Avoiding risk" },
+            { "option": "B", "text": "Mitigating risk" },
+            { "option": "C", "text": "Accepting risk" },
+            { "option": "D", "text": "Transferring to third party" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 59,
+          "text": "NEA code of ethics emphasizes:",
+          "choices": [
+            { "option": "A", "text": "Professional conduct" },
+            { "option": "B", "text": "Financial gain" },
+            { "option": "C", "text": "Personal interests" },
+            { "option": "D", "text": "Political involvement" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 60,
+          "text": "The Nepal Engineering Council registers engineers in how many categories?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "3" },
+            { "option": "C", "text": "4" },
+            { "option": "D", "text": "5" }
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "The phase difference between two sine waves with frequencies 50 Hz and 60 Hz after 1 second is:",
+          "choices": [
+            { "option": "A", "text": "3600 degrees" },
+            { "option": "B", "text": "360 degrees" },
+            { "option": "C", "text": "180 degrees" },
+            { "option": "D", "text": "0 degrees" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 62,
+          "text": "In a Hartley oscillator, the frequency is determined by:",
+          "choices": [
+            { "option": "A", "text": "LC tank" },
+            { "option": "B", "text": "RC network" },
+            { "option": "C", "text": "Crystal" },
+            { "option": "D", "text": "Op-amp" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 63,
+          "text": "A 4-bit serial-in parallel-out shift register initially at 0000. After shifting in 1011, the output is:",
+          "choices": [
+            { "option": "A", "text": "1011" },
+            { "option": "B", "text": "1101" },
+            { "option": "C", "text": "0110" },
+            { "option": "D", "text": "1110" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 64,
+          "text": "A microprocessor with 16 address lines can address:",
+          "choices": [
+            { "option": "A", "text": "64 KB" },
+            { "option": "B", "text": "128 KB" },
+            { "option": "C", "text": "256 KB" },
+            { "option": "D", "text": "64K words" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "What is the output of this C++ code?\n\\begin{verbatim}\n#include <iostream>\nclass Base {\npublic:\n    virtual void show() { std::cout << \"Base\"; }\n};\nclass Derived : public Base {\npublic:\n    void show() { std::cout << \"Derived\"; }\n};\nint main() {\n    Base* b = new Derived();\n    b->show();\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "Base" },
+            { "option": "B", "text": "Derived" },
+            { "option": "C", "text": "Error" },
+            { "option": "D", "text": "Nothing" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "What does this C code print?\n\\begin{verbatim}\n#include <stdio.h>\nint main() {\n    int a = 5;\n    printf(\"%d \", ++a);\n    printf(\"%d\", a++);\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "6 6" },
+            { "option": "B", "text": "6 5" },
+            { "option": "C", "text": "5 6" },
+            { "option": "D", "text": "5 5" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 67,
+          "text": "The bitwise XOR of 1010 and 0111 is:",
+          "choices": [
+            { "option": "A", "text": "1101" },
+            { "option": "B", "text": "1010" },
+            { "option": "C", "text": "0111" },
+            { "option": "D", "text": "0000" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "In VHDL, a process is sensitive to:",
+          "choices": [
+            { "option": "A", "text": "Signals in sensitivity list" },
+            { "option": "B", "text": "All signals" },
+            { "option": "C", "text": "Constants" },
+            { "option": "D", "text": "Variables only" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "The subnet mask 255.255.240.0 in wildcard is:",
+          "choices": [
+            { "option": "A", "text": "0.0.15.255" },
+            { "option": "B", "text": "0.0.255.15" },
+            { "option": "C", "text": "0.0.0.255" },
+            { "option": "D", "text": "0.0.31.255" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 70,
+          "text": "Using Vigenère cipher with key \"KEY\" on \"ATTACK\", the ciphertext is:",
+          "choices": [
+            { "option": "A", "text": "KFFKGO" },
+            { "option": "B", "text": "KDFKGO" },
+            { "option": "C", "text": "KFFAGO" },
+            { "option": "D", "text": "KDFAGO" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "The regular expression for strings over {a,b} with even number of a's is:",
+          "choices": [
+            { "option": "A", "text": "b*(abab)*" },
+            { "option": "B", "text": "a*(baba)*" },
+            { "option": "C", "text": "(a+b)aa(a+b)" },
+            { "option": "D", "text": "(ab)(ba)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "After applying rotation by 90 degrees clockwise to point (1,0), the new point is:",
+          "choices": [
+            { "option": "A", "text": "(0,1)" },
+            { "option": "B", "text": "(0,-1)" },
+            { "option": "C", "text": "(-1,0)" },
+            { "option": "D", "text": "(1,0)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "This code performs:\n\\begin{verbatim}\nvoid traverse(Node* root) {\n    if (root == NULL) return;\n    traverse(root->left);\n    std::cout << root->data << \" \";\n    traverse(root->right);\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "Preorder" },
+            { "option": "B", "text": "Inorder" },
+            { "option": "C", "text": "Postorder" },
+            { "option": "D", "text": "Level order" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "In SQL, GROUP BY is used with:",
+          "choices": [
+            { "option": "A", "text": "WHERE" },
+            { "option": "B", "text": "HAVING" },
+            { "option": "C", "text": "ORDER BY" },
+            { "option": "D", "text": "All" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "For processes: P1(0,10), P2(2,5), P3(3,8) using FCFS, average turnaround time is:",
+          "choices": [
+            { "option": "A", "text": "13.67" },
+            { "option": "B", "text": "14.33" },
+            { "option": "C", "text": "15" },
+            { "option": "D", "text": "16.33" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "Non-functional requirements include:",
+          "choices": [
+            { "option": "A", "text": "Performance" },
+            { "option": "B", "text": "Functionality" },
+            { "option": "C", "text": "Algorithms" },
+            { "option": "D", "text": "Data structures" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 77,
+          "text": "Time complexity of BFS is:",
+          "choices": [
+            { "option": "A", "text": "O(V)" },
+            { "option": "B", "text": "O(E)" },
+            { "option": "C", "text": "O(V+E)" },
+            { "option": "D", "text": "O(V^2)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 78,
+          "text": "Parsing that checks grammar rules is:",
+          "choices": [
+            { "option": "A", "text": "Lexical" },
+            { "option": "B", "text": "Syntactic" },
+            { "option": "C", "text": "Semantic" },
+            { "option": "D", "text": "Pragmatic" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "Future value of Rs. 1000 at 5% interest for 3 years is:",
+          "choices": [
+            { "option": "A", "text": "1157.63" },
+            { "option": "B", "text": "1100" },
+            { "option": "C", "text": "1050" },
+            { "option": "D", "text": "157.63" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "In CPM, the critical path is the:",
+          "choices": [
+            { "option": "A", "text": "Shortest path" },
+            { "option": "B", "text": "Longest path" },
+            { "option": "C", "text": "Average path" },
+            { "option": "D", "text": "Random path" }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

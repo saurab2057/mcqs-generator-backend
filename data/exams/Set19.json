@@ -1,0 +1,897 @@
+{
+  "setId": 19,
+  "title": "Computer Engineering MCQ Practice - Set 19",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "In a complex AC circuit, the \"conjugate\" of the load impedance is used to calculate the condition for:",
+          "choices": [
+            { "option": "A", "text": "Maximum voltage transfer" },
+            { "option": "B", "text": "Maximum current transfer" },
+            { "option": "C", "text": "Maximum power transfer" },
+            { "option": "D", "text": "Minimum power dissipation" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "A \"Butterworth\" filter is a type of analog filter known for its:",
+          "choices": [
+            { "option": "A", "text": "Maximally flat frequency response in the passband." },
+            { "option": "B", "text": "Steep transition band (roll-off)." },
+            { "option": "C", "text": "Ripples in the passband." },
+            { "option": "D", "text": "Linear phase response." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "text": "In a BJT, the \"beta\" ($\\beta$ or $h_{fe}$) is temperature-dependent. As temperature increases, $\\beta$ generally:",
+          "choices": [
+            { "option": "A", "text": "Decreases" },
+            { "option": "B", "text": "Increases" },
+            { "option": "C", "text": "Remains constant" },
+            { "option": "D", "text": "Becomes zero" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "text": "A \"Schottky\" diode has a very low forward voltage drop and very fast switching speed because it uses a:",
+          "choices": [
+            { "option": "A", "text": "P-N junction" },
+            { "option": "B", "text": "Metal-semiconductor junction" },
+            { "option": "C", "text": "Zener breakdown mechanism" },
+            { "option": "D", "text": "P-I-N structure" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 5,
+          "text": "An op-amp's \"slew rate\" is defined as the maximum rate of change of its:",
+          "choices": [
+            { "option": "A", "text": "Input voltage" },
+            { "option": "B", "text": "Output voltage" },
+            { "option": "C", "text": "Open-loop gain" },
+            { "option": "D", "text": "Input current" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "A \"Darlington pair\" is a compound structure of two bipolar transistors used to provide a very high:",
+          "choices": [
+            { "option": "A", "text": "Voltage gain" },
+            { "option": "B", "text": "Current gain" },
+            { "option": "C", "text": "Output impedance" },
+            { "option": "D", "text": "Frequency response" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 7,
+          "text": "What is a \"metastable\" state in a flip-flop?",
+          "choices": [
+            { "option": "A", "text": "A stable '1' or '0' state." },
+            { "option": "B", "text": "An undefined, intermediate state that occurs when setup or hold times are violated." },
+            { "option": "C", "text": "The reset state." },
+            { "option": "D", "text": "The initial state on power-up." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "text": "In digital logic design, a \"don't care\" condition means that for a given input combination:",
+          "choices": [
+            { "option": "A", "text": "The output must be '0'." },
+            { "option": "B", "text": "The output must be '1'." },
+            { "option": "C", "text": "The output can be either '0' or '1', which can be used to simplify the logic." },
+            { "option": "D", "text": "The input combination will never occur." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "A \"serial adder\" is a digital circuit that adds two numbers:",
+          "choices": [
+            { "option": "A", "text": "All bits at the same time in parallel." },
+            { "option": "B", "text": "One bit at a time, using a single full adder." },
+            { "option": "C", "text": "By using a look-up table." },
+            { "option": "D", "text": "Asynchronously." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 10,
+          "text": "In computer architecture, \"Amdahl's law\" is used to find the:",
+          "choices": [
+            { "option": "A", "text": "Maximum expected improvement to an overall system when only part of the system is improved." },
+            { "option": "B", "text": "Power consumption of a CPU." },
+            { "option": "C", "text": "Cache hit rate." },
+            { "option": "D", "text": "Number of pipeline stages." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 11,
+          "text": "What is a \"Non-Maskable Interrupt\" (NMI)?",
+          "choices": [
+            { "option": "A", "text": "A software interrupt." },
+            { "option": "B", "text": "An interrupt that can be disabled by the CPU." },
+            { "option": "C", "text": "A high-priority interrupt that cannot be disabled by the CPU, typically used for critical events like hardware failures." },
+            { "option": "D", "text": "An interrupt generated by a keyboard." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 12,
+          "text": "In C, what is the difference between \\texttt{const int *p} and \\texttt{int * const p}?",
+          "choices": [
+            { "option": "A", "text": "There is no difference." },
+            { "option": "B", "text": "\\texttt{const int *p} is a pointer to a constant integer; \\texttt{int * const p} is a constant pointer to an integer." },
+            { "option": "C", "text": "\\texttt{const int *p} is a constant pointer; \\texttt{int * const p} points to a constant." },
+            { "option": "D", "text": "Both are syntactically incorrect." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C++, what is \"Resource Acquisition Is Initialization\" (RAII)?",
+          "choices": [
+            { "option": "A", "text": "A memory allocation pattern." },
+            { "option": "B", "text": "A design idiom that binds resource management (memory, files, sockets) to the lifetime of an object, leveraging the destructor for cleanup." },
+            { "option": "C", "text": "A way to initialize static variables." },
+            { "option": "D", "text": "A type of exception." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "What is a \"move constructor\" in modern C++ used for?",
+          "choices": [
+            { "option": "A", "text": "To efficiently transfer ownership of resources from a temporary (rvalue) object to another object, avoiding expensive copies." },
+            { "option": "B", "text": "To move an object in memory." },
+            { "option": "C", "text": "To copy an object." },
+            { "option": "D", "text": "To construct an object at a specific memory location." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 15,
+          "text": "What is a \"cache coherence protocol\" like MESI?",
+          "choices": [
+            { "option": "A", "text": "A protocol that ensures all caches in a multiprocessor system maintain a consistent view of shared memory." },
+            { "option": "B", "text": "A protocol for virtual to physical address translation." },
+            { "option": "C", "text": "A protocol for writing data back to main memory." },
+            { "option": "D", "text": "A protocol for replacing blocks in a cache." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "In an RTOS, a \"deadline-monotonic\" scheduling algorithm assigns priorities based on:",
+          "choices": [
+            { "option": "A", "text": "The period of the task." },
+            { "option": "B", "text": "The execution time of the task." },
+            { "option": "C", "text": "The relative deadline of the task (shorter deadline gets higher priority)." },
+            { "option": "D", "text": "The arrival time of the task." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 17,
+          "text": "What is \"TCP meltdown\"?",
+          "choices": [
+            { "option": "A", "text": "A security attack on TCP." },
+            { "option": "B", "text": "A situation where persistent packet retransmissions cause the network to become congested and ultimately unusable." },
+            { "option": "C", "text": "The process of closing a TCP connection." },
+            { "option": "D", "text": "A feature of TCP for fast recovery." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "An \"anycast\" address in IPv6 is an address that:",
+          "choices": [
+            { "option": "A", "text": "Identifies a single interface." },
+            { "option": "B", "text": "Identifies a group of interfaces, and a packet sent to it is delivered to only one of the interfaces (the nearest one)." },
+            { "option": "C", "text": "Identifies a group of interfaces, and a packet sent to it is delivered to all of them." },
+            { "option": "D", "text": "Is used for broadcasting." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "A \"zero-day\" vulnerability is a security flaw that is:",
+          "choices": [
+            { "option": "A", "text": "Exploited by an attacker on the same day it is discovered by the vendor." },
+            { "option": "B", "text": "Easy to exploit." },
+            { "option": "C", "text": "Found in open-source software." },
+            { "option": "D", "text": "Patched within 24 hours." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 20,
+          "text": "A \"Turing-complete\" system is a system that can:",
+          "choices": [
+            { "option": "A", "text": "Solve any problem." },
+            { "option": "B", "text": "Solve any problem that a Turing machine can solve." },
+            { "option": "C", "text": "Run in polynomial time." },
+            { "option": "D", "text": "Verify any solution." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "text": "In graphics, \"Bresenham's line algorithm\" is an efficient algorithm for rasterizing a line because it:",
+          "choices": [
+            { "option": "A", "text": "Uses floating-point arithmetic." },
+            { "option": "B", "text": "Uses only integer arithmetic." },
+            { "option": "C", "text": "Can draw curved lines." },
+            { "option": "D", "text": "Is implemented in hardware." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 22,
+          "text": "The Floyd-Warshall algorithm is used to find the all-pairs shortest paths in a weighted graph and has a time complexity of:",
+          "choices": [
+            { "option": "A", "text": "$O(V + E)$" },
+            { "option": "B", "text": "$O(V \\log E)$" },
+            { "option": "C", "text": "$O(V^3)$" },
+            { "option": "D", "text": "$O(E \\log V)$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 23,
+          "text": "Two-Phase Locking (2PL) is a concurrency control protocol that ensures serializability by:",
+          "choices": [
+            { "option": "A", "text": "Requiring a transaction to acquire all its locks before releasing any of them." },
+            { "option": "B", "text": "Using timestamps to order transactions." },
+            { "option": "C", "text": "Creating a snapshot of the database." },
+            { "option": "D", "text": "Allowing transactions to lock items as needed and release them at any time." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "text": "The \"working set\" of a process is the:",
+          "choices": [
+            { "option": "A", "text": "Entire set of pages used by the process." },
+            { "option": "B", "text": "Set of pages that the process is currently and actively using." },
+            { "option": "C", "text": "Set of pages that are in main memory." },
+            { "option": "D", "text": "Set of pages that have been modified." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 25,
+          "text": "\"Coupling\" in software design is the degree of interdependence between modules. Which form of coupling is considered the worst (most undesirable)?",
+          "choices": [
+            { "option": "A", "text": "Data coupling" },
+            { "option": "B", "text": "Stamp coupling" },
+            { "option": "C", "text": "Control coupling" },
+            { "option": "D", "text": "Content coupling" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 26,
+          "text": "The \"Adapter\" design pattern is a structural pattern used to:",
+          "choices": [
+            { "option": "A", "text": "Allow the interface of an existing class to be used as another interface." },
+            { "option": "B", "text": "Create objects." },
+            { "option": "C", "text": "Define a communication channel between objects." },
+            { "option": "D", "text": "Add new responsibilities to an object." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "text": "\"Resolution\" is an inference rule used in logic programming and automated theorem proving that is:",
+          "choices": [
+            { "option": "A", "text": "Used to prove statements by refutation (proving the negation leads to a contradiction)." },
+            { "option": "B", "text": "Used to introduce new variables." },
+            { "option": "C", "text": "Based on probability." },
+            { "option": "D", "text": "Used only in propositional logic." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 28,
+          "text": "In machine learning, \"Gradient Descent\" is an optimization algorithm used to:",
+          "choices": [
+            { "option": "A", "text": "Find the minimum of a function by iteratively moving in the direction of the steepest descent." },
+            { "option": "B", "text": "Select the best features for a model." },
+            { "option": "C", "text": "Cluster data points." },
+            { "option": "D", "text": "Train a decision tree." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 29,
+          "text": "The \"To-Complete Performance Index\" (TCPI) is a project management metric that calculates the:",
+          "choices": [
+            { "option": "A", "text": "Past performance of the project." },
+            { "option": "B", "text": "The cost performance that must be achieved on the remaining work to meet a specified management goal." },
+            { "option": "C", "text": "The total budget of the project." },
+            { "option": "D", "text": "The final schedule of the project." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "An engineer's \"fiduciary duty\" to a client means they have a legal and ethical obligation to:",
+          "choices": [
+            { "option": "A", "text": "Act in the best interest of the client." },
+            { "option": "B", "text": "Follow the client's instructions blindly." },
+            { "option": "C", "text": "Complete the project at the lowest possible cost." },
+            { "option": "D", "text": "Share the client's information with other clients." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 31,
+          "text": "In a BJT, the \"beta cutoff frequency\" ($f_\\beta$) is the frequency at which the common-emitter current gain ($\\beta$) drops to:",
+          "choices": [
+            { "option": "A", "text": "0.707 of its low-frequency value." },
+            { "option": "B", "text": "0.5 of its low-frequency value." },
+            { "option": "C", "text": "1." },
+            { "option": "D", "text": "0." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 32,
+          "text": "A \"Johnson Counter\" of $N$ bits produces a sequence of how many unique states?",
+          "choices": [
+            { "option": "A", "text": "$N$" },
+            { "option": "B", "text": "$2^N$" },
+            { "option": "C", "text": "$2N$" },
+            { "option": "D", "text": "$N-1$" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 33,
+          "text": "In C++, what is a \"variadic template\"?",
+          "choices": [
+            { "option": "A", "text": "A template that can take a variable number of template arguments." },
+            { "option": "B", "text": "A template that can only be used with integer types." },
+            { "option": "C", "text": "A template that causes a compiler error." },
+            { "option": "D", "text": "A template for defining variables." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 34,
+          "text": "What is \"Tomasulo's algorithm\" used for in CPU design?",
+          "choices": [
+            { "option": "A", "text": "It's a hardware-based algorithm for dynamic instruction scheduling that allows for out-of-order execution and the use of a common data bus." },
+            { "option": "B", "text": "A cache replacement policy." },
+            { "option": "C", "text": "A branch prediction technique." },
+            { "option": "D", "text": "A memory management algorithm." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "What is the primary difference between TCP \"congestion control\" and \"flow control\"?",
+          "choices": [
+            { "option": "A", "text": "Flow control prevents the sender from overwhelming the receiver; congestion control prevents the sender from overwhelming the network." },
+            { "option": "B", "text": "Congestion control prevents the sender from overwhelming the receiver; flow control prevents the sender from overwhelming the network." },
+            { "option": "C", "text": "They are the same concept." },
+            { "option": "D", "text": "Flow control is managed by routers; congestion control by end hosts." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 36,
+          "text": "A language $L$ is \"co-recognizable\" if its complement is:",
+          "choices": [
+            { "option": "A", "text": "Recognizable (recursively enumerable)." },
+            { "option": "B", "text": "Decidable." },
+            { "option": "C", "text": "Context-free." },
+            { "option": "D", "text": "Regular." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 37,
+          "text": "A \"skip list\" is a probabilistic data structure that allows for fast search within an ordered sequence of elements, with performance comparable to a:",
+          "choices": [
+            { "option": "A", "text": "Stack" },
+            { "option": "B", "text": "Queue" },
+            { "option": "C", "text": "Balanced binary search tree" },
+            { "option": "D", "text": "Unsorted array" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 38,
+          "text": "In operating systems, a \"spin lock\" is a lock where a thread:",
+          "choices": [
+            { "option": "A", "text": "Blocks and yields the CPU if the lock is unavailable." },
+            { "option": "B", "text": "Enters a busy-waiting loop, repeatedly checking if the lock has become available." },
+            { "option": "C", "text": "Is put into a waiting queue." },
+            { "option": "D", "text": "Is terminated if the lock is unavailable." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 39,
+          "text": "What is \"Domain-Driven Design\" (DDD)?",
+          "choices": [
+            { "option": "A", "text": "A software design approach that focuses on modeling the software to match a domain according to input from domain experts." },
+            { "option": "B", "text": "A way to design database schemas." },
+            { "option": "C", "text": "A graphical user interface design methodology." },
+            { "option": "D", "text": "A project management framework." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 40,
+          "text": "What is the \"inference engine\" in an expert system?",
+          "choices": [
+            { "option": "A", "text": "The knowledge base containing facts and rules." },
+            { "option": "B", "text": "The part of the system that applies logical rules to the knowledge base to deduce new information." },
+            { "option": "C", "text": "The user interface." },
+            { "option": "D", "text": "The explanation facility." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 41,
+          "text": "An \"operational transconductance amplifier\" (OTA) is a voltage-controlled:",
+          "choices": [
+            { "option": "A", "text": "Voltage source" },
+            { "option": "B", "text": "Current source" },
+            { "option": "C", "text": "Resistor" },
+            { "option": "D", "text": "Capacitor" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "What is the primary purpose of \"clock gating\" in digital design?",
+          "choices": [
+            { "option": "A", "text": "To increase the clock frequency." },
+            { "option": "B", "text": "To reduce dynamic power consumption by disabling the clock to inactive parts of the circuit." },
+            { "option": "C", "text": "To simplify the clock distribution network." },
+            { "option": "D", "text": "To create multiple clock domains." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "In C++, \\texttt{reinterpret_cast} is a type casting operator that:",
+          "choices": [
+            { "option": "A", "text": "Is the safest type of cast." },
+            { "option": "B", "text": "Is used for converting between pointer types and can be highly dangerous." },
+            { "option": "C", "text": "Is used for casting away const-ness." },
+            { "option": "D", "text": "Is used for casting up and down an inheritance hierarchy." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "What is a \"microkernel\" operating system architecture?",
+          "choices": [
+            { "option": "A", "text": "The entire OS runs in a single address space in kernel mode." },
+            { "option": "B", "text": "Only the most fundamental services (like IPC and basic scheduling) run in the kernel, while other services run in user space." },
+            { "option": "C", "text": "It is an OS designed for microprocessors only." },
+            { "option": "D", "text": "It is an older, obsolete architecture." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "What is the purpose of the \"BGP path vector\" attribute?",
+          "choices": [
+            { "option": "A", "text": "To carry a list of Autonomous Systems that a route has traversed, which is used for loop detection." },
+            { "option": "B", "text": "To determine the bandwidth of a route." },
+            { "option": "C", "text": "To set the priority of a route." },
+            { "option": "D", "text": "To encrypt the routing information." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 46,
+          "text": "The \"CYK algorithm\" (Cocke–Younger–Kasami) is a parsing algorithm for:",
+          "choices": [
+            { "option": "A", "text": "Regular languages" },
+            { "option": "B", "text": "Context-free languages" },
+            { "option": "C", "text": "Context-sensitive languages" },
+            { "option": "D", "text": "Any language" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "A \"Deadlock\" in an OS can be characterized by four necessary conditions, one of which is \"Circular Wait\". This means:",
+          "choices": [
+            { "option": "A", "text": "A process is holding at least one resource and waiting for another." },
+            { "option": "B", "text": "Resources cannot be forcibly taken from a process." },
+            { "option": "C", "text": "There exists a set of waiting processes $\\{P_0, P_1, \\dots, P_n\\}$ such that $P_0$ is waiting for a resource held by $P_1$, $P_1$ is waiting for $P_2$, \\dots, and $P_n$ is waiting for $P_0$." },
+            { "option": "D", "text": "A resource can only be used by one process at a time." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 48,
+          "text": "The \"Facade\" design pattern is a structural pattern that:",
+          "choices": [
+            { "option": "A", "text": "Provides a simplified, unified interface to a more complex subsystem." },
+            { "option": "B", "text": "Adds functionality to an object dynamically." },
+            { "option": "C", "text": "Ensures a class has only one instance." },
+            { "option": "D", "text": "Allows incompatible interfaces to work together." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 49,
+          "text": "What is \"backpropagation\"?",
+          "choices": [
+            { "option": "A", "text": "An algorithm for training artificial neural networks by propagating the error from the output layer back to the input layer." },
+            { "option": "B", "text": "A way to query a knowledge base." },
+            { "option": "C", "text": "A search algorithm." },
+            { "option": "D", "text": "A data compression technique." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "In project management, what is a \"statement of work\" (SOW)?",
+          "choices": [
+            { "option": "A", "text": "A detailed schedule of the project." },
+            { "option": "B", "text": "A narrative description of the products, services, or results to be delivered by the project." },
+            { "option": "C", "text": "A list of project risks." },
+            { "option": "D", "text": "The project budget." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "A \"clamp\" circuit is used to:",
+          "choices": [
+            { "option": "A", "text": "Add a DC level to an AC signal." },
+            { "option": "B", "text": "Remove the DC level from a signal." },
+            { "option": "C", "text": "Limit the amplitude of a signal." },
+            { "option": "D", "text": "Amplify a signal." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 52,
+          "text": "What is a \"one-hot\" encoding?",
+          "choices": [
+            { "option": "A", "text": "A way of representing categorical data where each category is converted into a binary vector with only one '1' and the rest '0's." },
+            { "option": "B", "text": "A type of error-correcting code." },
+            { "option": "C", "text": "A method for data compression." },
+            { "option": "D", "text": "A binary representation of a number." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 53,
+          "text": "In C, what is the \"strict aliasing rule\"?",
+          "choices": [
+            { "option": "A", "text": "A rule that states an object shall have its stored value accessed only by an lvalue expression that has a compatible type, which aids compiler optimization." },
+            { "option": "B", "text": "A rule about how to name variables." },
+            { "option": "C", "text": "A rule for memory allocation." },
+            { "option": "D", "text": "A rule about function pointers." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 54,
+          "text": "What is \"Quality of Service\" (QoS) in networking?",
+          "choices": [
+            { "option": "A", "text": "The process of ensuring that all packets are delivered." },
+            { "option": "B", "text": "The ability to provide different priority to different applications, users, or data flows, or to guarantee a certain level of performance." },
+            { "option": "C", "text": "A measure of network security." },
+            { "option": "D", "text": "The speed of the network connection." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 55,
+          "text": "A \"LR parser\" is a type of bottom-up parser that scans the input from:",
+          "choices": [
+            { "option": "A", "text": "Left to right, and constructs a rightmost derivation." },
+            { "option": "B", "text": "Left to right, and constructs a leftmost derivation." },
+            { "option": "C", "text": "Right to left, and constructs a rightmost derivation." },
+            { "option": "D", "text": "Right to left, and constructs a leftmost derivation." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 56,
+          "text": "What is the difference between \"unit testing\" and \"integration testing\"?",
+          "choices": [
+            { "option": "A", "text": "Unit testing tests individual modules in isolation; integration testing tests the interaction between modules." },
+            { "option": "B", "text": "Unit testing is automated; integration testing is manual." },
+            { "option": "C", "text": "Unit testing is done by users; integration testing by developers." },
+            { "option": "D", "text": "There is no difference." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 57,
+          "text": "In machine learning, what does \"overfitting\" mean?",
+          "choices": [
+            { "option": "A", "text": "The model is too simple to capture the underlying trend of the data." },
+            { "option": "B", "text": "The model captures the noise along with the underlying pattern of the training data, leading to poor performance on new data." },
+            { "option": "C", "text": "The model is trained for too few epochs." },
+            { "option": "D", "text": "The model has a high bias." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "The \"slack\" of a project activity is the amount of time it can be delayed without:",
+          "choices": [
+            { "option": "A", "text": "Increasing the project cost." },
+            { "option": "B", "text": "Delaying the project's completion date." },
+            { "option": "C", "text": "Requiring more resources." },
+            { "option": "D", "text": "Affecting its own completion." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "An engineer's ethical obligation to \"issue public statements in an objective and truthful manner\" prohibits them from:",
+          "choices": [
+            { "option": "A", "text": "Expressing a technical opinion." },
+            { "option": "B", "text": "Participating in partisan political activities." },
+            { "option": "C", "text": "Making exaggerated, misleading, or unsubstantiated claims in professional reports or testimony." },
+            { "option": "D", "text": "Advertising their services." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 60,
+          "text": "What is the difference between a \"latch\" and a \"flip-flop\"?",
+          "choices": [
+            { "option": "A", "text": "A latch is level-triggered, while a flip-flop is edge-triggered." },
+            { "option": "B", "text": "A flip-flop is level-triggered, while a latch is edge-triggered." },
+            { "option": "C", "text": "A latch can store more bits than a flip-flop." },
+            { "option": "D", "text": "They are the same thing." }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A Wien bridge oscillator uses a lead-lag network. For the feedback to be purely resistive (zero phase shift), the frequency must be $f = \\frac{1}{2\\pi R C}$. If $R = 10 \\, \\mathrm{k}\\Omega$ and $C = 1.6 \\, \\mathrm{nF}$, what is the oscillation frequency?",
+          "choices": [
+            { "option": "A", "text": "$\\sim 1 \\, \\mathrm{kHz}$" },
+            { "option": "B", "text": "$\\sim 10 \\, \\mathrm{kHz}$" },
+            { "option": "C", "text": "$\\sim 16 \\, \\mathrm{kHz}$" },
+            { "option": "D", "text": "$\\sim 100 \\, \\mathrm{kHz}$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 62,
+          "text": "A Moore machine has four states ($S_0$, $S_1$, $S_2$, $S_3$) with outputs (0, 1, 1, 0) respectively. It transitions from $S_0 \\to S_1$, $S_1 \\to S_2$, $S_2 \\to S_3$, $S_3 \\to S_0$ on every input. If the input sequence is 1011, what is the output sequence? (The output is determined by the state).",
+          "choices": [
+            { "option": "A", "text": "0110" },
+            { "option": "B", "text": "1100" },
+            { "option": "C", "text": "01100 (includes initial state output)" },
+            { "option": "D", "text": "110" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of this C++ code that demonstrates move semantics?\n\\begin{verbatim}\n#include <iostream>\n#include <vector>\n#include <string>\nint main() {\n    std::string str = \"hello\";\n    std::vector<std::string> vec;\n    vec.push_back(std::move(str));\n    std::cout << str << std::endl;\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "hello" },
+            { "option": "B", "text": "An empty string (or unspecified valid state)." },
+            { "option": "C", "text": "The program will crash." },
+            { "option": "D", "text": "The program will not compile." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 64,
+          "text": "A system uses a 4-level page table. If the virtual address is 48 bits and the page size is $4 \\, \\mathrm{KB}$, and each level of the page table is indexed by the same number of bits, how many bits are used per level?",
+          "choices": [
+            { "option": "A", "text": "8" },
+            { "option": "B", "text": "9" },
+            { "option": "C", "text": "10" },
+            { "option": "D", "text": "12" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "Consider the RSA algorithm with $p=5$, $q=11$, and $e=7$. What is the private key $d$, and what is the result of decrypting the ciphertext $C=8$?",
+          "choices": [
+            { "option": "A", "text": "$d = 23$, $M = 2$" },
+            { "option": "B", "text": "$d = 3$, $M = 12$" },
+            { "option": "C", "text": "$d = 7$, $M = 8$" },
+            { "option": "D", "text": "$d = 13$, $M = 3$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 66,
+          "text": "What is the Liang-Barsky line clipping algorithm's primary advantage over Cohen-Sutherland?",
+          "choices": [
+            { "option": "A", "text": "It is simpler to implement." },
+            { "option": "B", "text": "It uses more efficient calculations and reduces the number of intersection calculations." },
+            { "option": "C", "text": "It can clip non-rectangular windows." },
+            { "option": "D", "text": "It uses floating-point arithmetic exclusively." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 67,
+          "text": "A system has 3 processes and 3 resource types. The total resources are (10, 5, 7). The current state is: $P_0$ holds (0,1,0), $P_1$ holds (2,0,0), $P_2$ holds (3,0,2). $P_0$'s max need is (7,5,3), $P_1$'s is (3,2,2), and $P_2$'s is (9,0,2). Is the system safe?",
+          "choices": [
+            { "option": "A", "text": "Yes, the safe sequence is $\\langle P_1, P_0, P_2 \\rangle$." },
+            { "option": "B", "text": "Yes, the safe sequence is $\\langle P_1, P_2, P_0 \\rangle$." },
+            { "option": "C", "text": "No, the state is unsafe because $P_2$'s need cannot be met." },
+            { "option": "D", "text": "The system is deadlocked." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "A project has a BAC of \\$200,000. It is 50\\% complete according to the plan. The EV is \\$80,000, and the AC is \\$100,000. What is the Estimate at Completion (EAC) assuming past performance will continue? ($EAC = BAC / CPI$)",
+          "choices": [
+            { "option": "A", "text": "\\$160,000" },
+            { "option": "B", "text": "\\$200,000" },
+            { "option": "C", "text": "\\$220,000" },
+            { "option": "D", "text": "\\$250,000" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 69,
+          "text": "Consider a Finite Automaton. How can you determine if it accepts an infinite language?",
+          "choices": [
+            { "option": "A", "text": "If the number of states is infinite." },
+            { "option": "B", "text": "If there is a cycle reachable from the start state that can also reach a final state." },
+            { "option": "C", "text": "If there are more final states than start states." },
+            { "option": "D", "text": "It is an undecidable problem." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "What is the difference between a \\texttt{LEFT JOIN} and an \\texttt{INNER JOIN} in SQL?",
+          "choices": [
+            { "option": "A", "text": "\\texttt{INNER JOIN} returns all rows from the left table; \\texttt{LEFT JOIN} returns only matching rows." },
+            { "option": "B", "text": "\\texttt{LEFT JOIN} returns all rows from the left table and matched rows from the right; \\texttt{INNER JOIN} returns only rows where the join condition is met in both tables." },
+            { "option": "C", "text": "They are functionally identical." },
+            { "option": "D", "text": "\\texttt{LEFT JOIN} is faster than \\texttt{INNER JOIN}." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "The \"SOLID\" principles are a set of five design principles in object-oriented programming. What does the \"D\" stand for?",
+          "choices": [
+            { "option": "A", "text": "Don't Repeat Yourself (DRY)" },
+            { "option": "B", "text": "Data Hiding Principle" },
+            { "option": "C", "text": "Dependency Inversion Principle" },
+            { "option": "D", "text": "Dynamic Binding Principle" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 72,
+          "text": "What language does the following grammar represent? $L = \\{ S \\to aSbb \\mid \\varepsilon \\}$",
+          "choices": [
+            { "option": "A", "text": "$\\{ a^n (bb)^n \\mid n \\geq 0 \\}$" },
+            { "option": "B", "text": "$\\{ a^n b^{2n} \\mid n \\geq 0 \\}$" },
+            { "option": "C", "text": "$\\{ (abb)^n \\mid n \\geq 0 \\}$" },
+            { "option": "D", "text": "The empty language." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "In TCP, what is the primary purpose of the Nagle algorithm?",
+          "choices": [
+            { "option": "A", "text": "To reduce the number of small packets sent over the network by buffering data and sending it in larger segments." },
+            { "option": "B", "text": "To control the congestion window." },
+            { "option": "C", "text": "To retransmit lost packets quickly." },
+            { "option": "D", "text": "To establish a connection." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 74,
+          "text": "The problem of \"Graph Isomorphism\" (determining if two graphs are structurally identical) is a famous problem that is in NP but is not known to be:",
+          "choices": [
+            { "option": "A", "text": "In P or NP-complete." },
+            { "option": "B", "text": "Decidable." },
+            { "option": "C", "text": "A search problem." },
+            { "option": "D", "text": "A graph problem." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 75,
+          "text": "In machine learning, \"L1 regularization\" (like in LASSO regression) has the effect of:",
+          "choices": [
+            { "option": "A", "text": "Encouraging smaller, but non-zero, model weights." },
+            { "option": "B", "text": "Encouraging some model weights to become exactly zero, effectively performing feature selection." },
+            { "option": "C", "text": "Preventing the model from learning." },
+            { "option": "D", "text": "Forcing all weights to be positive." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "In a file system that uses a Free Space Bitmap, a 1 GB disk with a 4 KB block size would require a bitmap of what size? ($1 \\, \\mathrm{GB} = 2^{30}$, $4 \\, \\mathrm{KB} = 2^{12}$)",
+          "choices": [
+            { "option": "A", "text": "$32 \\, \\mathrm{KB}$" },
+            { "option": "B", "text": "$64 \\, \\mathrm{KB}$" },
+            { "option": "C", "text": "$128 \\, \\mathrm{KB}$" },
+            { "option": "D", "text": "$256 \\, \\mathrm{KB}$" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 77,
+          "text": "Which design pattern would be used for an object that needs to be created only once per application and needs a global point of access?",
+          "choices": [
+            { "option": "A", "text": "Singleton Pattern" },
+            { "option": "B", "text": "Prototype Pattern" },
+            { "option": "C", "text": "Flyweight Pattern" },
+            { "option": "D", "text": "Facade Pattern" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code?\n\\begin{verbatim}\n#include <iostream>\nint main() {\n    int x = 10;\n    int& ref = x;\n    int* ptr = &x;\n    *ptr = 20;\n    std::cout << ref << std::endl;\n    return 0;\n}\n\\end{verbatim}",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "20" },
+            { "option": "C", "text": "The address of x." },
+            { "option": "D", "text": "Compilation Error." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "A 4-bit binary up-counter is at the state 1011. What will be its state after 3 clock pulses?",
+          "choices": [
+            { "option": "A", "text": "1110" },
+            { "option": "B", "text": "1111" },
+            { "option": "C", "text": "0000" },
+            { "option": "D", "text": "1100" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 80,
+          "text": "What is the primary difference between a \"risk\" and an \"issue\" in project management?",
+          "choices": [
+            { "option": "A", "text": "A risk is a potential future event that may or may not happen; an issue is a current problem that must be addressed." },
+            { "option": "B", "text": "An issue is a potential future event; a risk is a current problem." },
+            { "option": "C", "text": "They are the same thing." },
+            { "option": "D", "text": "Risks are managed by the project manager; issues are managed by the sponsor." }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

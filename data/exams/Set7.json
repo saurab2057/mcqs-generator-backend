@@ -1,0 +1,897 @@
+{
+  "setId": 7,
+  "title": "Computer Engineering MCQ Practice - Set 7",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A delta-connected network can be transformed into an equivalent star-connected network. This transformation is based on:",
+          "choices": [
+            { "option": "A", "text": "The principle of superposition" },
+            { "option": "B", "text": "Thevenin's theorem" },
+            { "option": "C", "text": "Network equivalence principles" },
+            { "option": "D", "text": "Maximum power transfer theorem" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "text": "For a sinusoidal AC waveform, the form factor is the ratio of:",
+          "choices": [
+            { "option": "A", "text": "Peak value to RMS value" },
+            { "option": "B", "text": "RMS value to average value" },
+            { "option": "C", "text": "Average value to RMS value" },
+            { "option": "D", "text": "Peak value to average value" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "The depletion region in a PN junction diode consists of:",
+          "choices": [
+            { "option": "A", "text": "Free electrons and holes" },
+            { "option": "B", "text": "Only free electrons" },
+            { "option": "C", "text": "Only holes" },
+            { "option": "D", "text": "Immobile positive and negative ions" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 4,
+          "text": "A MOSFET is a voltage-controlled device, meaning its output current is controlled by:",
+          "choices": [
+            { "option": "A", "text": "The current at the gate terminal" },
+            { "option": "B", "text": "The voltage at the gate terminal" },
+            { "option": "C", "text": "The current at the drain terminal" },
+            { "option": "D", "text": "The voltage at the source terminal" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 5,
+          "text": "Which type of oscillator is known for its high frequency stability?",
+          "choices": [
+            { "option": "A", "text": "RC phase-shift oscillator" },
+            { "option": "B", "text": "LC tank circuit oscillator" },
+            { "option": "C", "text": "Crystal oscillator" },
+            { "option": "D", "text": "Wien bridge oscillator" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 6,
+          "text": "The Q-point (quiescent point) in an amplifier's characteristic curve represents the:",
+          "choices": [
+            { "option": "A", "text": "Maximum possible output voltage" },
+            { "option": "B", "text": "Minimum possible output voltage" },
+            { "option": "C", "text": "DC operating point with no input signal" },
+            { "option": "D", "text": "Point of maximum efficiency" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "text": "Which of the following is a non-weighted binary code?",
+          "choices": [
+            { "option": "A", "text": "BCD (Binary Coded Decimal)" },
+            { "option": "B", "text": "Binary" },
+            { "option": "C", "text": "Gray Code" },
+            { "option": "D", "text": "Octal" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 8,
+          "text": "A full subtractor is a combinational circuit that computes the difference between:",
+          "choices": [
+            { "option": "A", "text": "Two bits" },
+            { "option": "B", "text": "Two bits and a borrow-in" },
+            { "option": "C", "text": "Three bits" },
+            { "option": "D", "text": "Two 4-bit numbers" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 9,
+          "text": "A register that can move its stored bits to the left or right is called a:",
+          "choices": [
+            { "option": "A", "text": "Storage register" },
+            { "option": "B", "text": "Buffer register" },
+            { "option": "C", "text": "Shift register" },
+            { "option": "D", "text": "Counter" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 10,
+          "text": "In microprocessors, an addressing mode specifies:",
+          "choices": [
+            { "option": "A", "text": "The number of bits in an instruction" },
+            { "option": "B", "text": "The type of instruction (arithmetic, logical, etc.)" },
+            { "option": "C", "text": "How the effective address of an operand is calculated" },
+            { "option": "D", "text": "The location of the next instruction" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "The 8255 Programmable Peripheral Interface (PPI) has how many I/O ports?",
+          "choices": [
+            { "option": "A", "text": "One 8-bit port" },
+            { "option": "B", "text": "Two 8-bit ports" },
+            { "option": "C", "text": "Three 8-bit ports" },
+            { "option": "D", "text": "Four 8-bit ports" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 12,
+          "text": "A vectored interrupt is one where:",
+          "choices": [
+            { "option": "A", "text": "The CPU polls each device to find the source of the interrupt." },
+            { "option": "B", "text": "The interrupting device provides the address of the interrupt service routine." },
+            { "option": "C", "text": "The interrupt cannot be disabled." },
+            { "option": "D", "text": "The interrupt is generated by a software instruction." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C, what is the purpose of the static keyword when applied to a local variable within a function?",
+          "choices": [
+            { "option": "A", "text": "It makes the variable visible outside the function." },
+            { "option": "B", "text": "It causes the variable's value to persist between function calls." },
+            { "option": "C", "text": "It allocates the variable on the heap instead of the stack." },
+            { "option": "D", "text": "It makes the variable a read-only constant." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "Which of the following file modes in C opens a text file for both reading and writing?",
+          "choices": [
+            { "option": "A", "text": "\"r\"" },
+            { "option": "B", "text": "\"w\"" },
+            { "option": "C", "text": "\"a\"" },
+            { "option": "D", "text": "\"r+\"" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 15,
+          "text": "In C++, a friend function of a class is a function that:",
+          "choices": [
+            { "option": "A", "text": "Is a member of the class." },
+            { "option": "B", "text": "Can access the private and protected members of the class, even though it is not a member." },
+            { "option": "C", "text": "Can only access the public members of the class." },
+            { "option": "D", "text": "Is automatically inherited by derived classes." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "What is a virtual destructor in C++ used for?",
+          "choices": [
+            { "option": "A", "text": "To prevent a class from being instantiated." },
+            { "option": "B", "text": "To ensure that the correct destructor is called for an object created through a base class pointer." },
+            { "option": "C", "text": "To create a destructor that cannot be called." },
+            { "option": "D", "text": "To declare a destructor in an abstract class." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "text": "A hardwired control unit is characterized by:",
+          "choices": [
+            { "option": "A", "text": "Its instruction set being stored in a control memory." },
+            { "option": "B", "text": "Its logic being implemented using gates, flip-flops, and decoders." },
+            { "option": "C", "text": "Its flexibility to add new instructions easily." },
+            { "option": "D", "text": "Its slower speed compared to a microprogrammed unit." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "The memory hierarchy in a computer system is arranged with:",
+          "choices": [
+            { "option": "A", "text": "The fastest, smallest memory at the top and the slowest, largest memory at the bottom." },
+            { "option": "B", "text": "The slowest, largest memory at the top and the fastest, smallest memory at the bottom." },
+            { "option": "C", "text": "All memory types at the same level." },
+            { "option": "D", "text": "Only volatile memory." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 19,
+          "text": "In an embedded system, a watchdog timer is used to:",
+          "choices": [
+            { "option": "A", "text": "Keep track of the real time of day." },
+            { "option": "B", "text": "Generate periodic interrupts for multitasking." },
+            { "option": "C", "text": "Reset the system if it hangs or enters an undesirable state." },
+            { "option": "D", "text": "Control the speed of the processor." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 20,
+          "text": "Rate-Monotonic Scheduling (RMS) is a scheduling algorithm for real-time systems that assigns priority based on:",
+          "choices": [
+            { "option": "A", "text": "The execution time of the task." },
+            { "option": "B", "text": "The deadline of the task." },
+            { "option": "C", "text": "The frequency (or period) of the task." },
+            { "option": "D", "text": "The arrival time of the task." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 21,
+          "text": "The Session Layer of the OSI model is responsible for:",
+          "choices": [
+            { "option": "A", "text": "End-to-end reliable data transfer." },
+            { "option": "B", "text": "Routing packets across the network." },
+            { "option": "C", "text": "Managing dialogues (sessions) between computers." },
+            { "option": "D", "text": "Formatting and encrypting data." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 22,
+          "text": "An IPv6 address is how many bits long?",
+          "choices": [
+            { "option": "A", "text": "32 bits" },
+            { "option": "B", "text": "48 bits" },
+            { "option": "C", "text": "64 bits" },
+            { "option": "D", "text": "128 bits" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 23,
+          "text": "A link-state routing protocol, like OSPF, requires each router to:",
+          "choices": [
+            { "option": "A", "text": "Periodically share its entire routing table with its neighbors." },
+            { "option": "B", "text": "Have a complete map of the network topology." },
+            { "option": "C", "text": "Only know the distance and direction to its immediate neighbors." },
+            { "option": "D", "text": "Send routing updates only when a change in topology occurs." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "A digital signature is used to ensure:",
+          "choices": [
+            { "option": "A", "text": "Confidentiality" },
+            { "option": "B", "text": "Availability" },
+            { "option": "C", "text": "Authentication and non-repudiation" },
+            { "option": "D", "text": "Integrity only" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 25,
+          "text": "The primary purpose of a Turing Machine in the theory of computation is to:",
+          "choices": [
+            { "option": "A", "text": "Model the capabilities of all possible computers." },
+            { "option": "B", "text": "Define context-free languages." },
+            { "option": "C", "text": "Provide a basis for regular expressions." },
+            { "option": "D", "text": "Implement practical computing devices." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 26,
+          "text": "An ambiguous grammar is one that:",
+          "choices": [
+            { "option": "A", "text": "Has no production rules." },
+            { "option": "B", "text": "Can generate a string that has more than one valid parse tree." },
+            { "option": "C", "text": "Cannot generate any strings." },
+            { "option": "D", "text": "Contains only terminal symbols." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 27,
+          "text": "A 3D shear transformation:",
+          "choices": [
+            { "option": "A", "text": "Rotates an object about an axis." },
+            { "option": "B", "text": "Changes the size of an object." },
+            { "option": "C", "text": "Tilts or slants the shape of an object." },
+            { "option": "D", "text": "Moves an object to a new location." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 28,
+          "text": "The RGB color model is an example of:",
+          "choices": [
+            { "option": "A", "text": "A subtractive color model." },
+            { "option": "B", "text": "An additive color model." },
+            { "option": "C", "text": "A color model used only for printing." },
+            { "option": "D", "text": "A grayscale color model." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "text": "Breadth-First Search (BFS) is an algorithm for traversing a graph that explores:",
+          "choices": [
+            { "option": "A", "text": "As far as possible along each branch before backtracking." },
+            { "option": "B", "text": "All the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level." },
+            { "option": "C", "text": "Only nodes that are part of a cycle." },
+            { "option": "D", "text": "The path with the lowest cost first." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "A sorting algorithm is considered 'stable' if:",
+          "choices": [
+            { "option": "A", "text": "It has a worst-case time complexity of O(n log n)." },
+            { "option": "B", "text": "It does not change the relative order of elements with equal keys." },
+            { "option": "C", "text": "It sorts the data in-place without requiring extra memory." },
+            { "option": "D", "text": "It is the fastest algorithm for all types of data." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "The Second Normal Form (2NF) in database normalization requires that:",
+          "choices": [
+            { "option": "A", "text": "The database has no repeating groups or columns." },
+            { "option": "B", "text": "The database is in 1NF and all non-key attributes are fully functionally dependent on the primary key." },
+            { "option": "C", "text": "The database is in 2NF and has no transitive dependencies." },
+            { "option": "D", "text": "The database is in 3NF and every determinant is a candidate key." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 32,
+          "text": "In an operating system, a process is in the 'Ready' state when it is:",
+          "choices": [
+            { "option": "A", "text": "Currently being executed by the CPU." },
+            { "option": "B", "text": "Waiting for an I/O operation to complete." },
+            { "option": "C", "text": "Waiting to be assigned to the CPU for execution." },
+            { "option": "D", "text": "Terminated and waiting to be removed from memory." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 33,
+          "text": "The Spiral Model of software development is a:",
+          "choices": [
+            { "option": "A", "text": "Simple, linear model." },
+            { "option": "B", "text": "Model that focuses on rapid prototyping." },
+            { "option": "C", "text": "Risk-driven model that combines elements of both prototyping and the waterfall model." },
+            { "option": "D", "text": "Model that emphasizes iterative development without planning." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "In software engineering, 'cohesion' refers to:",
+          "choices": [
+            { "option": "A", "text": "The degree to which the elements of a module are functionally related." },
+            { "option": "B", "text": "The degree of dependency between different modules." },
+            { "option": "C", "text": "The complexity of a module's code." },
+            { "option": "D", "text": "The number of bugs in a module." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "Which UML diagram is used to model the physical deployment of artifacts on nodes?",
+          "choices": [
+            { "option": "A", "text": "Class Diagram" },
+            { "option": "B", "text": "Sequence Diagram" },
+            { "option": "C", "text": "Deployment Diagram" },
+            { "option": "D", "text": "Use Case Diagram" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 36,
+          "text": "Which of the following is NOT one of the five SOLID principles of object-oriented design?",
+          "choices": [
+            { "option": "A", "text": "Single Responsibility Principle" },
+            { "option": "B", "text": "Open/Closed Principle" },
+            { "option": "C", "text": "Liskov Substitution Principle" },
+            { "option": "D", "text": "Data Hiding Principle" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 37,
+          "text": "In AI, knowledge representation using 'Frames' involves:",
+          "choices": [
+            { "option": "A", "text": "Using formal logic to represent facts." },
+            { "option": "B", "text": "A network of nodes and links representing concepts and relationships." },
+            { "option": "C", "text": "Data structures that represent stereotyped situations with slots for specific details." },
+            { "option": "D", "text": "A set of if-then rules." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 38,
+          "text": "The Hill Climbing search algorithm is a local search algorithm that:",
+          "choices": [
+            { "option": "A", "text": "Always finds the global optimum." },
+            { "option": "B", "text": "Never gets stuck in local optima." },
+            { "option": "C", "text": "Continuously moves in the direction of increasing value to find the peak of the search space." },
+            { "option": "D", "text": "Explores the entire search space randomly." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 39,
+          "text": "Reinforcement learning is a type of machine learning where:",
+          "choices": [
+            { "option": "A", "text": "The model is trained on a labeled dataset." },
+            { "option": "B", "text": "The model learns to find patterns in an unlabeled dataset." },
+            { "option": "C", "text": "An agent learns to make decisions by performing actions and receiving rewards or penalties." },
+            { "option": "D", "text": "The model is given a set of rules to follow." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 40,
+          "text": "The 'hidden layer' in a neural network is the layer of neurons:",
+          "choices": [
+            { "option": "A", "text": "That provides the final output of the network." },
+            { "option": "B", "text": "That receives the initial input data." },
+            { "option": "C", "text": "That is between the input layer and the output layer." },
+            { "option": "D", "text": "That is not used during the training process." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 41,
+          "text": "In engineering drawings, what does a 'scale' of 1:50 mean?",
+          "choices": [
+            { "option": "A", "text": "1 unit on the drawing represents 50 units in reality." },
+            { "option": "B", "text": "50 units on the drawing represent 1 unit in reality." },
+            { "option": "C", "text": "The drawing is 50 times larger than the actual object." },
+            { "option": "D", "text": "The drawing is 1/50th of the original paper size." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 42,
+          "text": "The Minimum Acceptable Rate of Return (MARR) is:",
+          "choices": [
+            { "option": "A", "text": "The interest rate at which NPV is zero." },
+            { "option": "B", "text": "The minimum rate of return that a company is willing to accept for a project." },
+            { "option": "C", "text": "The actual rate of return generated by a project." },
+            { "option": "D", "text": "The rate used to calculate depreciation." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "A Gantt chart is a project management tool used for:",
+          "choices": [
+            { "option": "A", "text": "Identifying project risks." },
+            { "option": "B", "text": "Illustrating a project schedule, including task start and end dates." },
+            { "option": "C", "text": "Calculating the project budget." },
+            { "option": "D", "text": "Defining the project scope." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 44,
+          "text": "Which of the following is a fundamental canon of engineering ethics?",
+          "choices": [
+            { "option": "A", "text": "Act for each employer or client as faithful agents or trustees." },
+            { "option": "B", "text": "Prioritize project completion speed over all other factors." },
+            { "option": "C", "text": "Always use the lowest-cost materials." },
+            { "option": "D", "text": "Keep all project details confidential from the public." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 45,
+          "text": "What is the primary legal document that governs the engineering profession in Nepal?",
+          "choices": [
+            { "option": "A", "text": "The Nepal Labor Act" },
+            { "option": "B", "text": "The Nepal Company Act" },
+            { "option": "C", "text": "The Nepal Engineering Council Act" },
+            { "option": "D", "text": "The Constitution of Nepal" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 46,
+          "text": "A universal gate is a logic gate that:",
+          "choices": [
+            { "option": "A", "text": "Can be used to implement any other logic gate." },
+            { "option": "B", "text": "Has more than two inputs." },
+            { "option": "C", "text": "Is used in all digital devices." },
+            { "option": "D", "text": "Can operate with any voltage level." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 47,
+          "text": "Virtual memory is a memory management technique where:",
+          "choices": [
+            { "option": "A", "text": "A portion of the hard disk is used as an extension of RAM." },
+            { "option": "B", "text": "The memory is physically located on a different computer." },
+            { "option": "C", "text": "The entire program must be loaded into memory before execution." },
+            { "option": "D", "text": "Memory is allocated in a single contiguous block." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 48,
+          "text": "In SQL, a JOIN clause is used to:",
+          "choices": [
+            { "option": "A", "text": "Combine rows from two or more tables based on a related column between them." },
+            { "option": "B", "text": "Create a new table." },
+            { "option": "C", "text": "Delete rows from a table." },
+            { "option": "D", "text": "Update existing records." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 49,
+          "text": "Which scheduling algorithm can lead to starvation for low-priority processes?",
+          "choices": [
+            { "option": "A", "text": "First-Come, First-Served (FCFS)" },
+            { "option": "B", "text": "Round Robin" },
+            { "option": "C", "text": "Priority Scheduling" },
+            { "option": "D", "text": "Shortest Job First (SJF)" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 50,
+          "text": "What does CSMA/CD stand for?",
+          "choices": [
+            { "option": "A", "text": "Carrier Sense Multiple Access with Collision Detection" },
+            { "option": "B", "text": "Carrier Sense Multiple Access with Collision Avoidance" },
+            { "option": "C", "text": "Carrier Sense Media Access with Collision Detection" },
+            { "option": "D", "text": "Code Sense Multiple Access with Collision Domain" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 51,
+          "text": "A context-free grammar is more powerful than a regular grammar because it can:",
+          "choices": [
+            { "option": "A", "text": "Recognize any language." },
+            { "option": "B", "text": "Describe nested structures, like balanced parentheses." },
+            { "option": "C", "text": "Be implemented with a finite automaton." },
+            { "option": "D", "text": "Handle ambiguity." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 52,
+          "text": "What is the primary purpose of an index in a database?",
+          "choices": [
+            { "option": "A", "text": "To enforce data integrity." },
+            { "option": "B", "text": "To speed up the retrieval of rows from a table." },
+            { "option": "C", "text": "To store large binary objects." },
+            { "option": "D", "text": "To create a backup of the table." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 53,
+          "text": "Software maintenance that involves modifying the software to adapt to changes in the environment (e.g., a new operating system) is called:",
+          "choices": [
+            { "option": "A", "text": "Corrective maintenance" },
+            { "option": "B", "text": "Adaptive maintenance" },
+            { "option": "C", "text": "Perfective maintenance" },
+            { "option": "D", "text": "Preventive maintenance" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 54,
+          "text": "What is a 'heuristic' in the context of AI search algorithms?",
+          "choices": [
+            { "option": "A", "text": "A guarantee of finding the optimal solution." },
+            { "option": "B", "text": "A rule of thumb or a strategy that provides a shortcut to a solution." },
+            { "option": "C", "text": "The final solution to a problem." },
+            { "option": "D", "text": "A method for exploring every possible path." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 55,
+          "text": "The break-even point is the point at which:",
+          "choices": [
+            { "option": "A", "text": "Total revenue equals total cost." },
+            { "option": "B", "text": "The project is completed." },
+            { "option": "C", "text": "The NPV is positive." },
+            { "option": "D", "text": "The IRR is equal to the MARR." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 56,
+          "text": "What is the main advantage of using a cache memory?",
+          "choices": [
+            { "option": "A", "text": "To increase the total storage capacity of the computer." },
+            { "option": "B", "text": "To provide permanent storage." },
+            { "option": "C", "text": "To reduce the average time to access data from the main memory." },
+            { "option": "D", "text": "To execute instructions." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "The process of converting an analog signal to a digital signal involves:",
+          "choices": [
+            { "option": "A", "text": "Modulation and demodulation" },
+            { "option": "B", "text": "Sampling and quantization" },
+            { "option": "C", "text": "Encryption and decryption" },
+            { "option": "D", "text": "Compression and decompression" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "In C++, if you do not define a constructor for a class, the compiler will:",
+          "choices": [
+            { "option": "A", "text": "Generate a compile-time error." },
+            { "option": "B", "text": "Provide a default constructor with no arguments." },
+            { "option": "C", "text": "Prevent you from creating objects of that class." },
+            { "option": "D", "text": "Automatically create a parameterized constructor." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 59,
+          "text": "Which of the following is a key characteristic of cloud computing?",
+          "choices": [
+            { "option": "A", "text": "It requires all data to be stored on a local server." },
+            { "option": "B", "text": "It provides on-demand access to a shared pool of computing resources over the internet." },
+            { "option": "C", "text": "It is less scalable than traditional on-premise infrastructure." },
+            { "option": "D", "text": "It is primarily used for running legacy applications." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "A 'protocol' in computer networking is a:",
+          "choices": [
+            { "option": "A", "text": "Hardware device for connecting networks." },
+            { "option": "B", "text": "Set of rules that governs data communication." },
+            { "option": "C", "text": "Type of network cable." },
+            { "option": "D", "text": "Software application for browsing the internet." }
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A circuit has a 50 Hz AC source connected to a 100 µF capacitor. What is the capacitive reactance (Xc)? (Use π ≈ 3.14)",
+          "choices": [
+            { "option": "A", "text": "15.9 Ω" },
+            { "option": "B", "text": "31.8 Ω" },
+            { "option": "C", "text": "50 Ω" },
+            { "option": "D", "text": "100 Ω" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 62,
+          "text": "Using Boolean algebra, simplify the expression: F = (A + B)(A + B').",
+          "choices": [
+            { "option": "A", "text": "A" },
+            { "option": "B", "text": "B" },
+            { "option": "C", "text": "A + B" },
+            { "option": "D", "text": "1" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 63,
+          "text": "What is the output of the following C program?\n#include <stdio.h>\nint main() {\n    char str[] = \"NEPAL\";\n    char *ptr = str;\n    while (*ptr != '\\0') {\n        printf(\"%c\", *ptr + 1);\n        ptr++;\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "NEPAL" },
+            { "option": "B", "text": "OFQBM" },
+            { "option": "C", "text": "MDQZK" },
+            { "option": "D", "text": "Compilation Error" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 64,
+          "text": "A system uses memory-mapped I/O. What does this imply?",
+          "choices": [
+            { "option": "A", "text": "I/O devices are accessed using special instructions like IN and OUT." },
+            { "option": "B", "text": "I/O devices and memory share the same address space." },
+            { "option": "C", "text": "I/O operations are completely isolated from memory operations." },
+            { "option": "D", "text": "The system does not have a cache memory." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 65,
+          "text": "You are given the IP address 172.16.10.50 with a subnet mask of 255.255.255.240. What is the broadcast address of this subnet?",
+          "choices": [
+            { "option": "A", "text": "172.16.10.47" },
+            { "option": "B", "text": "172.16.10.63" },
+            { "option": "C", "text": "172.16.10.255" },
+            { "option": "D", "text": "172.16.10.0" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A line segment has endpoints at (2, 4) and (8, 10). What are the coordinates of its midpoint?",
+          "choices": [
+            { "option": "A", "text": "(4, 5)" },
+            { "option": "B", "text": "(5, 7)" },
+            { "option": "C", "text": "(6, 6)" },
+            { "option": "D", "text": "(10, 14)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 67,
+          "text": "Consider an initially empty AVL tree. What does the tree look like after inserting the keys 10, 20, and 30 in that order?",
+          "choices": [
+            { "option": "A", "text": "A skewed tree with 30 as the root." },
+            { "option": "B", "text": "A balanced tree with 20 as the root." },
+            { "option": "C", "text": "A balanced tree with 10 as the root." },
+            { "option": "D", "text": "A balanced tree with 30 as the root." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 68,
+          "text": "What is the average turnaround time for the following processes using the Shortest Job First (SJF) non-preemptive scheduling algorithm? All processes arrive at time 0.\nProcess | Burst Time\nP1 | 6\nP2 | 8\nP3 | 7\nP4 | 3",
+          "choices": [
+            { "option": "A", "text": "7" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "13" },
+            { "option": "D", "text": "24" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 69,
+          "text": "A company buys a machine for Rs. 200,000. It has a useful life of 5 years and a salvage value of Rs. 20,000. What is the annual depreciation using the straight-line method?",
+          "choices": [
+            { "option": "A", "text": "Rs. 40,000" },
+            { "option": "B", "text": "Rs. 36,000" },
+            { "option": "C", "text": "Rs. 44,000" },
+            { "option": "D", "text": "Rs. 20,000" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 70,
+          "text": "Which of the following SQL queries will find the names of all employees whose name starts with the letter 'A'?",
+          "choices": [
+            { "option": "A", "text": "SELECT name FROM employees WHERE name = 'A%';" },
+            { "option": "B", "text": "SELECT name FROM employees WHERE name LIKE 'A%';" },
+            { "option": "C", "text": "SELECT name FROM employees WHERE name STARTS WITH 'A';" },
+            { "option": "D", "text": "SELECT name FROM employees WHERE name = 'A*';" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 71,
+          "text": "What is the key difference between method overloading and method overriding?",
+          "choices": [
+            { "option": "A", "text": "Overloading occurs in the same class; overriding occurs in a subclass." },
+            { "option": "B", "text": "Overloading involves changing the return type; overriding does not." },
+            { "option": "C", "text": "Overloading is resolved at runtime; overriding is resolved at compile time." },
+            { "option": "D", "text": "There is no difference." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 72,
+          "text": "How many address lines are required to address a memory of 32 KB? (Assume a byte-addressable memory, 1 KB = 1024 bytes).",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "12" },
+            { "option": "C", "text": "15" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 73,
+          "text": "A digital communication channel has a bandwidth of 3000 Hz and a signal-to-noise ratio of 1023. What is the maximum channel capacity according to the Shannon-Hartley theorem?",
+          "choices": [
+            { "option": "A", "text": "3,000 bps" },
+            { "option": "B", "text": "15,000 bps" },
+            { "option": "C", "text": "30,000 bps" },
+            { "option": "D", "text": "60,000 bps" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 74,
+          "text": "What does the following finite automaton accept? (q0 is the start state, q1 is the final state)\nStates: {q0, q1}\nAlphabet: {0, 1}\nTransitions: δ(q0, 0) = q0, δ(q0, 1) = q1, δ(q1, 0) = q0, δ(q1, 1) = q1",
+          "choices": [
+            { "option": "A", "text": "All strings ending in 1." },
+            { "option": "B", "text": "All strings containing at least one 1." },
+            { "option": "C", "text": "All strings with an even number of 1s." },
+            { "option": "D", "text": "All strings starting with 0." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "In the context of AI, what is the main drawback of the 'Greedy Best-First Search' algorithm?",
+          "choices": [
+            { "option": "A", "text": "It is very slow." },
+            { "option": "B", "text": "It is not guaranteed to find the optimal path." },
+            { "option": "C", "text": "It requires a huge amount of memory." },
+            { "option": "D", "text": "It can only be used for tree-based searches." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 76,
+          "text": "Consider a system using the LRU (Least Recently Used) page replacement algorithm with 3 frames. What is the number of page faults for the reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2?",
+          "choices": [
+            { "option": "A", "text": "7" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "9" },
+            { "option": "D", "text": "10" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "What is the primary motivation for using a component-based software engineering approach?",
+          "choices": [
+            { "option": "A", "text": "To write code from scratch for every new project." },
+            { "option": "B", "text": "To build software by assembling reusable, pre-built components." },
+            { "option": "C", "text": "To focus exclusively on procedural programming." },
+            { "option": "D", "text": "To eliminate the need for software testing." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code?\n#include <iostream>\nvoid func(int x) {\n    std::cout << \"Integer version\" << std::endl;\n}\nvoid func(double x) {\n    std::cout << \"Double version\" << std::endl;\n}\nint main() {\n    func(10.5f); // 10.5f is a float\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "Integer version" },
+            { "option": "B", "text": "Double version" },
+            { "option": "C", "text": "Compilation Error due to ambiguity" },
+            { "option": "D", "text": "No output" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "A combinational circuit is defined by the Boolean function F(X,Y,Z) = Σ(1, 3, 5, 7). This function can be simplified to:",
+          "choices": [
+            { "option": "A", "text": "F = X" },
+            { "option": "B", "text": "F = Y" },
+            { "option": "C", "text": "F = Z" },
+            { "option": "D", "text": "F = X + Y + Z" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 80,
+          "text": "Which of the following best describes the role of a project manager?",
+          "choices": [
+            { "option": "A", "text": "To write all the critical code for the project." },
+            { "option": "B", "text": "To be responsible for the planning, execution, and closing of a project." },
+            { "option": "C", "text": "To test the final product before delivery." },
+            { "option": "D", "text": "To provide the financial resources for the project." }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "setId": 2,
+  "title": "Computer Engineering MCQ Practice - Set 2",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A circuit has a voltage of 10 volts and a resistance of 5 ohms. What is the current flowing through the circuit?",
+          "choices": [
+            { "option": "A", "text": "2 amps" },
+            { "option": "B", "text": "5 amps" },
+            { "option": "C", "text": "10 amps" },
+            { "option": "D", "text": "15 amps" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 2,
+          "text": "What is the direction of electric current flow in a circuit?",
+          "choices": [
+            { "option": "A", "text": "From low potential to high potential" },
+            { "option": "B", "text": "From high potential to low potential" },
+            { "option": "C", "text": "It depends on the type of circuit" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "What is the formula for calculating power in an electric circuit?",
+          "choices": [
+            { "option": "A", "text": "P = V + I" },
+            { "option": "B", "text": "P = VI" },
+            { "option": "C", "text": "P = IR" },
+            { "option": "D", "text": "P = V/I" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "text": "Which of the following materials is commonly used in electronic devices?",
+          "choices": [
+            { "option": "A", "text": "Rubber" },
+            { "option": "B", "text": "Glass" },
+            { "option": "C", "text": "Silicon" },
+            { "option": "D", "text": "Steel" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 5,
+          "text": "The potential difference across a 5 kΩ is 12 V. Find the current flowing through the resistor:",
+          "choices": [
+            { "option": "A", "text": "60mA" },
+            { "option": "B", "text": "2.4mA" },
+            { "option": "C", "text": "1.77 mA" },
+            { "option": "D", "text": "0.998 mA" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 6,
+          "text": "Which type of conversion is commonly used in motor control circuits?",
+          "choices": [
+            { "option": "A", "text": "Star-delta conversion" },
+            { "option": "B", "text": "Delta-star conversion" },
+            { "option": "C", "text": "Both a and b" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "text": "Kirchhoff's current law is based on the principle of:",
+          "choices": [
+            { "option": "A", "text": "Conservation of energy" },
+            { "option": "B", "text": "Conservation of charge" },
+            { "option": "C", "text": "Conservation of power" },
+            { "option": "D", "text": "Conservation of Potential" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "text": "Non-linear circuits are often used in:",
+          "choices": [
+            { "option": "A", "text": "Simple electronic devices" },
+            { "option": "B", "text": "Advanced electronic devices" },
+            { "option": "C", "text": "Both A and B" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 9,
+          "text": "Which type of circuit must be analyzed using both DC and AC circuit analysis techniques?",
+          "choices": [
+            { "option": "A", "text": "Bilateral circuits only" },
+            { "option": "B", "text": "Unilateral circuits only" },
+            { "option": "C", "text": "Circuits with both bilateral and unilateral elements" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 10,
+          "text": "Which of the following circuits is commonly used in filters and impedance matching circuits?",
+          "choices": [
+            { "option": "A", "text": "Active circuit" },
+            { "option": "B", "text": "Bilateral circuit" },
+            { "option": "C", "text": "Unilateral circuit" },
+            { "option": "D", "text": "Passive circuit" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 11,
+          "text": "What is the base of the decimal number system?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "10" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 12,
+          "text": "Which of the following logic gates produces a high output only when all inputs are low?",
+          "choices": [
+            { "option": "A", "text": "OR gate" },
+            { "option": "B", "text": "AND gate" },
+            { "option": "C", "text": "XOR gate" },
+            { "option": "D", "text": "NAND gate" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 13,
+          "text": "In a binary adder circuit, what can a MUX be used for?",
+          "choices": [
+            { "option": "A", "text": "To select which input to use for each stage of the adder." },
+            { "option": "B", "text": "To invert the output of the adder." },
+            { "option": "C", "text": "To amplify the output of the adder." },
+            { "option": "D", "text": "To create a clock signal for the adder." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "text": "In a demultiplexer with n selection lines, how many output lines will it have?",
+          "choices": [
+            { "option": "A", "text": "2" },
+            { "option": "B", "text": "$2^n$" },
+            { "option": "C", "text": "n" },
+            { "option": "D", "text": "$n^2$" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "text": "What is the purpose of a semicolon at the end of a statement in C programming?",
+          "choices": [
+            { "option": "A", "text": "To indicate the end of a statement" },
+            { "option": "B", "text": "To separate two statements" },
+            { "option": "C", "text": "To define a function" },
+            { "option": "D", "text": "To declare a variable" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 16,
+          "text": "What is the purpose of the fopen() function in C?",
+          "choices": [
+            { "option": "A", "text": "To open a file for reading" },
+            { "option": "B", "text": "To open a file for writing" },
+            { "option": "C", "text": "To open a file for reading and writing" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 17,
+          "text": "What is the correct way to declare a pointer to a character in C?",
+          "choices": [
+            { "option": "A", "text": "char *str;" },
+            { "option": "B", "text": "char str();" },
+            { "option": "C", "text": "char *str;" },
+            { "option": "D", "text": "char (*str)();" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "text": "Which of the following is true regarding the scope of a namespace in C++?",
+          "choices": [
+            { "option": "A", "text": "A namespace can be used anywhere in the program" },
+            { "option": "B", "text": "A namespace can only be used within the file it is defined in" },
+            { "option": "C", "text": "A namespace can only be used within the function it is defined in" },
+            { "option": "D", "text": "A namespace can only be used within the class it is defined in" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 19,
+          "text": "Can two functions in C++ have the same name and the same set of parameters?",
+          "choices": [
+            { "option": "A", "text": "Yes, as long as they have different return types" },
+            { "option": "B", "text": "Yes, as long as they are declared in different namespaces" },
+            { "option": "C", "text": "No, it is not allowed in C++" },
+            { "option": "D", "text": "Yes, as long as they are declared in different classes" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 20,
+          "text": "Which of the following operators can be overloaded in C++?",
+          "choices": [
+            { "option": "A", "text": "Arithmetic operators (+, -, *, /, %)" },
+            { "option": "B", "text": "Comparison operators (==, !=, <, >, <=, >=)" },
+            { "option": "C", "text": "Logical operators (&&, ||, !)" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 21,
+          "text": "What is the binary value of the selection inputs in a 4:1 MUX?",
+          "choices": [
+            { "option": "A", "text": "00, 01, 10, 11" },
+            { "option": "B", "text": "0, 1" },
+            { "option": "C", "text": "0000, 0001, 0010, 0011" },
+            { "option": "D", "text": "000, 001, 010, 011" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 22,
+          "text": "What is the main application of demultiplexers in memory systems?",
+          "choices": [
+            { "option": "A", "text": "To perform logical operations on input signals" },
+            { "option": "B", "text": "To select one of multiple input lines" },
+            { "option": "C", "text": "To store data in memory cells" },
+            { "option": "D", "text": "To distribute a single input to multiple output channels" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 23,
+          "text": "Which of the following is an advantage of a decoder?",
+          "choices": [
+            { "option": "A", "text": "It can be used to convert any type of code into an output signal" },
+            { "option": "B", "text": "It is easy to implement and use" },
+            { "option": "C", "text": "It can be used in sequential circuits" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "Which of the following statements is true for a T flip-flop?",
+          "choices": [
+            { "option": "A", "text": "It has two inputs: T and CLK" },
+            { "option": "B", "text": "It can toggle its output between 0 and 1" },
+            { "option": "C", "text": "It has one output: Q" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 25,
+          "text": "Which of the following is a type of edge-triggered flip-flop that has two inputs, J and K?",
+          "choices": [
+            { "option": "A", "text": "D flip-flop" },
+            { "option": "B", "text": "JK flip-flop" },
+            { "option": "C", "text": "SR flip-flop" },
+            { "option": "D", "text": "T flip-flop" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "Which of the following is a characteristic of a Master-Slave Flip-Flop?",
+          "choices": [
+            { "option": "A", "text": "It has an asynchronous reset" },
+            { "option": "B", "text": "It has a transparent input" },
+            { "option": "C", "text": "It has a hold input" },
+            { "option": "D", "text": "It has a clock enable input" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 27,
+          "text": "Which type of register is used to hold the operands for an arithmetic or logical operation?",
+          "choices": [
+            { "option": "A", "text": "Shift Register" },
+            { "option": "B", "text": "Parallel Register" },
+            { "option": "C", "text": "Serial Register" },
+            { "option": "D", "text": "Operand Register" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 28,
+          "text": "What is the maximum number of data bits that can be stored in an n-bit shift register?",
+          "choices": [
+            { "option": "A", "text": "n/2" },
+            { "option": "B", "text": "n-1" },
+            { "option": "C", "text": "$2^n$" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 29,
+          "text": "What is the maximum count for a 4-bit asynchronous counter?",
+          "choices": [
+            { "option": "A", "text": "8" },
+            { "option": "B", "text": "16" },
+            { "option": "C", "text": "32" },
+            { "option": "D", "text": "64" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "text": "Which of the following is an example of an application that requires a synchronous counter?",
+          "choices": [
+            { "option": "A", "text": "Digital clock" },
+            { "option": "B", "text": "Traffic light controller" },
+            { "option": "C", "text": "Computer processor" },
+            { "option": "D", "text": "Wireless router" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 31,
+          "text": "Which of the following is responsible for managing the virtual memory in a computer system?",
+          "choices": [
+            { "option": "A", "text": "Control unit" },
+            { "option": "B", "text": "Arithmetic logic unit" },
+            { "option": "C", "text": "Operating system" },
+            { "option": "D", "text": "Cache memory" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 32,
+          "text": "Which of the following addressing modes is used to access memory locations in a stack?",
+          "choices": [
+            { "option": "A", "text": "Immediate addressing mode" },
+            { "option": "B", "text": "Direct addressing mode" },
+            { "option": "C", "text": "Indirect addressing mode" },
+            { "option": "D", "text": "Stack addressing mode" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 33,
+          "text": "Which operation performs a multiplication of two values and produces a result that is twice the size of the inputs?",
+          "choices": [
+            { "option": "A", "text": "Addition" },
+            { "option": "B", "text": "Subtraction" },
+            { "option": "C", "text": "Multiplication" },
+            { "option": "D", "text": "Division" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "Which level of the memory hierarchy is the fastest, smallest, and most expensive?",
+          "choices": [
+            { "option": "A", "text": "Level 1 cache" },
+            { "option": "B", "text": "Level 2 cache" },
+            { "option": "C", "text": "Main memory" },
+            { "option": "D", "text": "Secondary storage" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 35,
+          "text": "Which of the following is a type of cache memory?",
+          "choices": [
+            { "option": "A", "text": "L1 cache" },
+            { "option": "B", "text": "L2 cache" },
+            { "option": "C", "text": "L3 cache" },
+            { "option": "D", "text": "All of the above" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 36,
+          "text": "Which cache replacement algorithm removes the block that has been used the least frequently?",
+          "choices": [
+            { "option": "A", "text": "Least Recently Used (LRU)" },
+            { "option": "B", "text": "First-In-First-Out (FIFO)" },
+            { "option": "C", "text": "Random" },
+            { "option": "D", "text": "Least Frequently Used (LFU)" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 37,
+          "text": "Which type of peripheral device is used to display output on a computer?",
+          "choices": [
+            { "option": "A", "text": "Input device" },
+            { "option": "B", "text": "Output device" },
+            { "option": "C", "text": "Storage device" },
+            { "option": "D", "text": "Processing device" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "Which of the following is NOT a method for interfacing with external devices in an embedded system?",
+          "choices": [
+            { "option": "A", "text": "Serial communication" },
+            { "option": "B", "text": "USB" },
+            { "option": "C", "text": "Ethernet" },
+            { "option": "D", "text": "Random access memory (RAM)" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 39,
+          "text": "What is the main advantage of using a preemptive scheduling algorithm in an RTOS?",
+          "choices": [
+            { "option": "A", "text": "It provides a deterministic response time for all tasks." },
+            { "option": "B", "text": "It reduces the overall processing time of the system." },
+            { "option": "C", "text": "It ensures that high-priority tasks are executed first." },
+            { "option": "D", "text": "It allows low-priority tasks to run even if a high-priority task is currently running." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 40,
+          "text": "Which of the following is not a VHDL operator?",
+          "choices": [
+            { "option": "A", "text": "+" },
+            { "option": "B", "text": "<<" },
+            { "option": "C", "text": "&&" },
+            { "option": "D", "text": "**" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 41,
+          "text": "Which of the following protocols is used for sending email over the internet?",
+          "choices": [
+            { "option": "A", "text": "FTP" },
+            { "option": "B", "text": "HTTP" },
+            { "option": "C", "text": "SMTP" },
+            { "option": "D", "text": "Telnet" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 42,
+          "text": "Which of the following protocols is used for email communication?",
+          "choices": [
+            { "option": "A", "text": "SMTP" },
+            { "option": "B", "text": "FTP" },
+            { "option": "C", "text": "HTTP" },
+            { "option": "D", "text": "SNMP" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 43,
+          "text": "What is the maximum size of an Ethernet frame?",
+          "choices": [
+            { "option": "A", "text": "64 bytes" },
+            { "option": "B", "text": "128 bytes" },
+            { "option": "C", "text": "1024 bytes" },
+            { "option": "D", "text": "1518 bytes" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 44,
+          "text": "Which of the following is a drawback of using forward error correction (FEC) for error correction in data link layer?",
+          "choices": [
+            { "option": "A", "text": "It requires large amounts of memory" },
+            { "option": "B", "text": "It increases the network latency" },
+            { "option": "C", "text": "It is not effective in detecting errors" },
+            { "option": "D", "text": "It is not effective in correcting errors" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "Which of the following is not a valid IPv6 address abbreviation?",
+          "choices": [
+            { "option": "A", "text": "2001:0db8:0000:0000:0000:0000:0000:0001" },
+            { "option": "B", "text": "2001:db8::1" },
+            { "option": "C", "text": "::1" },
+            { "option": "D", "text": "::ffff:192.0.2.1" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 46,
+          "text": "Which transport layer protocol does not guarantee delivery of data?",
+          "choices": [
+            { "option": "A", "text": "TCP" },
+            { "option": "B", "text": "UDP" },
+            { "option": "C", "text": "ICMP" },
+            { "option": "D", "text": "ARP" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "Which of the following HTTP methods is used by a client to send data to the server for processing?",
+          "choices": [
+            { "option": "A", "text": "GET" },
+            { "option": "B", "text": "POST" },
+            { "option": "C", "text": "PUT" },
+            { "option": "D", "text": "DELETE" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 48,
+          "text": "Which of the following is a type of access control mechanism?",
+          "choices": [
+            { "option": "A", "text": "Firewall" },
+            { "option": "B", "text": "Intrusion detection system" },
+            { "option": "C", "text": "Password" },
+            { "option": "D", "text": "Encryption" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 49,
+          "text": "Which cryptography principle ensures that the same message can't be read twice?",
+          "choices": [
+            { "option": "A", "text": "Confidentiality" },
+            { "option": "B", "text": "Integrity" },
+            { "option": "C", "text": "Availability" },
+            { "option": "D", "text": "Non-repudiation" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 50,
+          "text": "Which of the following is a technique used by firewalls to prevent denial of service attacks?",
+          "choices": [
+            { "option": "A", "text": "Packet filtering" },
+            { "option": "B", "text": "Traffic shaping" },
+            { "option": "C", "text": "Port scanning" },
+            { "option": "D", "text": "MAC filtering" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 51,
+          "text": "Which of the following is not a component of a finite state machine (FSM)?",
+          "choices": [
+            { "option": "A", "text": "Input alphabet" },
+            { "option": "B", "text": "Output alphabet" },
+            { "option": "C", "text": "State transition table" },
+            { "option": "D", "text": "Memory unit" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 52,
+          "text": "The language {w | w contains an even number of 'a's} is an example of a language that can be recognized by which of the following automata?",
+          "choices": [
+            { "option": "A", "text": "DFA" },
+            { "option": "B", "text": "NDFA" },
+            { "option": "C", "text": "Both DFA and NDFA" },
+            { "option": "D", "text": "Neither DFA nor NDFA" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 53,
+          "text": "Which of the following is a context-free grammar?",
+          "choices": [
+            { "option": "A", "text": "S → aSb | ε" },
+            { "option": "B", "text": "S → aS | Sb | ε" },
+            { "option": "C", "text": "S → aA | Bb" },
+            { "option": "D", "text": "S → aBb | ε" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 54,
+          "text": "What are the two types of production rules allowed in CNF?",
+          "choices": [
+            { "option": "A", "text": "A → B, A → a" },
+            { "option": "B", "text": "A → AB, B → a" },
+            { "option": "C", "text": "A → BC, A → a" },
+            { "option": "D", "text": "A → AB, B → C" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 55,
+          "text": "What does the symbol 'Γ' represent in the notation of a Turing machine?",
+          "choices": [
+            { "option": "A", "text": "The input alphabet" },
+            { "option": "B", "text": "The tape alphabet" },
+            { "option": "C", "text": "The set of states" },
+            { "option": "D", "text": "The blank symbol" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "Which of the following is not a type of file format used in computer graphics?",
+          "choices": [
+            { "option": "A", "text": "JPG" },
+            { "option": "B", "text": "GIF" },
+            { "option": "C", "text": "MP3" },
+            { "option": "D", "text": "PNG" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 57,
+          "text": "What is the main advantage of using a touchscreen as an input device for graphics?",
+          "choices": [
+            { "option": "A", "text": "Precision" },
+            { "option": "B", "text": "Ease of use" },
+            { "option": "C", "text": "Multitouch capability" },
+            { "option": "D", "text": "Portability" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "Which of the following transformation involves changing the size of an object in different directions?",
+          "choices": [
+            { "option": "A", "text": "Translation" },
+            { "option": "B", "text": "Rotation" },
+            { "option": "C", "text": "Scaling" },
+            { "option": "D", "text": "Reflection" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 59,
+          "text": "Which of the following is not a common method for performing 3D translation in computer graphics?",
+          "choices": [
+            { "option": "A", "text": "Matrix multiplication" },
+            { "option": "B", "text": "Vector addition" },
+            { "option": "C", "text": "Quaternion" },
+            { "option": "D", "text": "Euler angles" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 60,
+          "text": "Which transformation is used to rotate an object around a fixed point in 3D space?",
+          "choices": [
+            { "option": "A", "text": "3D rotation" },
+            { "option": "B", "text": "3D scaling" },
+            { "option": "C", "text": "3D reflection" },
+            { "option": "D", "text": "3D shear transformation" }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "Which data structure is a linear collection of data elements, where each element points to the next?",
+          "choices": [
+            { "option": "A", "text": "Stack" },
+            { "option": "B", "text": "Queue" },
+            { "option": "C", "text": "Linked list" },
+            { "option": "D", "text": "Tree" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "Which of the following data structures follows the FIFO (First-In-First-Out) principle?",
+          "choices": [
+            { "option": "A", "text": "Queue" },
+            { "option": "B", "text": "Stack" },
+            { "option": "C", "text": "Linked List" },
+            { "option": "D", "text": "Tree" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 63,
+          "text": "Which of the following data structures is commonly used to implement a queue?",
+          "choices": [
+            { "option": "A", "text": "Linked list" },
+            { "option": "B", "text": "Array" },
+            { "option": "C", "text": "Stack" },
+            { "option": "D", "text": "Hash table" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 64,
+          "text": "Which sorting algorithm is efficient for already sorted data?",
+          "choices": [
+            { "option": "A", "text": "Insertion Sort" },
+            { "option": "B", "text": "Merge Sort" },
+            { "option": "C", "text": "Quick Sort" },
+            { "option": "D", "text": "Bubble Sort" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 65,
+          "text": "Which sorting algorithm has the best case time complexity of O(n)?",
+          "choices": [
+            { "option": "A", "text": "Insertion Sort" },
+            { "option": "B", "text": "Selection Sort" },
+            { "option": "C", "text": "Bubble Sort" },
+            { "option": "D", "text": "Quick Sort" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 66,
+          "text": "Which layer of the ANSI/SPARC architecture defines the overall schema for the database?",
+          "choices": [
+            { "option": "A", "text": "External Level" },
+            { "option": "B", "text": "Internal Level" },
+            { "option": "C", "text": "Conceptual Level" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 67,
+          "text": "Which ACID property ensures that a transaction is either completed in its entirety or not at all?",
+          "choices": [
+            { "option": "A", "text": "Atomicity" },
+            { "option": "B", "text": "Consistency" },
+            { "option": "C", "text": "Isolation" },
+            { "option": "D", "text": "Durability" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "What was the first operating system to use a microkernel architecture?",
+          "choices": [
+            { "option": "A", "text": "MS-DOS" },
+            { "option": "B", "text": "Windows 3.1" },
+            { "option": "C", "text": "Unix" },
+            { "option": "D", "text": "Mach" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 69,
+          "text": "Which of the following is used by the CPU to translate a virtual memory address to a physical memory address?",
+          "choices": [
+            { "option": "A", "text": "Page table" },
+            { "option": "B", "text": "Memory controller" },
+            { "option": "C", "text": "Hard drive" },
+            { "option": "D", "text": "RAM" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 70,
+          "text": "Which of the following is an example of a system daemon?",
+          "choices": [
+            { "option": "A", "text": "A web server" },
+            { "option": "B", "text": "A text editor" },
+            { "option": "C", "text": "A file manager" },
+            { "option": "D", "text": "A graphics program" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 71,
+          "text": "Which software characteristic refers to the ability of the software to handle increasing workloads or user demand without significant degradation in performance or reliability?",
+          "choices": [
+            { "option": "A", "text": "Functionality" },
+            { "option": "B", "text": "Scalability" },
+            { "option": "C", "text": "Usability" },
+            { "option": "D", "text": "Maintainability" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "Which software quality attribute refers to the ability of software to handle increasing workloads or user demand without significant degradation in performance or reliability?",
+          "choices": [
+            { "option": "A", "text": "Scalability" },
+            { "option": "B", "text": "Security" },
+            { "option": "C", "text": "Usability" },
+            { "option": "D", "text": "Testability" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "Which software process model is known for breaking down the development process into smaller, manageable segments called iterations?",
+          "choices": [
+            { "option": "A", "text": "Agile Model" },
+            { "option": "B", "text": "V-Model" },
+            { "option": "C", "text": "Iterative Model" },
+            { "option": "D", "text": "Prototype Model" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 74,
+          "text": "Which of the following is an example of a regulatory-related non-functional requirement?",
+          "choices": [
+            { "option": "A", "text": "The website should be easy to navigate" },
+            { "option": "B", "text": "The website should comply with GDPR regulations" },
+            { "option": "C", "text": "The website should have social media sharing buttons" },
+            { "option": "D", "text": "The website should have a user-friendly interface" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "What is the difference between responsive and adaptive design?",
+          "choices": [
+            { "option": "A", "text": "Responsive design adapts to different screen sizes, while adaptive design uses a different design for each screen size" },
+            { "option": "B", "text": "Adaptive design adapts to different screen sizes, while responsive design uses a different design for each screen size" },
+            { "option": "C", "text": "Responsive design is more expensive than adaptive design" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 76,
+          "text": "What is the principle of rhythm in design?",
+          "choices": [
+            { "option": "A", "text": "It refers to the use of contrasting colors in a design" },
+            { "option": "B", "text": "It refers to the repetition of a visual element in a design to create a sense of movement" },
+            { "option": "C", "text": "It refers to the arrangement of elements in a design from most important to least important" },
+            { "option": "D", "text": "None of the above" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 77,
+          "text": "Which of the following is not a common type of unit test?",
+          "choices": [
+            { "option": "A", "text": "Positive tests" },
+            { "option": "B", "text": "Negative tests" },
+            { "option": "C", "text": "Boundary tests" },
+            { "option": "D", "text": "Performance tests" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 78,
+          "text": "Which modeling notation is often used to create deployment diagrams?",
+          "choices": [
+            { "option": "A", "text": "UML" },
+            { "option": "B", "text": "ERD" },
+            { "option": "C", "text": "BPMN" },
+            { "option": "D", "text": "None of above" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 79,
+          "text": "Which of the following is not a part of the design phase in OOAD?",
+          "choices": [
+            { "option": "A", "text": "Identify relationships between classes" },
+            { "option": "B", "text": "Identify attributes of classes" },
+            { "option": "C", "text": "Identify operations of classes" },
+            { "option": "D", "text": "Identify use cases" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 80,
+          "text": "What is the first step in the Object-Oriented Design (OOD) process?",
+          "choices": [
+            { "option": "A", "text": "Analysis" },
+            { "option": "B", "text": "Design" },
+            { "option": "C", "text": "Implementation" },
+            { "option": "D", "text": "Testing" }
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

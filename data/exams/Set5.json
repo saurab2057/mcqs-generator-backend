@@ -1,0 +1,897 @@
+{
+  "setId": 5,
+  "title": "Computer Engineering MCQ Practice - Set 5",
+  "duration": 7200,
+  "sections": [
+    {
+      "name": "Section A",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Kirchhoff's Voltage Law (KVL) is based on the conservation of:",
+          "choices": [
+            { "option": "A", "text": "Charge" },
+            { "option": "B", "text": "Energy" },
+            { "option": "C", "text": "Mass" },
+            { "option": "D", "text": "Momentum" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 2,
+          "text": "The Thevenin equivalent voltage (Vth) is:",
+          "choices": [
+            { "option": "A", "text": "The short-circuit voltage across the terminals" },
+            { "option": "B", "text": "The open-circuit voltage across the terminals" },
+            { "option": "C", "text": "The voltage across the Thevenin resistance" },
+            { "option": "D", "text": "The total voltage supplied by the source" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "text": "In a purely resistive AC circuit, the phase angle between voltage and current is:",
+          "choices": [
+            { "option": "A", "text": "90 degrees" },
+            { "option": "B", "text": "45 degrees" },
+            { "option": "C", "text": "0 degrees" },
+            { "option": "D", "text": "180 degrees" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 4,
+          "text": "A semiconductor in its purest form is called:",
+          "choices": [
+            { "option": "A", "text": "Intrinsic semiconductor" },
+            { "option": "B", "text": "Extrinsic semiconductor" },
+            { "option": "C", "text": "p-type semiconductor" },
+            { "option": "D", "text": "n-type semiconductor" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "text": "Which of the following is essential for an oscillator circuit to start and sustain oscillations?",
+          "choices": [
+            { "option": "A", "text": "Negative feedback" },
+            { "option": "B", "text": "A stable DC power source" },
+            { "option": "C", "text": "Positive feedback with a loop gain of exactly one" },
+            { "option": "D", "text": "A high-Q inductor" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 6,
+          "text": "Which amplifier class offers the highest efficiency but has the most distortion?",
+          "choices": [
+            { "option": "A", "text": "Class A" },
+            { "option": "B", "text": "Class B" },
+            { "option": "C", "text": "Class AB" },
+            { "option": "D", "text": "Class C" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 7,
+          "text": "The 2's complement of the binary number 10110 is:",
+          "choices": [
+            { "option": "A", "text": "01001" },
+            { "option": "B", "text": "01010" },
+            { "option": "C", "text": "01011" },
+            { "option": "D", "text": "10111" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "text": "A logic gate whose output is HIGH only when all its inputs are HIGH is called:",
+          "choices": [
+            { "option": "A", "text": "OR gate" },
+            { "option": "B", "text": "NOT gate" },
+            { "option": "C", "text": "AND gate" },
+            { "option": "D", "text": "XOR gate" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "text": "A flip-flop that changes its state on the rising or falling edge of a clock pulse is known as:",
+          "choices": [
+            { "option": "A", "text": "A latch" },
+            { "option": "B", "text": "An edge-triggered flip-flop" },
+            { "option": "C", "text": "A level-triggered flip-flop" },
+            { "option": "D", "text": "An asynchronous flip-flop" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 10,
+          "text": "The register in a CPU that holds the address of the next instruction to be executed is the:",
+          "choices": [
+            { "option": "A", "text": "Accumulator" },
+            { "option": "B", "text": "Instruction Register" },
+            { "option": "C", "text": "Program Counter" },
+            { "option": "D", "text": "Memory Address Register" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 11,
+          "text": "Which standard is commonly used for serial communication?",
+          "choices": [
+            { "option": "A", "text": "IEEE 1394 (FireWire)" },
+            { "option": "B", "text": "RS-232" },
+            { "option": "C", "text": "Universal Serial Bus (USB)" },
+            { "option": "D", "text": "Parallel Port (LPT)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "text": "An interrupt that can be temporarily ignored by the processor is a:",
+          "choices": [
+            { "option": "A", "text": "Non-maskable interrupt (NMI)" },
+            { "option": "B", "text": "Maskable interrupt" },
+            { "option": "C", "text": "Software interrupt" },
+            { "option": "D", "text": "Internal interrupt" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "text": "In C, what is the primary purpose of the volatile keyword?",
+          "choices": [
+            { "option": "A", "text": "To declare a variable whose value cannot be changed." },
+            { "option": "B", "text": "To tell the compiler that a variable's value may change at any time without any action being taken by the code the compiler finds nearby." },
+            { "option": "C", "text": "To create a variable that is visible only within the file it is declared in." },
+            { "option": "D", "text": "To dynamically allocate memory." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "text": "Which of the following correctly describes a union in C?",
+          "choices": [
+            { "option": "A", "text": "It stores multiple values of different types simultaneously." },
+            { "option": "B", "text": "It is a way to group multiple variables of the same type." },
+            { "option": "C", "text": "It allocates a shared memory space for all its members, so only one member can hold a value at any given time." },
+            { "option": "D", "text": "It is another name for a structure." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 15,
+          "text": "In C++, a constructor that does not take any arguments is called a:",
+          "choices": [
+            { "option": "A", "text": "Parameterized constructor" },
+            { "option": "B", "text": "Default constructor" },
+            { "option": "C", "text": "Copy constructor" },
+            { "option": "D", "text": "Friend constructor" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "text": "The ability of an object to take on many forms is a key feature of OOP known as:",
+          "choices": [
+            { "option": "A", "text": "Encapsulation" },
+            { "option": "B", "text": "Inheritance" },
+            { "option": "C", "text": "Polymorphism" },
+            { "option": "D", "text": "Abstraction" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 17,
+          "text": "What is the primary function of Direct Memory Access (DMA)?",
+          "choices": [
+            { "option": "A", "text": "To allow the CPU to access memory faster." },
+            { "option": "B", "text": "To allow I/O devices to access main memory directly, bypassing the CPU." },
+            { "option": "C", "text": "To organize the memory hierarchy." },
+            { "option": "D", "text": "To execute arithmetic and logical operations." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "text": "A CISC (Complex Instruction Set Computer) architecture emphasizes:",
+          "choices": [
+            { "option": "A", "text": "A small set of simple, fixed-length instructions." },
+            { "option": "B", "text": "Hardware simplicity over software complexity." },
+            { "option": "C", "text": "A large, rich set of instructions that can perform complex tasks in a single step." },
+            { "option": "D", "text": "Pipelining and parallel processing exclusively." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 19,
+          "text": "Cache memory works on the principle of:",
+          "choices": [
+            { "option": "A", "text": "Locality of reference" },
+            { "option": "B", "text": "First-In-First-Out (FIFO)" },
+            { "option": "C", "text": "Last-In-First-Out (LIFO)" },
+            { "option": "D", "text": "Random access" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 20,
+          "text": "Which of the following is a key characteristic of an embedded system?",
+          "choices": [
+            { "option": "A", "text": "It is a general-purpose computer." },
+            { "option": "B", "text": "It is designed to perform a dedicated function or a specific set of functions." },
+            { "option": "C", "text": "It always requires a graphical user interface (GUI)." },
+            { "option": "D", "text": "It primarily uses secondary storage like hard disks." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "text": "Which layer of the OSI model is responsible for routing packets from a source to a destination across multiple networks?",
+          "choices": [
+            { "option": "A", "text": "Data Link Layer" },
+            { "option": "B", "text": "Transport Layer" },
+            { "option": "C", "text": "Network Layer" },
+            { "option": "D", "text": "Physical Layer" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 22,
+          "text": "What is the purpose of the Address Resolution Protocol (ARP)?",
+          "choices": [
+            { "option": "A", "text": "To resolve a domain name to an IP address." },
+            { "option": "B", "text": "To resolve an IP address to a MAC address." },
+            { "option": "C", "text": "To assign IP addresses dynamically." },
+            { "option": "D", "text": "To route packets between networks." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 23,
+          "text": "Which transport layer protocol provides connection-oriented, reliable data transfer?",
+          "choices": [
+            { "option": "A", "text": "UDP" },
+            { "option": "B", "text": "TCP" },
+            { "option": "C", "text": "IP" },
+            { "option": "D", "text": "ICMP" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "text": "A firewall is a network security device that:",
+          "choices": [
+            { "option": "A", "text": "Encrypts all network traffic." },
+            { "option": "B", "text": "Monitors and filters incoming and outgoing network traffic based on security rules." },
+            { "option": "C", "text": "Detects and removes viruses from computers." },
+            { "option": "D", "text": "Assigns IP addresses to devices on a network." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 25,
+          "text": "A Non-deterministic Finite Automaton (NFA) is different from a Deterministic Finite Automaton (DFA) because an NFA:",
+          "choices": [
+            { "option": "A", "text": "Cannot have more than one final state." },
+            { "option": "B", "text": "Can have multiple possible next states for a given input symbol and state." },
+            { "option": "C", "text": "Cannot recognize regular languages." },
+            { "option": "D", "text": "Does not have a start state." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 26,
+          "text": "In the context of formal languages, a grammar is defined by:",
+          "choices": [
+            { "option": "A", "text": "A set of terminals, a set of non-terminals, a start symbol, and a set of production rules." },
+            { "option": "B", "text": "Only a set of terminals and non-terminals." },
+            { "option": "C", "text": "A set of states and transitions." },
+            { "option": "D", "text": "A regular expression." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "text": "The Cohen-Sutherland algorithm is used for:",
+          "choices": [
+            { "option": "A", "text": "2D rotation" },
+            { "option": "B", "text": "3D projection" },
+            { "option": "C", "text": "Line clipping" },
+            { "option": "D", "text": "Shading" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 28,
+          "text": "Which display technology works by exciting a gas plasma to emit light?",
+          "choices": [
+            { "option": "A", "text": "Cathode Ray Tube (CRT)" },
+            { "option": "B", "text": "Liquid Crystal Display (LCD)" },
+            { "option": "C", "text": "Light Emitting Diode (LED)" },
+            { "option": "D", "text": "Plasma Display Panel (PDP)" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 29,
+          "text": "Which of the following is a linear data structure?",
+          "choices": [
+            { "option": "A", "text": "Tree" },
+            { "option": "B", "text": "Graph" },
+            { "option": "C", "text": "Stack" },
+            { "option": "D", "text": "Heap" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 30,
+          "text": "What is the worst-case time complexity of a binary search algorithm?",
+          "choices": [
+            { "option": "A", "text": "O(n)" },
+            { "option": "B", "text": "O(log n)" },
+            { "option": "C", "text": "O(n²)" },
+            { "option": "D", "text": "O(1)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "text": "In SQL, which command is used to add, delete, or modify columns in an existing table?",
+          "choices": [
+            { "option": "A", "text": "UPDATE" },
+            { "option": "B", "text": "MODIFY" },
+            { "option": "C", "text": "CREATE" },
+            { "option": "D", "text": "ALTER TABLE" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 32,
+          "text": "A situation where two or more processes are waiting indefinitely for an event that can only be caused by one of the waiting processes is known as:",
+          "choices": [
+            { "option": "A", "text": "Starvation" },
+            { "option": "B", "text": "Deadlock" },
+            { "option": "C", "text": "Race condition" },
+            { "option": "D", "text": "Paging" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 33,
+          "text": "The 'Agile Model' of software development focuses on:",
+          "choices": [
+            { "option": "A", "text": "A strict, sequential design process." },
+            { "option": "B", "text": "Comprehensive documentation as the primary goal." },
+            { "option": "C", "text": "Iterative development and collaboration with the customer." },
+            { "option": "D", "text": "A final 'big bang' release after years of development." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "text": "Which type of software testing is performed by the end-user in their own environment?",
+          "choices": [
+            { "option": "A", "text": "Unit Testing" },
+            { "option": "B", "text": "Integration Testing" },
+            { "option": "C", "text": "System Testing" },
+            { "option": "D", "text": "User Acceptance Testing (UAT)" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 35,
+          "text": "In object-oriented analysis, a 'Use Case' describes:",
+          "choices": [
+            { "option": "A", "text": "The internal structure of a class." },
+            { "option": "B", "text": "An interaction between a user (actor) and the system to achieve a goal." },
+            { "option": "C", "text": "The inheritance hierarchy of the system." },
+            { "option": "D", "text": "The database schema." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 36,
+          "text": "Which UML diagram is best suited for modeling the sequence of messages exchanged between objects over time?",
+          "choices": [
+            { "option": "A", "text": "Class Diagram" },
+            { "option": "B", "text": "Use Case Diagram" },
+            { "option": "C", "text": "Sequence Diagram" },
+            { "option": "D", "text": "Activity Diagram" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 37,
+          "text": "In the context of AI, a 'rational agent' is one that:",
+          "choices": [
+            { "option": "A", "text": "Always makes the morally correct decision." },
+            { "option": "B", "text": "Acts to achieve the best expected outcome based on its knowledge." },
+            { "option": "C", "text": "Can pass the Turing Test." },
+            { "option": "D", "text": "Is purely based on simple reflexes." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "text": "The A* search algorithm is an example of:",
+          "choices": [
+            { "option": "A", "text": "An uninformed search strategy." },
+            { "option": "B", "text": "An informed (heuristic) search strategy." },
+            { "option": "C", "text": "A local search algorithm." },
+            { "option": "D", "text": "A genetic algorithm." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 39,
+          "text": "Which of the following is an example of unsupervised machine learning?",
+          "choices": [
+            { "option": "A", "text": "Classifying emails as spam or not spam using labeled examples." },
+            { "option": "B", "text": "Predicting house prices based on historical sales data." },
+            { "option": "C", "text": "Grouping customers into distinct clusters based on their purchasing behavior without prior labels." },
+            { "option": "D", "text": "A chess-playing program that learns from winning and losing." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 40,
+          "text": "The function of an activation function in a neural network is to:",
+          "choices": [
+            { "option": "A", "text": "Determine the learning rate." },
+            { "option": "B", "text": "Initialize the weights of the network." },
+            { "option": "C", "text": "Introduce non-linearity into the output of a neuron." },
+            { "option": "D", "text": "Calculate the loss of the network." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 41,
+          "text": "In engineering drawings, an isometric projection is a type of:",
+          "choices": [
+            { "option": "A", "text": "Orthographic projection" },
+            { "option": "B", "text": "Pictorial projection" },
+            { "option": "C", "text": "Multiview projection" },
+            { "option": "D", "text": "Sectional view" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 42,
+          "text": "The Net Present Value (NPV) method in engineering economics helps in:",
+          "choices": [
+            { "option": "A", "text": "Calculating the depreciation of an asset." },
+            { "option": "B", "text": "Determining the profitability of an investment by considering the time value of money." },
+            { "option": "C", "text": "Scheduling project tasks." },
+            { "option": "D", "text": "Managing project risks." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 43,
+          "text": "A critical path in a PERT chart is the sequence of tasks that:",
+          "choices": [
+            { "option": "A", "text": "Is the shortest path through the network." },
+            { "option": "B", "text": "Contains all the most expensive tasks." },
+            { "option": "C", "text": "Determines the minimum time to complete the project." },
+            { "option": "D", "text": "Has the most slack or float time." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 44,
+          "text": "Professional ethics in engineering primarily ensures:",
+          "choices": [
+            { "option": "A", "text": "Engineers maximize their personal profits." },
+            { "option": "B", "text": "The safety, health, and welfare of the public." },
+            { "option": "C", "text": "The use of the most advanced technology in all projects." },
+            { "option": "D", "text": "That engineers only work on government projects." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 45,
+          "text": "Which of the following is a primary role of the Nepal Engineers' Association (NEA)?",
+          "choices": [
+            { "option": "A", "text": "To license engineers to practice in Nepal." },
+            { "option": "B", "text": "To act as a professional organization for the welfare and advancement of its members." },
+            { "option": "C", "text": "To set the national budget for engineering projects." },
+            { "option": "D", "text": "To directly manage all construction in the country." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 46,
+          "text": "What is the purpose of a constructor in C++?",
+          "choices": [
+            { "option": "A", "text": "To destroy an object" },
+            { "option": "B", "text": "To initialize the data members of an object when it is created" },
+            { "option": "C", "text": "To copy the contents of one object to another" },
+            { "option": "D", "text": "To declare a class" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 47,
+          "text": "The logical OR operation is performed by which of the following gates?",
+          "choices": [
+            { "option": "A", "text": "AND" },
+            { "option": "B", "text": "NOR" },
+            { "option": "C", "text": "OR" },
+            { "option": "D", "text": "NAND" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 48,
+          "text": "Which of the following is NOT a property of a transaction (ACID)?",
+          "choices": [
+            { "option": "A", "text": "Atomicity" },
+            { "option": "B", "text": "Consistency" },
+            { "option": "C", "text": "Isolation" },
+            { "option": "D", "text": "Redundancy" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 49,
+          "text": "Pipelining in a CPU is a technique used to:",
+          "choices": [
+            { "option": "A", "text": "Increase the clock speed" },
+            { "option": "B", "text": "Increase the number of instructions executed per unit of time" },
+            { "option": "C", "text": "Reduce the memory access time" },
+            { "option": "D", "text": "Increase the number of cores" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 50,
+          "text": "Which of the following is NOT an application layer protocol?",
+          "choices": [
+            { "option": "A", "text": "HTTP" },
+            { "option": "B", "text": "FTP" },
+            { "option": "C", "text": "TCP" },
+            { "option": "D", "text": "SMTP" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 51,
+          "text": "The pumping lemma for regular languages is used to prove that:",
+          "choices": [
+            { "option": "A", "text": "A given language is regular" },
+            { "option": "B", "text": "A given language is not regular" },
+            { "option": "C", "text": "A given language is context-free" },
+            { "option": "D", "text": "A given language is not context-free" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 52,
+          "text": "A binary tree where the height difference between the left and right subtrees of any node is at most 1 is called:",
+          "choices": [
+            { "option": "A", "text": "A complete binary tree" },
+            { "option": "B", "text": "A full binary tree" },
+            { "option": "C", "text": "An AVL tree" },
+            { "option": "D", "text": "A skewed binary tree" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 53,
+          "text": "In software engineering, what is refactoring?",
+          "choices": [
+            { "option": "A", "text": "Rewriting code to add new functionality" },
+            { "option": "B", "text": "Fixing bugs in the code" },
+            { "option": "C", "text": "Restructuring existing computer code without changing its external behavior" },
+            { "option": "D", "text": "Removing features from the software" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 54,
+          "text": "Bayesian networks are primarily used for:",
+          "choices": [
+            { "option": "A", "text": "Representing knowledge and reasoning under uncertainty" },
+            { "option": "B", "text": "Storing large amounts of data" },
+            { "option": "C", "text": "Sorting algorithms" },
+            { "option": "D", "text": "Representing state-space search problems" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 55,
+          "text": "The Interest Rate of Return (IRR) is the discount rate at which:",
+          "choices": [
+            { "option": "A", "text": "NPV is maximized" },
+            { "option": "B", "text": "NPV is equal to zero" },
+            { "option": "C", "text": "NPV is minimized" },
+            { "option": "D", "text": "The initial investment is recovered" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 56,
+          "text": "The memory that requires periodic refreshing to maintain its data is:",
+          "choices": [
+            { "option": "A", "text": "SRAM (Static RAM)" },
+            { "option": "B", "text": "DRAM (Dynamic RAM)" },
+            { "option": "C", "text": "ROM (Read-Only Memory)" },
+            { "option": "D", "text": "Flash Memory" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 57,
+          "text": "In a relational database, a foreign key is a field that:",
+          "choices": [
+            { "option": "A", "text": "Uniquely identifies a record in a table" },
+            { "option": "B", "text": "Links to the primary key of another table" },
+            { "option": "C", "text": "Stores large binary data" },
+            { "option": "D", "text": "Is not allowed to be NULL" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 58,
+          "text": "The process of converting source code into machine code is done by a:",
+          "choices": [
+            { "option": "A", "text": "Linker" },
+            { "option": "B", "text": "Loader" },
+            { "option": "C", "text": "Compiler" },
+            { "option": "D", "text": "Text Editor" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 59,
+          "text": "Which of the following is a characteristic of a real-time operating system (RTOS)?",
+          "choices": [
+            { "option": "A", "text": "It is primarily used for desktop computers." },
+            { "option": "B", "text": "It provides a fast response time to events within a strict time constraint." },
+            { "option": "C", "text": "It supports a wide range of general-purpose applications." },
+            { "option": "D", "text": "It has a complex graphical user interface." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 60,
+          "text": "According to the Nepal Engineering Council Act, registration is mandatory for:",
+          "choices": [
+            { "option": "A", "text": "Anyone with an interest in engineering" },
+            { "option": "B", "text": "Only civil engineers" },
+            { "option": "C", "text": "Practicing engineering professionally in Nepal" },
+            { "option": "D", "text": "Engineering students" }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "name": "Section B",
+      "questions": [
+        {
+          "id": 61,
+          "text": "A series RLC circuit has R = 10 Ω, L = 0.1 H, and C = 10 µF. The resonant frequency (in rad/s) is:",
+          "choices": [
+            { "option": "A", "text": "10" },
+            { "option": "B", "text": "100" },
+            { "option": "C", "text": "1000" },
+            { "option": "D", "text": "10000" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 62,
+          "text": "Simplify the Boolean expression F(A, B, C) = A'BC + AB'C + ABC' + ABC using a Karnaugh map.",
+          "choices": [
+            { "option": "A", "text": "A + B + C" },
+            { "option": "B", "text": "A'B + B'C" },
+            { "option": "C", "text": "AB + BC + AC" },
+            { "option": "D", "text": "A'B'C'" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 63,
+          "text": "What will be the output of the following C program?\n#include <stdio.h>\nvoid swap(int *a, int *b) {\n    int temp = *a;\n    *a = *b;\n    *b = temp;\n}\nint main() {\n    int x = 10, y = 20;\n    swap(&x, &y);\n    printf(\"x = %d, y = %d\\n\", x, y);\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "x = 10, y = 20" },
+            { "option": "B", "text": "x = 20, y = 10" },
+            { "option": "C", "text": "x = 10, y = 10" },
+            { "option": "D", "text": "Compilation Error" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 64,
+          "text": "A computer has a 32-bit address bus. What is the maximum amount of memory it can address?",
+          "choices": [
+            { "option": "A", "text": "4 KB" },
+            { "option": "B", "text": "4 MB" },
+            { "option": "C", "text": "1 GB" },
+            { "option": "D", "text": "4 GB" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 65,
+          "text": "An IP network uses the address 192.168.1.0 with a subnet mask of 255.255.255.224. How many usable host addresses are available per subnet?",
+          "choices": [
+            { "option": "A", "text": "32" },
+            { "option": "B", "text": "30" },
+            { "option": "C", "text": "16" },
+            { "option": "D", "text": "14" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 66,
+          "text": "A point (4, 3) is rotated counter-clockwise by an angle of 90 degrees about the origin. What are the new coordinates?",
+          "choices": [
+            { "option": "A", "text": "(3, -4)" },
+            { "option": "B", "text": "(-3, 4)" },
+            { "option": "C", "text": "(-4, 3)" },
+            { "option": "D", "text": "(4, -3)" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 67,
+          "text": "Consider a hash table of size 10 using the hash function h(k) = k mod 10. What is the state of the table after inserting the keys 23, 44, 32, 53, 42, assuming linear probing is used to resolve collisions?",
+          "choices": [
+            { "option": "A", "text": "Index 2: 32, Index 3: 23, Index 4: 44, Index 5: 53, Index 6: 42" },
+            { "option": "B", "text": "Index 2: 42, Index 3: 23, Index 4: 44, Index 5: 32, Index 6: 53" },
+            { "option": "C", "text": "Index 2: 32, Index 3: 53, Index 4: 44, Index 5: 23, Index 6: 42" },
+            { "option": "D", "text": "Index 2: 23, Index 3: 32, Index 4: 44, Index 5: 53, Index 6: 42" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 68,
+          "text": "What is the post-order traversal of a binary search tree whose in-order traversal is \"5, 10, 12, 15, 18\" and pre-order traversal is \"15, 10, 5, 12, 18\"?",
+          "choices": [
+            { "option": "A", "text": "5, 12, 10, 18, 15" },
+            { "option": "B", "text": "5, 10, 12, 15, 18" },
+            { "option": "C", "text": "15, 10, 18, 5, 12" },
+            { "option": "D", "text": "18, 15, 12, 10, 5" }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 69,
+          "text": "In a paging system, a process has a page table with the following entries: Page 0 -> Frame 5, Page 1 -> Frame 8, Page 2 -> Frame 2. If the page size is 1024 bytes, what is the physical address corresponding to the logical address 2200?",
+          "choices": [
+            { "option": "A", "text": "2200" },
+            { "option": "B", "text": "3224" },
+            { "option": "C", "text": "8344" },
+            { "option": "D", "text": "2152" }
+          ],
+          "answer": "D"
+        },
+        {
+          "id": 70,
+          "text": "A project has an initial investment of Rs. 100,000 and is expected to generate cash inflows of Rs. 30,000 per year for 5 years. If the discount rate is 10%, is the project acceptable based on the NPV rule? (PV factor for 5 years at 10% is 3.791)",
+          "choices": [
+            { "option": "A", "text": "Yes, because NPV is positive." },
+            { "option": "B", "text": "No, because NPV is negative." },
+            { "option": "C", "text": "The project breaks even." },
+            { "option": "D", "text": "Cannot be determined." }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": 71,
+          "text": "What will the following SQL query return? SELECT Department, COUNT(*) FROM Employees WHERE Salary > 50000 GROUP BY Department HAVING COUNT(*) > 3;",
+          "choices": [
+            { "option": "A", "text": "All departments with more than 3 employees." },
+            { "option": "B", "text": "Departments where more than 3 employees have a salary greater than 50000." },
+            { "option": "C", "text": "The total count of employees with a salary over 50000." },
+            { "option": "D", "text": "The names of employees in departments with more than 3 people." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 72,
+          "text": "What is the correct regular expression for a language over {a, b} that accepts all strings starting with 'a' and ending with 'b'?",
+          "choices": [
+            { "option": "A", "text": "a*b" },
+            { "option": "B", "text": "a(a+b)*b" },
+            { "option": "C", "text": "a(ab)*b" },
+            { "option": "D", "text": "a.*b" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 73,
+          "text": "What is the purpose of the super keyword in object-oriented programming (like Java or C#)?",
+          "choices": [
+            { "option": "A", "text": "To refer to the current object instance." },
+            { "option": "B", "text": "To call a method or constructor of the immediate parent class." },
+            { "option": "C", "text": "To declare a method that cannot be overridden." },
+            { "option": "D", "text": "To create a static variable." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 74,
+          "text": "In machine learning, what is 'overfitting'?",
+          "choices": [
+            { "option": "A", "text": "When a model performs poorly on the training data." },
+            { "option": "B", "text": "When a model performs very well on the training data but poorly on new, unseen data." },
+            { "option": "C", "text": "When a model is too simple to capture the underlying pattern of the data." },
+            { "option": "D", "text": "The process of selecting the best features for a model." }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 75,
+          "text": "A 4-bit synchronous counter is built using JK flip-flops. What is the maximum number it can count up to?",
+          "choices": [
+            { "option": "A", "text": "7" },
+            { "option": "B", "text": "8" },
+            { "option": "C", "text": "15" },
+            { "option": "D", "text": "16" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 76,
+          "text": "Which of the following is an example of a functional requirement for a library management system?",
+          "choices": [
+            { "option": "A", "text": "The system must be easy to use." },
+            { "option": "B", "text": "The system should be able to handle 100 concurrent users." },
+            { "option": "C", "text": "The system shall allow a librarian to issue a book to a member." },
+            { "option": "D", "text": "The system database must be secured against unauthorized access." }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 77,
+          "text": "What is the Hamming distance between the binary codes 101101 and 111001?",
+          "choices": [
+            { "option": "A", "text": "1" },
+            { "option": "B", "text": "2" },
+            { "option": "C", "text": "3" },
+            { "option": "D", "text": "4" }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": 78,
+          "text": "What is the output of the following C++ code?\n#include <iostream>\nint main() {\n    int a = 5;\n    int &ref = a;\n    ref++;\n    std::cout << a << std::endl;\n    return 0;\n}",
+          "choices": [
+            { "option": "A", "text": "5" },
+            { "option": "B", "text": "6" },
+            { "option": "C", "text": "A memory address" },
+            { "option": "D", "text": "Compilation Error" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 79,
+          "text": "Consider the First-Come, First-Served (FCFS) scheduling algorithm. If processes P1, P2, and P3 arrive at time 0 with burst times of 24, 3, and 3 respectively, what is the average waiting time?",
+          "choices": [
+            { "option": "A", "text": "0" },
+            { "option": "B", "text": "17" },
+            { "option": "C", "text": "24" },
+            { "option": "D", "text": "27" }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": 80,
+          "text": "What is the primary purpose of normalization in database design?",
+          "choices": [
+            { "option": "A", "text": "To increase data redundancy." },
+            { "option": "B", "text": "To make the database faster." },
+            { "option": "C", "text": "To reduce data redundancy and improve data integrity." },
+            { "option": "D", "text": "To create a denormalized schema for reporting." }
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}
