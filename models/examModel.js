@@ -1,10 +1,8 @@
-//examModel.js
 // examModel.js
 import mongoose from 'mongoose';
 
 const examSchema = new mongoose.Schema({
-  // These are top-level fields in your DB, so define them as such
-  setId: { type: Number, required: true },
+  setId: { type: Number, required: true, index: true }, // ✅ Added index
   title: { type: String, required: true },
   duration: { type: Number, required: true },
   sections: [{
