@@ -1,4 +1,3 @@
-// examRoute.js
 import express from 'express';
 import Exam from '../models/examModel.js';
 import Result from '../models/resultModel.js';
@@ -26,12 +25,10 @@ router.get('/:setId', async (req, res) => {
   }
 
   try {
-    // ✅ Removed 'examData.' prefix
-    const exam = await Exam.findOne({ setId }).select('-_id -__v -createdAt');
+    const exam = await Exam.findOne({ setId }).select('-_id -__v');
     if (!exam) {
       return res.status(404).json({ error: 'Exam set not found' });
     }
-    // ✅ Now sending exam directly — no .examData needed
     res.json(exam);
   } catch (err) {
     console.error('Database error:', err.message);
@@ -49,7 +46,6 @@ router.post('/submit-exam', async (req, res) => {
     return res.status(400).json({ error: 'Missing or invalid required fields' });
   }
 
-  // Enhanced validation with logging
   let invalidAnswer = null;
   for (let i = 0; i < answers.length; i++) {
     const ans = answers[i];
@@ -81,13 +77,11 @@ router.post('/submit-exam', async (req, res) => {
   }
 
   try {
-    // ✅ Simplified query — no 'examData.'
     const exam = await Exam.findOne({ setId });
     if (!exam) {
       return res.status(404).json({ error: 'Exam set not found' });
     }
 
-    // ✅ Removed .examData from all accesses
     const sectionA = exam.sections.find(s => s.name === 'Section A')?.questions || [];
     const sectionB = exam.sections.find(s => s.name === 'Section B')?.questions || [];
 
@@ -95,11 +89,11 @@ router.post('/submit-exam', async (req, res) => {
     answers.forEach(({ questionId, selectedOption }) => {
       const sectionAQuestion = sectionA.find(q => q.id === questionId);
       if (sectionAQuestion && selectedOption === sectionAQuestion.answer) {
-        score += 1;
+        score += 1; // 1 mark for Section A
       }
       const sectionBQuestion = sectionB.find(q => q.id === questionId);
       if (sectionBQuestion && selectedOption === sectionBQuestion.answer) {
-        score += 2;
+        score += 2; // 2 marks for Section B
       }
     });
 
@@ -129,13 +123,11 @@ router.get('/result/:resultId', async (req, res) => {
       return res.status(404).json({ error: 'Result not found' });
     }
 
-    // ✅ No .examData in query
     const exam = await Exam.findOne({ setId: result.setId });
     if (!exam) {
       return res.status(404).json({ error: 'Exam set not found' });
     }
 
-    // ✅ Removed .examData
     const sectionA = exam.sections.find(s => s.name === 'Section A')?.questions || [];
     const sectionB = exam.sections.find(s => s.name === 'Section B')?.questions || [];
     const allQuestions = [...sectionA, ...sectionB];
@@ -229,13 +221,11 @@ router.get('/result/:resultId/stats', async (req, res) => {
       return res.status(404).json({ error: 'Result not found' });
     }
 
-    // ✅ No .examData
     const exam = await Exam.findOne({ setId: result.setId });
     if (!exam) {
       return res.status(404).json({ error: 'Exam set not found' });
     }
 
-    // ✅ Removed .examData
     const sectionA = exam.sections.find(s => s.name === 'Section A')?.questions || [];
     const sectionB = exam.sections.find(s => s.name === 'Section B')?.questions || [];
 
