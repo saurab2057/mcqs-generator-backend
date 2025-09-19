@@ -1,8 +1,7 @@
-// examModel.js
 import mongoose from 'mongoose';
 
 const examSchema = new mongoose.Schema({
-  setId: { type: Number, required: true, index: true }, // ✅ Added index
+  setId: { type: Number, required: true },
   title: { type: String, required: true },
   duration: { type: Number, required: true },
   sections: [{
